@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - **GitBook**: `docs/` is now the single source for the protocol documentation, published via GitBook Git Sync (`gitbook-docs.yaml`, `docs/SUMMARY.md`).
+- **Skill `bpost-address-proofing`:** Mailops Address Formatting & Validation REST/SOAP (CEN/UPU S42). Privacy rule: never send person names or other PII of natural persons; company name allowed. AddressBlockLines forbidden.
+- **Protocol routing:** `reference/address-validation-products.md` plus Comp ↔ S42 table and Belgian label rules in `addressing-rules.md`. OptiAddress flows unchanged (different product).
 
 ### Changed
 - **Build**: `build-skills.yml` builds the skill ZIP from `docs/` (`docs/README.md` becomes `index.md`) plus `skills/e-masspost-protocol/SKILL.md`. Protocol content moved from `skills/e-masspost-protocol/` to `docs/`.

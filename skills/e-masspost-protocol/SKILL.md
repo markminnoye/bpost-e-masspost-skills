@@ -8,8 +8,12 @@ license: See LICENSE
 
 This skill provides complete knowledge of the BPost **Mail ID Data Exchange** protocol
 used by the e-MassPost platform. It covers deposit announcements, mailing list
-submissions, address validation (OptiAddress), barcode generation, file transport,
-and error handling.
+submissions, address validation (OptiAddress / `MailingCheck`), barcode generation,
+file transport, and error handling.
+
+**Not this skill:** the Mailops Address Formatting & Validation REST API (realtime,
+max 100 addresses, S42 fields, `x-api-key`). Use skill **bpost-address-proofing**.
+See [reference/address-validation-products.md](reference/address-validation-products.md).
 
 ## When to Use This Skill
 - Building or validating a `DepositRequest` or `MailingRequest` XML/TXT file
@@ -17,6 +21,7 @@ and error handling.
 - Understanding barcode structure or Code 128 encoding
 - Implementing HTTP(S) or FTP/FTPS file transfer to `filetransfer.bpost.be`
 - Answering end-user questions about the e-MassPost workflow
+- Choosing OptiAddress vs Address Proofing (read the products file first)
 
 ## Start Here
 

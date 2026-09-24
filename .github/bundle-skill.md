@@ -14,6 +14,8 @@ to find the right knowledge for your task.
 | When the question is about... | Read first |
 |---|---|
 | Protocol, files, error codes, barcodes, transport | `e-masspost-protocol/index.md` |
+| OptiAddress vs Address Proofing vs website | `e-masspost-protocol/reference/address-validation-products.md` |
+| Realtime Belgian address proofing / S42 labels (no person PII) | `bpost-address-proofing/index.md` |
 | Best practices, do's & don'ts, common mistakes | `e-masspost-tips/index.md` |
 | Automating the e-MassPost web portal | `e-masspost-browser-automation/index.md` |
 

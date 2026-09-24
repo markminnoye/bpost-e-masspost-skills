@@ -13,7 +13,9 @@ The system supports four products:
 | **Deposit** | Announce MassPost deposits electronically and receive deposit authorization. Works for Mail ID, Round & Sequence, and non-Mail ID products. |
 | **Mail ID Deposit** | Each mail piece gets a unique barcode. Customer sends a mailing file with barcode IDs + delivery addresses before physical deposit. bpost can also generate the barcode IDs. |
 | **Round & Sequence** | Like Mail ID but for Large format only. bpost returns sequence references in the response file so the customer can pre-sort envelopes. |
-| **OptiAddress** | Address validation tool. Submit addresses for verification independently of any deposit. bpost returns corrections and feedback. |
+| **OptiAddress** | Address validation tool for **mailing lists**. Submit addresses via `MailingCheck` independently of any deposit. bpost returns MID-xxxx feedback. |
+
+**Not this protocol:** bpost **Address Formatting & Validation** (Mailops REST/SOAP, CEN/UPU S42, max 100 addresses, `x-api-key`) is a different product. See [reference/address-validation-products.md](reference/address-validation-products.md) and skill `bpost-address-proofing`. Do not send Mail ID Comp files to that API.
 
 ## Core Concept: Request → Acknowledgement → Response
 
@@ -79,7 +81,8 @@ Files include a `mode` field: **P** (Production), **T** (Test), **C** (Certifica
 ### Reference & Lookup Tables
 | File | Description |
 |---|---|
-| [reference/addressing-rules.md](reference/addressing-rules.md) | Address component groups for Mail ID (street, city, postal code, etc.) |
+| [reference/addressing-rules.md](reference/addressing-rules.md) | Address component groups for Mail ID; Comp ↔ S42 table; Belgian label rules |
+| [reference/address-validation-products.md](reference/address-validation-products.md) | OptiAddress vs Address Proofing API vs website |
 | [reference/character-restrictions.md](reference/character-restrictions.md) | Supported and non-supported characters in file content |
 | [reference/processing-times.md](reference/processing-times.md) | Expected processing times by volume (1k–600k addresses) |
 | [reference/onboarding.md](reference/onboarding.md) | Getting started, certification process, contact info |

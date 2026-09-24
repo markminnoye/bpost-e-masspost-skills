@@ -67,6 +67,14 @@ jobs:
           
           cd ../..
 
+          # Separate ZIP for Address Proofing (different product; keep Mail ID ZIP lean)
+          PROOFING_DIR="staging/bpost-address-proofing"
+          mkdir -p "$PROOFING_DIR"
+          cp -r skills/bpost-address-proofing/* "$PROOFING_DIR/"
+          sed -i "s/(v[0-9.]*)/(v${GITHUB_REF_NAME})/g" "$PROOFING_DIR/SKILL.md"
+          (cd "$PROOFING_DIR" && zip -r "../../dist/bpost-address-proofing-claude-${{ github.ref_name }}.zip" . -x "*.git*")
+          cp "dist/bpost-address-proofing-claude-${{ github.ref_name }}.zip" "dist/bpost-address-proofing-gemini-${{ github.ref_name }}.zip"
+
       - name: Verify Artifact Integrity
         run: |
           echo "### Build Artifact Summary" >> $GITHUB_STEP_SUMMARY

@@ -17,6 +17,7 @@ This library is currently in **Beta**. If you or your AI agent encounters any er
 | Skill | Description | Status |
 |---|---|---|
 | [e-masspost-protocol](skills/e-masspost-protocol/) | Core protocol: schemas, flows, barcodes, error codes, transport | ✅ Available |
+| [bpost-address-proofing](skills/bpost-address-proofing/) | Mailops Address Formatting & Validation REST (S42, max 100, no person PII) | ✅ Available |
 
 ## Install (Claude.ai)
 
@@ -32,8 +33,11 @@ automatically builds and attaches the skill ZIPs via GitHub Actions.
 ## Reference Materials
 
 The `reference/` folder contains the original BPost technical documentation
-(PDF, screenshots, XSD schemas) for human and developer use.
-These files are **not included** in skill ZIPs.
+(PDF, screenshots, XSD schemas, Address Proofing API manual) for human and
+developer use. These files are **not included** in skill ZIPs.
+
+Address Proofing is **not** Mail ID/OptiAddress. Routing:
+`skills/e-masspost-protocol/reference/address-validation-products.md`.
 
 ## License
 
