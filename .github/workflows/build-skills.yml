@@ -24,9 +24,13 @@ jobs:
           STAGING_DIR="staging/e-masspost"
           mkdir -p "$STAGING_DIR"
           
-          # Copy only the protocol skill contents
-          # This ensures the 60MB 'reference' folder is excluded
-          cp -r skills/e-masspost-protocol/* "$STAGING_DIR/"
+          # docs/ is the single source for the protocol content (also published via GitBook).
+          # SKILL.md is the only skill-specific file; docs/README.md becomes index.md in the skill.
+          # The 60MB top-level 'reference' folder stays excluded.
+          cp -r docs/* "$STAGING_DIR/"
+          mv "$STAGING_DIR/README.md" "$STAGING_DIR/index.md"
+          rm -f "$STAGING_DIR/SUMMARY.md"
+          cp skills/e-masspost-protocol/SKILL.md "$STAGING_DIR/"
           
           # Inject version into SKILL.md automatically
           # Uses the tag name (e.g., v1.0.4) to replace the version placeholder
