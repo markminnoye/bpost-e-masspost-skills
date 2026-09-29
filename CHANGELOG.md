@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- **GitBook**: `docs/` is now the single source for the protocol documentation, published via GitBook Git Sync (`gitbook-docs.yaml`, `docs/SUMMARY.md`).
+
+### Changed
+- **Build**: `build-skills.yml` builds the skill ZIP from `docs/` (`docs/README.md` becomes `index.md`) plus `skills/e-masspost-protocol/SKILL.md`. Protocol content moved from `skills/e-masspost-protocol/` to `docs/`.
+- Removed the empty GitBook export scaffolding (`untitled/`, root `SUMMARY.md`).
+
 ## [v1.1.0] - 2026-03-29
 
 ### Added
