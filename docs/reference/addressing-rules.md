@@ -140,10 +140,48 @@ The address is subdivided into 5 groups:
 
 **Unstructured:** State the name of the country in compliance with the guidelines for the individual fields.
 
+## Belgian label formatting (CEN/UPU S42)
+
+These rules apply to printed lines (envelopes, labels) and to the Address Proofing `formatAddresses` service. They also improve Mail ID recognition.
+
+- House number **after** the street name (BE; not FR order).
+- Box number must be preceded by `bus`, `bte`, or `box` — never `/`, `#`, or a lone `b`.
+- Address order: most specific first (addressee) → most general last (postcode + town; country only for cross-border).
+- Official validated labels from Proofing are **UPPERCASE**.
+- `DeliveringCountryISOCode` for Proofing is always `BE`. Language: `nl` \| `fr` \| `de` \| `en`.
+
+## Mail ID Comp ↔ Proofing S42
+
+For **Mail ID files**, use Comp codes. For **Address Proofing**, map only allowed fields (no person PII).
+
+| Mail ID Comp | Meaning | Proofing? | Proofing field | S42 |
+|---|---|---|---|---|
+| 1–5 | Greeting / given / middle / last / suffix | **Never** | — | 10.xx |
+| 6–7 | Company / department | Yes | `MaileeOrganizationIdentification` | 20.xx |
+| 8 | Building (location) | Yes | `BuildingConstruction` or wing/floor/door | 30.xx |
+| 9 | Street | Yes | `StreetName` | 40.21.0.0.0 |
+| 12 | House number | Yes | `StreetNumber` | 40.24.0.0.0 |
+| 13 | Box | Yes | `BoxNumber` | 40.28.0.0.0 |
+| 14 | P.O. Box | Yes | `DeliveryServiceType` + `Indicator` | 40.19.0.0.x |
+| 15–16 | Postal code / city | Yes | `PostalCode` / `MunicipalityName` | 40.13 / 40.16 |
+| 17–19 | Country | Yes | `CountryName` + ISO | 40.14 / 50.5x |
+| 70–79 | Customer reserved | **Never** | — | — |
+| 90 | Unstructured name | **Never** | — | — |
+| 91–93 | Unstructured company / street / postcode+city | Yes | Semi-structured equivalent | — |
+
+Do **not** use Proofing `AddressBlockLines` (free L1–L7): line 1 is often a person name.
+
 ## Address Validation
 
-Addresses can be verified on the website via: http://bpost.be/validationadresse
+| Channel | Role |
+|---|---|
+| OptiAddress / `MailingCheck` | Mailing-list check (this skill). Names stay on the file. |
+| Address Proofing REST | Realtime official address + labels. **No person names.** See skill `bpost-address-proofing`. |
+| Website | http://bpost.be/validationadresse (human UI of Proofing). |
+
+Product choice: [address-validation-products.md](address-validation-products.md).
 
 ## Related Files
 
 - For character restrictions in address fields, see [character-restrictions.md](./character-restrictions.md)
+- For OptiAddress vs Proofing vs website, see [address-validation-products.md](address-validation-products.md)
