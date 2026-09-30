@@ -1,0 +1,214 @@
+{
+    "ValidateAddressesResponse": {
+        "ValidatedAddressResultList": {
+            "ValidatedAddressResult": [
+                {
+                    "@id": "1",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Guy Henrard"
+                        },
+                        "MaileeIndividualIdentification": {
+                            "UnstructuredMaileeIndividualIdentification": "Au frère de Christophe"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "GHE Consulting SCS"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE DE NEUFVILLES",
+                                        "StreetNumber": "363"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "7063",
+                                        "MunicipalityName": "SOIGNIES"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "Label": {
+                                    "Line": [
+                                        "Guy Henrard",
+                                        "Au frère de Christophe",
+                                        "GHE Consulting SCS",
+                                        "RUE DE NEUFVILLES 363",
+                                        "7063 SOIGNIES"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "Guy Henrard",
+                            "Au frère de Christophe",
+                            "GHE Consulting SCS",
+                            "Rue de Neufvilles 363",
+                            "7063 Neufvilles"
+                        ]
+                    },
+                    "TransactionID": "f4b40013-e450-49a9-842f-3e731ae520ce"
+                },
+                {
+                    "@id": "2",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Guy Henrard"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE DE NEUFVILLES"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "7060",
+                                        "MunicipalityName": "SOIGNIES"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "Label": {
+                                    "Line": [
+                                        "Guy Henrard",
+                                        "RUE DE NEUFVILLES",
+                                        "7060 SOIGNIES"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "StreetName",
+                            "ErrorCode": "field_not_recognized",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "StreetNumber",
+                            "ErrorCode": "missing_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "",
+                            "ErrorCode": "address_not_recognized",
+                            "ErrorSeverity": "error"
+                        }
+                    ],
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "Guy Henrard",
+                            "Rue de Neufvilles",
+                            "7063 Neufvilles"
+                        ]
+                    },
+                    "TransactionID": "b03fd8e0-fe74-451a-8954-ca04ac466990"
+                },
+                {
+                    "@id": "3",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Guy Henrard"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE JEAN-BAPTISTE LEPAGE"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1150",
+                                        "MunicipalityName": "WOLUWE-SAINT-PIERRE"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "Label": {
+                                    "Line": [
+                                        "Guy Henrard",
+                                        "RUE JEAN-BAPTISTE LEPAGE",
+                                        "1150 WOLUWE-SAINT-PIERRE"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "UnstructuredDeliveryPointLocation",
+                            "ErrorCode": "field_not_recognized",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "",
+                            "ErrorCode": "address_not_recognized",
+                            "ErrorSeverity": "error"
+                        }
+                    ],
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "Guy Henrard",
+                            "Rue JB Lepage",
+                            "1150 Bruxelles"
+                        ]
+                    },
+                    "TransactionID": "15c8a4cc-12a2-415d-8d40-5c07b34b4e7b"
+                },
+                {
+                    "@id": "5",
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE GEORGES MATHEUS",
+                                        "StreetNumber": "2"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1210",
+                                        "MunicipalityName": "SAINT-JOSSE-TEN-NOODE"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "Label": {
+                                    "Line": [
+                                        "RUE GEORGES MATHEUS 2",
+                                        "1210 SAINT-JOSSE-TEN-NOODE"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "BoxNumber",
+                            "ErrorCode": "missing_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "MunicipalityName",
+                            "ErrorCode": "anomaly_in_field",
+                            "ErrorSeverity": "warning"
+                        }
+                    ],
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "RUE GEORGES MATHEUS 2",
+                            "1210 saint joose ten noode"
+                        ]
+                    },
+                    "TransactionID": "191a3992-d7f0-42d0-bd6b-c3a5544bc9e6"
+                }
+            ]
+        }
+    }
+}

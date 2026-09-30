@@ -1,0 +1,85 @@
+{
+	"ValidateAddressesRequest": {
+		"AddressToValidateList": {
+			"AddressToValidate": [
+			{
+				"@id": "1",
+				"AddressBlockLines": {
+					"UnstructuredAddressLine": [
+                    {
+						"*body": "Guy Henrard"
+					},
+                    {
+						"*body": "GHE Consulting SCS"
+					},
+					{
+						"*body": "Au frère de Christophe"
+					},									
+					{
+						"*body": "Rue de Neufvilles 363"
+					},					
+					{
+						"*body": "7063 Neufvilles"
+					}]
+				},
+				"DispatchingCountryISOCode": "BE",
+				"DeliveringCountryISOCode": "BE"
+			},
+			{
+				"@id": "2",
+				"AddressBlockLines": {
+					"UnstructuredAddressLine": [
+					{
+						"*body": "Guy Henrard"
+					},
+					{
+						"*body": "Rue de Neufvilles"
+					},
+					{
+						"*body": "7063 Neufvilles"
+					}]
+				},
+				"DispatchingCountryISOCode": "BE",
+				"DeliveringCountryISOCode": "BE"
+			},
+			{
+				"@id": "3",
+				"AddressBlockLines": {
+					"UnstructuredAddressLine": [{
+						"*body": "Guy Henrard"
+					},
+					{
+						"*body": "Rue JB Lepage"
+					},
+					{
+						"*body": "1150 Bruxelles"
+					}]
+				},
+				"DispatchingCountryISOCode": "BE",
+				"DeliveringCountryISOCode": "BE"
+			},
+			{
+				"@id": "5",
+				"AddressBlockLines": {
+					"UnstructuredAddressLine": [
+					{
+						"*body": "RUE GEORGES MATHEUS 2"
+					}, 
+					{
+						"*body": "1210 saint joose ten noode"
+					}]
+				},
+				"DispatchingCountryISOCode": "BE",
+				"DeliveringCountryISOCode": "BE"
+			}]
+		},
+		"ValidateAddressOptions": {
+			"IncludeFormatting": "true",
+			"IncludeSuggestions": "true",
+			"IncludeSubmittedAddress": "true"
+		},
+		"CallerIdentification":{
+            "CallerName": "Amazon"         
+		}
+	}
+}

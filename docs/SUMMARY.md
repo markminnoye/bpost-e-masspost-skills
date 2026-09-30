@@ -5,6 +5,7 @@
 ## Aan de slag
 
 * [Onboarding](reference/onboarding.md)
+* [Field findings (live)](reference/field-findings.md)
 * [Verwerkingstijden](reference/processing-times.md)
 * [Adresregels](reference/addressing-rules.md)
 * [Tekenbeperkingen](reference/character-restrictions.md)

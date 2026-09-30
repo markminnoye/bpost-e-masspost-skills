@@ -334,7 +334,11 @@ The content of the distribution info in response to Mailing Create using large f
 
 ## Replies Tag for MailingCheck
 
-The MailingCheck response tag contains "Suggestions" in addition to the standard reply structure.
+The MailingCheck response tag **may** contain "Suggestions" / "Alternatives" in addition to the standard reply structure.
+
+{% hint style="warning" %}
+**Field observation (Contrapunt Opti, 2026-09):** live Status 100 responses corrected addresses via message **`7001`** + `MessageContent` keys `compCode` / `compCorrection`, without a `<Suggestions>` element. Always parse message contents; do not require `<Suggestions>`. See [field findings](../reference/field-findings.md).
+{% endhint %}
 
 ### XML Structure
 

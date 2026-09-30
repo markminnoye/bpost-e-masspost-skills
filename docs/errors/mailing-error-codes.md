@@ -143,6 +143,10 @@ These codes appear in the Replies tag of response files. See [../schemas/deposit
 | MID-8220 | WARN | Technical problem (Unknow) |
 | MID-9999 | FATAL | An unexpected error occurred. |
 
+{% hint style="info" %}
+Live OptiAddress responses (Contrapunt, 2026-09) emitted correction messages as code **`7001`** (no `MID-` prefix) with `compCorrection`. Treat `7001` and `MID-7001` as the same family until bpost confirms a single canonical form. See [field findings](../reference/field-findings.md).
+{% endhint %}
+
 ## OptiAddress Codes (OA-xxxx)
 
-The bpost technical guide does not define separate OA-xxxx error codes. OptiAddress functionality uses the MID-xxxx codes listed above (particularly the MID-4xxx address validation codes) since OptiAddress operates through the MailingCheck action within the same Mailing Request/Response file framework. Address validation results from OptiAddress will appear as MID-4000 through MID-4100 codes.
+The bpost technical guide does not define separate OA-xxxx error codes. OptiAddress functionality uses the MID-xxxx codes listed above (particularly the MID-4xxx address validation codes) since OptiAddress operates through the MailingCheck action within the same Mailing Request/Response file framework. Address validation results from OptiAddress will appear as MID-4000 through MID-4100 codes, plus live correction messages coded **`7001`** / `MID-7001` with `compCorrection` — see [field findings](../reference/field-findings.md).

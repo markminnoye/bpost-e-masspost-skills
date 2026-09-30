@@ -9,7 +9,11 @@ OptiAddress is bpost's **address validation tool**. It allows authorized mailers
 OptiAddress provides:
 - Detailed error feedback on addresses
 - The number of address records that were "interpreted" (matched to a known postal address)
-- Suggestions for corrections on erroneous addresses (when possible)
+- Correction values for erroneous addresses (when possible)
+
+{% hint style="info" %}
+**Live Contrapunt Opti 2RS (2026-09):** corrections arrived as message code **`7001`** with `compCode` + `compCorrection` — not as a top-level `<Suggestions>` block. Portal AFT shows corrections in the UI; structured XML does not mirror that UX. Details: [field findings](../reference/field-findings.md).
+{% endhint %}
 
 > **Note:** "Interpreted" means the given address can be matched to an existing postal address. This does not necessarily mean the link between the addressee and the address is correct.
 
@@ -57,9 +61,9 @@ The flow follows the standard Request/Acknowledgement/Response pattern (see [req
 1. The customer sends a **Mailing Request File** with a **MailingCheck** action containing the addresses to validate
 2. bpost generates a **Mailing Acknowledgement** file confirming receipt
 3. bpost processes the data and generates a **Mailing Response** file containing:
-   - The number of addresses that were interpreted (matched)
+   - The number of addresses that were interpreted (matched), often via **MID-4040** compliance rates
    - Detailed error feedback for addresses that could not be interpreted
-   - Correction suggestions for erroneous addresses (when possible)
+   - Correction values for erroneous addresses when possible — live: **`7001`** / `compCorrection` (XSD also allows `<Suggestions>` / `<Alternatives>`, which may be absent)
 
 ## Key Points
 

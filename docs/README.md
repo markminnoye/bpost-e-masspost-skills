@@ -25,7 +25,11 @@ All data exchanges follow the same pattern:
 3. **bpost returns a Response file** (validation results, errors, price quotes, sorting info)
 
 Files can be **XML** (primary), **TXT** (pipe-delimited), or **XLS/XLSX** (mailing files only, via e-MassPost web tool).
-Codepage: **ISO-8859-1** (Latin-1). Transfer: **HTTP(S)** or **FTP/FTPS** to `filetransfer.bpost.be`.
+Codepage: **ISO-8859-1** (Latin-1). Transfer: **HTTP(S)** (interactive portal) or **FTP/FTPS** (unattended) to `filetransfer.bpost.be`.
+
+{% hint style="warning" %}
+For system-to-system automation, use **FTP/FTPS**. HTTP is a browser/SSO login path, not a Basic Auth machine API. See [field findings](reference/field-findings.md).
+{% endhint %}
 
 ## Communication Modes
 
@@ -86,6 +90,7 @@ Files include a `mode` field: **P** (Production), **T** (Test), **C** (Certifica
 | [reference/character-restrictions.md](reference/character-restrictions.md) | Supported and non-supported characters in file content |
 | [reference/processing-times.md](reference/processing-times.md) | Expected processing times by volume (1k–600k addresses) |
 | [reference/onboarding.md](reference/onboarding.md) | Getting started, certification process, contact info |
+| [reference/field-findings.md](reference/field-findings.md) | Live Contrapunt findings: FTP vs HTTP, Opti `7001`/`compCorrection`, mode limits, protocol `0200` |
 
 ### Downloadable Resources
 

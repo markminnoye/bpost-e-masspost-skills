@@ -4,6 +4,10 @@
 
 FTP is used for **"unattended" mode** transmission between the customer and bpost, for TXT and XML formats only.
 
+{% hint style="success" %}
+This is the correct channel for **system-to-system** MailingRequest / DepositRequest XML. Complete the **Connection and Security Test** during onboarding before relying on production FTPS. See [field findings](../reference/field-findings.md) and [onboarding.md](../reference/onboarding.md).
+{% endhint %}
+
 ## Connection Details (Table 3)
 
 | Parameter | FTP | FTPS |

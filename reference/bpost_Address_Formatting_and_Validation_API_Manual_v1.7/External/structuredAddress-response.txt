@@ -1,0 +1,201 @@
+{
+    "ValidateAddressesResponse": {
+        "ValidatedAddressResultList": {
+            "ValidatedAddressResult": [
+                {
+                    "@id": "1",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "StructuredAddresseeIndividualIdentification": {
+                                "AddresseeFormOfAddress": "Mr",
+                                "AddresseeGivenName": "Jacques",
+                                "AddresseeSurname": "Martin"
+                            }
+                        },
+                        "MaileeIndividualIdentification": {
+                            "UnstructuredMaileeIndividualIdentification": "A la soeur de"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "GHE Consulting SCS"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "EDWARD DEKOSTERSTRAAT",
+                                        "StreetNumber": "64",
+                                        "BoxNumber": "84"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1140",
+                                        "MunicipalityName": "EVERE"
+                                    },
+                                    "CountryName": "BELGIE"
+                                },
+                                "AddressLanguage": "nl",
+                                "ServicePointDetail": {
+                                    "GeographicalLocationInfo": {
+                                        "GeographicalLocation": {
+                                            "Latitude": {
+                                                "Value": "50.878444",
+                                                "CoordinateType": "DEGDEC"
+                                            },
+                                            "Longitude": {
+                                                "Value": "4.403494",
+                                                "CoordinateType": "DEGDEC"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "TransactionID": "0897cb6d-d0e4-44b3-ab8a-6d635a090450"
+                },
+                {
+                    "@id": "2",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "StructuredAddresseeIndividualIdentification": {
+                                "AddresseeFormOfAddress": "Mrs",
+                                "AddresseeGivenName": "Julie",
+                                "AddresseeSurname": "Latour"
+                            }
+                        },
+                        "MaileeIndividualIdentification": {
+                            "UnstructuredMaileeIndividualIdentification": "De zus van Alfred"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "European Union"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "KERNSTRAAT",
+                                        "StreetNumber": "20"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1000",
+                                        "MunicipalityName": "BRUSSEL"
+                                    },
+                                    "CountryName": "BELGIE"
+                                },
+                                "AddressLanguage": "nl",
+                                "ServicePointDetail": {
+                                    "GeographicalLocationInfo": {
+                                        "GeographicalLocation": {
+                                            "Latitude": {
+                                                "Value": "50.839575",
+                                                "CoordinateType": "DEGDEC"
+                                            },
+                                            "Longitude": {
+                                                "Value": "4.359618",
+                                                "CoordinateType": "DEGDEC"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "TransactionID": "febc45d1-3818-4c86-a1eb-ee220e08baa9"
+                },
+                {
+                    "@id": "3",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Mr Guy Henrard"
+                        },
+                        "MaileeIndividualIdentification": {
+                            "UnstructuredMaileeIndividualIdentification": "L'acteur français, pas l'américain"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "Holywood sa"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE DE NEUFVILLES"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "7060",
+                                        "MunicipalityName": "SOIGNIES"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr"
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "StreetNumber",
+                            "ErrorCode": "missing_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "UnstructuredPostalCodeMunicipality",
+                            "ErrorCode": "field_not_recognized",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "",
+                            "ErrorCode": "address_not_recognized",
+                            "ErrorSeverity": "error"
+                        }
+                    ],
+                    "TransactionID": "dd33c4c2-6ffa-4794-9b72-758f110047df"
+                },
+                {
+                    "@id": "4",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Mr François Hollande"
+                        },
+                        "MaileeIndividualIdentification": {
+                            "UnstructuredMaileeIndividualIdentification": "Le président Français, pas des pays-bas"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "République Française"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "CountryName": "FRANCE"
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "CountryName",
+                            "ErrorCode": "missing_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "",
+                            "ErrorCode": "address_not_recognized",
+                            "ErrorSeverity": "error"
+                        },
+                        {
+                            "ComponentRef": "",
+                            "ErrorCode": "delivering_country_not_supported",
+                            "ErrorSeverity": "error"
+                        }
+                    ],
+                    "TransactionID": "5a26ce71-4364-4d62-a167-5aca378624c7"
+                }
+            ]
+        }
+    }
+}

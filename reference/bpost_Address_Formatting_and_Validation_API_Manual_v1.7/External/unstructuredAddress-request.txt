@@ -1,0 +1,61 @@
+{
+    "ValidateAddressesRequest": {
+        "AddressToValidateList": {
+            "AddressToValidate": [
+                {
+                    "@id": "1",
+                    
+                    "PostalAddress": {
+                        "DeliveryPointLocation": {
+                            "UnstructuredDeliveryPointLocation": "rue du progress 29 10"
+                        },
+                        "PostalCodeMunicipality": {
+                            "UnstructuredPostalCodeMunicipality": "1210 saint joose ten noode"
+                        }
+                    },
+                    "MaileeAndAddressee": {
+					"AddresseeIndividualIdentification": {
+						"UnstructuredAddresseeIndividualIdentification": "Jack L'éventreur"
+					},
+					"MaileeOrganizationIdentification": {
+						"UnstructuredMaileeOrganizationIdentification": "La boucherie 100O"
+					}
+				}
+                },
+                 {
+                    "@id": "2",
+                    
+                    "PostalAddress": {
+                        "DeliveryPointLocation": {
+                            "UnstructuredDeliveryPointLocation": "ALLÉE DE LA RECHERCHE 65"
+                        },
+                        "PostalCodeMunicipality": {
+                            "UnstructuredPostalCodeMunicipality": "1070 ANDERLECHT"
+                        }
+                    },
+                    "MaileeAndAddressee": {
+					"AddresseeIndividualIdentification": {
+						"UnstructuredAddresseeIndividualIdentification": "Kevin"
+					},
+					"MaileeOrganizationIdentification": {
+						"UnstructuredMaileeOrganizationIdentification": "Bpost"
+					}
+				}
+                 
+                }
+            ]
+        },
+        "ValidateAddressOptions": {
+            "IncludeFormatting": "true",
+			"IncludeSuggestions": "true",
+			"IncludeSubmittedAddress": "true",
+			"IncludeListOfBoxes": "true",
+			"IncludeNumberOfBoxes": "true",
+			"IncludeDefaultGeoLocation":"true",
+			"IncludeDefaultGeoLocationForBoxes": "true"			
+        },
+        "CallerIdentification": {
+            "CallerName": "ZALANDO"
+        }
+    }
+}

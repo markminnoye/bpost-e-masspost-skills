@@ -1,0 +1,988 @@
+CODE_TYPE	KEY	NL	FR	EN	DE
+AnnexType	0	Default	Default	Default	Default
+AnnexType	1	Kilopost Bel	Kilopost Bel	Kilopost Bel	Kilopost Bel
+AnnexType	11	RP Norm	RP Norm	RP Norm	RP Genormt
+AnnexType	12	RP Niet Norm	RP Non Norm	RP Not Norm	RP Nicht Genormt
+AnnexType	13	Aangetekend Norm	Recommandé Norm	Registered mail Norm	Eingeschriebene Sendung Genormt
+AnnexType	14	Aangetekend Niet Norm	Recommandé Non Norm	Registered mail Not Norm	Eingeschriebene Sendung Nicht Genormt
+AnnexType	15	Kilopost	Kilopost	Kilopost	Kilopost
+AnnexType	16	Prior	Prior	Prior	Prior
+AnnexType	17	Non-Prior	Non-Prior	Non-Prior	Non-Prior
+AnnexType	18	Kilopost Unique	Kilopost Unique	Kilopost Unique	Kilopost Unique
+AnnexType	19	Secured Mail Norm	Secured Mail Norm	Secured Mail Norm	Secured Mail Genormt
+AnnexType	2	Kilopost Bus	Kilopost Bus	Kilopost Bus	Kilopost Bus
+AnnexType	20	Secured Mail Niet Norm	Secured Mail Non Norm	Secured Mail Not Norm	Secured Mail Nicht Genormt
+AnnexType	21	Postcard Prior Norm	Postcard Prior Norm	Postcard Prior Norm	Postcard Prior Genormt
+AnnexType	22	Postcard Prior Niet Norm	Postcard Prior Non Norm	Postcard Prior Not Norm	Postcard Prior Nicht Genormt
+AnnexType	23	Postcard Non Prior Norm	Postcard Non Prior Norm	Postcard Non Prior Norm	Postcard Non Prior Genormt
+AnnexType	24	Postcard Non Prior Niet Norm	Postcard Non Prior Non Norm	Postcard Non Prior Not Norm	Postcard Non Prior Nicht Genormt
+AnnexType	25	RP Mix	RP Mix	RP Mix	RP Mix
+AnnexType	26	Aangetekend Mix	Recommandé Mix	Registered mail Mix	Eingeschriebene Sendung Mix
+AnnexType	27	Secured Mix	Secured Mix	Secured Mix	Secured Mix
+AnnexType	28	Postcard Prior Mix	Postcard Prior Mix	Postcard Prior Mix	Postcard Prior Mix
+AnnexType	29	Postcard Non Prior Mix	Postcard Non Prior Mix	Postcard Non Prior Mix	Postcard Non Prior Mix
+AnnexType	3	PRIOR Genormaliseerd	PRIOR Normalisé	PRIOR Normalized	PRIOR Genormt
+AnnexType	30	Kilopost Loose Load NL	Kilopost Loose Load NL	Kilopost Loose Load NL	Kilopost Loose Load NL
+AnnexType	4	PRIOR Niet Genormaliseerd	PRIOR Non Normalisé	PRIOR Not Normalized	PRIOR Nicht Genormt
+AnnexType	5	NON-PRIOR Genormaliseerd	NON-PRIOR Normalisé	NON-PRIOR Normalized	NON-PRIOR Genormt
+AnnexType	6	NON-PRIOR Niet Genormaliseerd	NON-PRIOR Non Normalisé	NON-PRIOR Not Normalized	NON-PRIOR Nicht Genormt
+CentreType	0	Hyper Center	Hypercentre	Hypercenter	Hypercentre
+CentreType	1	MassPost Center	Centre MassPost	MassPost Center	MassPost Center
+Destination	1	Nationaal	National	National	National
+Destination	10	Zone 0	Zone 0	Zone 0	Zone 0
+Destination	11	Zone 1	Zone 1	Zone 1	Zone 1
+Destination	12	Zone 2	Zone 2	Zone 2	Zone 2
+Destination	13	Rest of the world	Rest of the world	Rest of the world	Rest of the world
+Destination	14	Zone 4	Zone 4	Zone 4	Zone 4
+Destination	15	Zone 5	Zone 5	Zone 5	Zone 5
+Destination	16	Zones A/B/C	Zones A/B/C	Zones A/B/C	Zones A/B/C
+Destination	17	Duitsland	Allemagne	Germany	Germany
+Destination	18	Oostenrijk 	Autriche	Austria	Austria
+Destination	19	Denemarken	Danemark	Denmark	Denmark
+Destination	2	Regionaal	Régional	Regional	Regional
+Destination	20	Spanje	Espagne	Spain	Spain
+Destination	21	Finland	Finlande	Finland	Finland
+Destination	22	Frankrijk	France	France	France
+Destination	23	Groot Brittannië 	Grande-Bretagne 	Great Britain	Great Britain
+Destination	24	Griekenland	Grèce	Greece	Greece
+Destination	25	Ierland	Irlande	Ireland	Ireland
+Destination	26	Ijsland	Islande	Iceland	Iceland
+Destination	27	Italië	Italie	Italy	Italy
+Destination	28	Japan	Japon	Japan	Japan
+Destination	29	Luxemburg	Luxembourg	Luxembourg	Luxembourg
+Destination	3	Internationaal	International	International	International
+Destination	30	Noorwegen	Norvège	Norway 	Norway 
+Destination	31	Nederland	Pays-Bas 	Netherlands	Netherlands
+Destination	32	Portugal	Portugal 	Portugal	Portugal
+Destination	33	Zweden	Suède	Sweden 	Sweden
+Destination	34	Zwitserland	Suisse	Switzerland	Switzerland
+Destination	35	Andere landen	Autres pays	Other countries	Other countries
+Destination	36	 Nationaal	 National	National	National
+Destination	37	Regionaal	Régional	Regional	Regional
+Destination	38	Internationaal	International	International	International
+Destination	39	Maximum 1 sorteersector	Maximum 1 secteur de tri	Maximum 1 sorting sector	Maximum 1 Sortiersektor
+Destination	4	Maximum 1 sorteersector	Maximum 1 secteur de tri	Maximum 1 sorting sector	Maximum 1 Sortiersektor
+Destination	40	Maximum 2 sorteersectoren	Maximum 2 secteurs de tri	Maximum 2 sorting sectors	Maximum 2 Sortiersektoren
+Destination	41	Gemeente of uitreikingskantoor	Commune ou bureau distributeur	Municipality or distributor office	Municipality or distributor office
+Destination	42	Zone A	Zone A	Zone A	Zone A
+Destination	43	Zone B	Zone B	Zone B	Zone B
+Destination	44	Zone C	Zone C	Zone C	Zone C
+Destination	45	Zone 0	Zone 0	Zone 0	Zone 0
+Destination	46	Europe	Europe	Europe	Europe
+Destination	47	Zone 2	Zone 2	Zone 2	Zone 2
+Destination	48	Zone 3	Zone 3	Zone 3	Zone 3
+Destination	49	Zone 4	Zone 4	Zone 4	Zone 4
+Destination	5	Maximum 2 sorteersectoren	Maximum 2 secteurs de tri	Maximum 2 sorting sectors	Maximum 2 Sortiersektoren
+Destination	50	Zone 5	Zone 5	Zone 5	Zone 5
+Destination	51	Zones A/B/C	Zones A/B/C	Zones A/B/C	Zones A/B/C
+Destination	52	Duistland	Allemagne	Germany	Germany
+Destination	53	Oostenrijk 	Autriche	Austria	Austria
+Destination	54	Denemarken	Danemark	Denmark	Denmark
+Destination	55	Spanje	Espagne	Spain	Spain
+Destination	56	Finland	Finlande	Finland	Finland
+Destination	57	Frankrijk	France	France	France
+Destination	58	Groot Brittannië 	Grande-Bretagne 	Great Britain	Great Britain
+Destination	59	Griekenland	Grèce	Greece	Greece
+Destination	6	Gemeente of uitreikingskantoor	Commune ou bureau distributeur	Municipality or distributor office	Municipality or distributor office
+Destination	60	Ierland	Irlande	Ireland	Ireland
+Destination	61	Ijsland	Islande	Iceland	Iceland
+Destination	62	Italië	Italie	Italy	Italy
+Destination	63	Japan	Japon	Japan	Japan
+Destination	64	Luxemburg	Luxembourg	Luxembourg	Luxembourg
+Destination	65	Noorwegen	Norvège	Norway 	Norway 
+Destination	66	Nederland	Pays-Bas 	Netherlands	Netherlands
+Destination	67	Portugal 	Portugal	Portugal	Portugal
+Destination	68	Zweden	Suède 	Sweden 	Sweden 
+Destination	69	Zwitserland	Suisse	Switzerland	Switzerland
+Destination	7	Zone A	Zone A	Zone A	Zone A
+Destination	70	Andere landen	Autres pays	Other countries	Other countries
+Destination	71	Lokaal	Local	Local	Lokal
+Destination	72	alle bussen uitreikingskantoor/gemeente	toutes boîtes bur. distributeur/commune	all postboxes distribution office/ community	alle Briefkästen Zustellamt/Gemeinde
+Destination	73	afgifte van min. 10.000 zendingen	dépôt de min 10.000 envois	deposit min. 10.000 pieces	Auflieferung von mind. 10 000 Sendungen
+Destination	8	Zone B	Zone B	Zone B	Zone B
+Destination	9	Zone C	Zone C	Zone C	Zone C
+Format/Weight	1	Identiek	Identique	Identical	Identisch
+Format/Weight	2	Categorie	Catégorie	Category	Kategorie
+Format/Weight	23	Zelfde formaat, zelfde gewichtstrap	Même format, même tranche de poids	Same format, same weight class	Gleiches Format,gleiche Gewichtsklasse
+Mechanisation	0	Niet van toepassing	Pas applicable	Not applicable	Nicht anwendbar
+Mechanisation	1	Mechaniseerbar	Mécanisable	Automated	Automated
+Mechanisation	10	Small C8	Small C8	Small C8	Small C8
+Mechanisation	11	Large Format Promo	Large Format Promo	Large Format Promo	Large Format Promo
+Mechanisation	12	Small Postcard	Small Postcard	Small Postcard	Small Postcard
+Mechanisation	13	Small Selfmailer	Small Selfmailer	Small Selfmailer	Small Selfmailer
+Mechanisation	14	Large+ Format	Large+ Format	Large+ Format	Large+ Format
+Mechanisation	2	Niet mechaniseerbar	Non mécanisable	Not automated	Not automated
+Mechanisation	4	Small Format	Small Format	Small Format	Small Format
+Mechanisation	5	Large Format	Large Format	Large Format	Large Format
+Mechanisation	6	Special Format	Special Format	Special Format	Special Format
+Mechanisation	7	Gestandardiseerd	Standardisé	Standardized	Standardized
+Mechanisation	8	Niet gestandardiseerd	Non standardisé	Not standardized	Not standardized
+Mechanisation	9	Small C5	Small C5	Small C5	Small C5
+MeteringType	1	Zonder	Sans	Without	Ohne
+MeteringType	10	Uitgestelde vergoeding	Rétribution différée	Differed payment 	aufgeschobene Vergütung AV/RD
+MeteringType	11	ZFrankeermachine	ZMachine à affranchir	Franking machine	ZFrankiermaschine
+MeteringType	12	Zegels	Timbres	Stamps	Stamps
+MeteringType	13	Zegels	Timbres	Stamps	Stamps
+MeteringType	14	PB IDM	PP IDM	PP IDM	PP IDM
+MeteringType	15	Frankering Post (genorm)	Affranchissement Poste(norm)	Franking  Poste	Frankierung durch Die Post
+MeteringType	16	Item-based billing	Item-based billing	Item-based billing	Item-based billing
+MeteringType	17	Frankering  Post (nt genorm)	Affranchissement Poste(non norm)	Affranchissement Poste(non norm)	Affranchissement Poste(non norm)
+MeteringType	18	Frankering Post (vignet)	Affranchissement Poste(vignet)	Affranchissement Poste(vignet)	Affranchissement Poste(vignet)
+MeteringType	19	Portvrijdom	Franchise de Port	Postage free	Franchise de Port
+MeteringType	2	PB	PP	PP	PP
+MeteringType	3	Uitgestelde vergoeding	Rétribution différée	Differed payment 	aufgeschobene Vergütung AV/RD
+MeteringType	4	Frankeermachine	Machine à affranchir	Franking machine	Frankiermaschine
+MeteringType	5	Zegels	Timbres	Stamps	Stamps
+MeteringType	6	Zegels	Timbres	Stamps	Stamps
+MeteringType	7	PB IDM	PP IDM	PP IDM	PP IDM
+MeteringType	8	Zonder	Sans	Without	Ohne
+MeteringType	9	 PB	 PP	PP	PB/PP
+Option	1000	 	 	 	 
+Option	1010	Late wijziging (+25gr): 0,02*volume*30% geldt voor de toekomst	Modification tardive + 25g: 0,02*vol*30% seront facturés dans le futur	Late modification (+25g): 0,02*volume*30% Applicable in the future	Modification tardive + 25g: 0,02*vol*30% seront facturés dans le futur
+Option	1020	Late wijziging (11-25gr): 0,01*volume*30% geldt voor de toekomst	Modif. tardive (11-25g): 0,01*vol*30% seront facturés dans le futur	Late modification (11-25g): 0,01*volume*30% Applicable in the future	Modif. tardive (11-25g): 0,01*vol*30% seront facturés dans le futur
+Option	1030	 	 	 	 
+Option	1040	Extra Large DM Inspire 	Extra Large DM Inspire 	Extra Large DM Inspire 	Extra Large DM Inspire 
+Option	1041	Extra Large DM Pulse Large	Extra Large DM Pulse Large	Extra Large DM Pulse Large	Extra Large DM Pulse Large
+Option	1042	Extra Large DM Connect Large	Extra Large DM Connect Large	Extra Large DM Connect Large	Extra Large DM Connect Large
+Option	1043	Extra Large DM Easy Large conv	Extra Large DM Easy Large conv	Extra Large DM Easy Large conv	Extra Large DM Easy Large conv
+Option	1044	Extra Large DM Easy Large pref	Extra Large DM Easy Large pref	Extra Large DM Easy Large pref	Extra Large DM Easy Large pref
+Option	1045	Extra Large Clean Mail	Extra Large Clean Mail	Extra Large Clean Mail	Extra Large Clean Mail
+Option	1046	Extra Large Admin Large	Extra Large Admin Large	Extra Large Admin Large	Extra Large Admin Large
+Option	1050	Sup.Socio-Demo b2b	Sup.Socio-Demo b2b	Sup.Socio-Demo b2b	Sup.Socio-Demo b2b
+Option	1051	Sup. Socio-Demo Pers.	Sup. Socio-Demo Pers.	Sup. Socio-Demo Pers.	Sup. Socio-Demo Pers.
+Option	1063	Sup.No ret.DM easy SF (Voork.)	Sup.Non ret.DM easy SF (Pref.)	Sup.No ret.DM easy SF (Pref.)	Zusatz  fehlende Absenderadresse DM Easy SF (Pref)
+Option	1064	Sup No Ret. DM Easy SF(Pref)	Sup No Ret. DM Easy SF(Pref)	Sup No Ret. DM Easy SF(Pref)	Zusatz  fehlende Absenderadresse DM Easy SF (Pref) 
+Option	1066	CO2 Comp. DM Easy SF (Voork)	CO2 Comp. DM Easy SF (Pref)	CO2 Comp. DM Easy SF (Pref)	CO2 Comp. DM Easy SF (Pref)
+Option	1068	Sup. No Ret.DM Easy LF 	Sup. Non Ret.DM Easy LF 	Sup. No Ret.DM Easy LF 	Zusatz  fehlende Absenderadresse DM Easy LF (Pref)
+Option	1070	CO2 Comp.DM Easy LF (Voork)	CO2 Comp.DM Easy LF (Pref)	CO2 Comp.DM Easy LF (Pref)	CO2 Comp.DM Easy LF (Pref)
+Option	1090	Sup Overflow DM Easy SP (Pref)	Sup Overflow DM Easy SP (Pref	Sup Overflow DM Easy SP (Pref	Sup Overflow DM Easy SP (Pref
+Option	1100	Sup Overflow  DM Easy LF(Pref)	Sup Overflow  DM Easy LF(Pref)	Sup Overflow  DM Easy LF(Pref)	Sup Overflow  DM Easy LF(Pref)
+Option	1110	Extra large DM Easy SPF(Pref)	Extra large DM Easy SPF(Pref)	Extra large DM Easy SPF(Pref)	Extra large DM Easy SPF(Pref)
+Option	1120	Sup No Ret. DM Easy SPF	Sup No Ret. DM Easy SPF	Sup No Ret. DM Easy SPF	Zusatz  fehlende Absenderadresse DM Easy SPF
+Option	1121	Sup No Ret. DM Easy SPF(Pref)	Sup No Ret. DM Easy SPF(Pref)	Sup No Ret. DM Easy SPF(Pref)	Sup No Ret. DM Easy SPF(Pref)
+Option	1130	CO2 Comp. DM Easy SPF (Voork)	CO2 Comp. DM Easy SPF (Pref)	CO2 Comp. DM Easy SPF (Pref)	CO2 Comp. DM Easy SPF (Pref)
+Option	1140	Sup No Ret DM Easy Pref UV SF	Sup No Ret DM Easy Pref UV SF	Sup No Ret DM Easy Pref UV SF	Zusatz  fehlende Absenderadresse DM Easy Pref UV SF
+Option	1152	Sup Overf DM Easy Pref  UV LF 	Sup Overf DM Easy Pref  UV LF 	Sup Overf DM Easy Pref  UV LF 	Sup Overf DM Easy Pref  UV LF 
+Option	1160	Sup No Ret DM Easy Pref UV LF	Sup No Ret DM Easy Pref UV LF	Sup No Ret DM Easy Pref UV LF	Sup No Ret DM Easy Pref UV LF
+Option	1170	Extra Large DM Easy Pref UV LF	Extra Large DM Easy Pref UV LF	Extra Large DM Easy Pref UV LF	Extra Large DM Easy Pref UV LF
+Option	1180	Sup No Ret DM Easy Pref UV SPF	Sup No Ret DM Easy Pref UV SPF	Sup No Ret DM Easy Pref UV SPF	Sup No Ret DM Easy Pref UV SPF
+Option	1181	Sup Overfl DM Easy Pref UV SPF	Sup Overfl DM Easy Pref UV SPF	Sup Overfl DM Easy Pref UV SPF	Sup Overfl DM Easy Pref UV SPF
+Option	1191	Extra Large DMEasy Pref UV SPF	Extra Large DMEasy Pref UV SPF	Extra Large DMEasy Pref UV SPF	Extra Large DMEasy Pref UV SPF
+Option	1192	CO2 Comp DM Easy SF	CO2 Comp DM Easy SF	CO2 Comp DM Easy SF	CO2 Comp DM Easy SF
+Option	1193	Sup No Ret DM Easy SF	Sup Non Ret DM Easy SF	Sup No Ret DM Easy SF	Zusatz  fehlende Absenderadresse DM Easy SF
+Option	1200	CO2 Comp DM easy LF	CO2 Comp DM easy LF	CO2 Comp DM easy LF	CO2 Comp DM easy LF
+Option	1210	Sup Overflow DM easy LF	Sup Overflow DM easy LF	Sup Overflow DM easy LF	Zus. Overflow DM easy LF
+Option	1220	Sup No Ret DM Easy LF	Sup Non Ret DM Easy LF	Sup No Ret DM Easy LF	Zusatz  fehlende Absenderadresse DM Easy LF
+Option	1230	Extra Large DM Easy LF	Extra Large DM Easy LF	Extra Large DM Easy LF	Extra Large DM Easy LF
+Option	1240	CO2 Comp DM Easy SPF	CO2 Comp DM Easy SPF	CO2 Comp DM Easy SPF	CO2 Comp DM Easy SPF
+Option	1241	Sup Overfl. DM Easy SPF	Sup Overfl. DM Easy SPF	Sup Overfl. DM Easy SPF	Sup Overfl. DM Easy SPF
+Option	1242	Sup No Ret DM Easy SPF	Sup No Ret DM Easy SPF	Sup No Ret DM Easy SPF	Zusatz  fehlende Absenderadresse DM Easy SPF 
+Option	1243	Extra large DM easy SPF	Extra large DM easy SPF	Extra large DM easy SPF	Extra large DM easy SPF
+Option	1250	CO2 Comp. DM connect SF	CO2 Comp. DM connect SF	CO2 Comp. DM connect SF	CO2 Comp. DM connect SF
+Option	1251	Sup Overflow DM Connect SF	Sup Overflow DM Connect SF	Sup Overflow DM Connect SF	Sup Overflow DM Connect SF
+Option	1252	Sup No Ret DM Connect SF	Sup Non Ret DM Connect SF	Sup No Ret DM Connect SF	Zusatz  fehlende Absenderadresse DM Connect SF
+Option	1254	Sup Mail ID nt hk DM ConnectSF	Sup Mail ID Non Recon. DM ConnectSF	Sup Mail ID not Recogn DM ConnectSF	Zusatz MID nicht erkennbar DM Connect SF
+Option	1260	Sup hercond. DM Connect SF	Supcond. DM Connect SF	Sup Recond. DM Connect SF	Zusatz neu Konditionieren DM Connect SF
+Option	1270	CO2 Comp. DM Connect LF	CO2 Comp. DM Connect LF	CO2 Comp. DM Connect LF	CO2 Comp. DM Connect LF
+Option	1280	Sup Overflow DM Connect LF	Sup Overflow DM Connect LF	Sup Overflow DM Connect LF	Sup Overflow DM Connect LF
+Option	1290	Sup Overflow DM Connect LF R&S	Sup Overflow DM Connect LF R&S	Sup Overflow DM Connect LF R&S	Sup Overflow DM Connect LF R&S
+Option	1300	Sup No Ret DM Connect LF	Sup No Ret DM Connect LF	Sup No Ret DM Connect LF	Zusatz  fehlende Absenderadresse DM Connect LF 
+Option	1301	Sup hercond. DM Connect LF	Sup Rercond. DM Connect LF	Sup Recond. DM Connect LF	Zusatz neu Konditionieren DM Connect LF
+Option	1310	Extra Large DM Connect LF	Extra Large DM Connect LF	Extra Large DM Connect LF	Extra Large DM Connect LF
+Option	1321	Sup MID Nt Herk. DM Connect LF	Sup MID Non Rec. DM Connect LF	Sup MID Nt Erken. DM Connect LF	Sup.MID Not Recogn. DM Connect LF
+Option	1322	Extra Large DM Inspire LF 	Extra Large DM Inspire LF 	Extra Large DM Inspire LF 	Extra Large DM Inspire LF 
+Option	1330	Sup. hercond. Brieven 	Sup. hercond. Lettres 	Sup. hercond. letters 	Sup. hercond. Briefe 
+Option	1340	Sup Non MID Brieven LF	Sup Non MID Lettres LF	Sup Non MID Letters LF	Zusatz ohne MID Briefe LF
+Option	1341	Sup hercond. Brieven LF	Sup Reconditionn. Lettres LF	Sup. Reconditioning Letters LF	Zusatz neu Konditionieren Briefe LF
+Option	1342	Extra Large Brieven LF	Extra Large Lettres LF	Extra Large Letters LF	Extra Large Briefe LF
+Option	1344	Sup MID Nt herkenb. Brieven LF	Sup MID Non Reconn. Lettres LF	Sup MID Non Reconn. Letters LF	Zusatz MID nicht erkennbar Briefe LF
+Option	1350	CO2 Comp Brieven LF	CO2 Comp Lettres LF	CO2 Comp Letters LF	CO2 Comp Briefe LF
+Option	1360	Sup No Return Clean Mail	Sup No Return Clean Mail	Sup No Return Clean Mail	Zusatz  fehlende Absenderadresse Clean Mail
+Option	1370	CO2 Comp. Clean Mail SF	CO2 Comp. Clean Mail SF	CO2 Comp. Clean Mail SF	CO2 Comp. Clean Mail SF
+Option	1371	Extra Large Clean mail LF	Extra Large Clean mail LF	Extra Large Clean mail LF	Extra Large Clean mail LF
+Option	1380	CO2 Comp. Clean Mail LF	CO2 Comp. Clean Mail LF	CO2 Comp. Clean Mail LF	CO2 Comp. Clean Mail LF
+Option	1391	Sup No Ret Clean Mail LF	Sup Non Ret. Clean Mail LF	Sup No Ret Clean Mail LF	Zusatz  fehlende Absenderadresse Clean Mail LF
+Option	1400	Option Day Certain (pref)	Option Day Certain (pref)	Option Day Certain (pref)	Option Day Certain (pref)
+Option	1410	Option Special Format (Pref)	Option Special Format (Pref)	Option Special Format (Pref)	Option Special Format (Pref)
+Option	1411	Option Socio -demo (Pref)	Option Socio -demo (Pref)	Option Socio -demo (Pref)	Option Socio -demo (Pref)
+Option	1413	Option Distri Pick-up (Pref)	Option Distri Pick-up (Pref)	Option Distri Pick-up (Pref)	Option Distri Pick-up (Pref)
+Option	1414	Option Distri Pick-up (Conv)	Option Distri Pick-up (Conv)	Option Distri Pick-up (Conv)	Option Distri Pick-up (Conv)
+Option	1420	Distripost Multi	Distripost Multi	Distripost Multi	Distripost Multi
+Option	1430	Option Distri Pick-up (pref) 0-30 kg 	Option Distri Pick-up (pref) 0-30 kg	Option Distri Pick-up (pref) 0-30 kg	Option Distri Pick-up (pref) 0-30 kg
+Option	1440	Option Pick-up conv <30 kg	Option Pick-up conv <30 kg	Option Pick-up conv <30 kg	Option Pick-up conv <30 kg
+Option	1450	Option Pick up conv 30-90 kg	Option Pick up conv 30-90 kg	Option Pick up conv 30-90 kg	Option Pick up conv 30-90 kg
+Option	1460	Distrip Pick-up Pref 30-90 kg	Distrip Pick-up Pref 30-90 kg	Distrip Pick-up Pref 30-90 kg	Distrip Pick-up Pref 30-90 kg
+Option	1461	Distrip Pick-up Conv 0-30 kg	Distrip Pick-up Conv 0-30 kg	Distrip Pick-up Conv 0-30 kg	Distrip Pick-up Conv 0-30 kg
+Option	1470	Distrip Pick-up Conv 30-90 kg	Distrip Pick-up Conv 30-90 kg	Distrip Pick-up Conv 30-90 kg	Distrip Pick-up Conv 30-90 kg
+Option	1480	Distrip Pick-up Conv 90-270 kg	Distrip Pick-up Conv 90-270 kg	Distrip Pick-up Conv 90-270 kg	Distrip Pick-up Conv 90-270 kg
+Option	1490	Extra Large DM Plan Large	Extra Large DM Plan Large	Extra Large DM Plan Large	Extra Large DM Plan Large
+Option	1500	CO2 Comp. DM Plan	CO2 Comp. DM Plan	CO2 Comp. DM Plan	CO2 Comp. DM Plan
+Option	1501	SUP Overflow DM Plan Small	SUP Overflow DM Plan Small	SUP Overflow DM Plan Small	SUP Overflow DM Plan Small
+Option	1502	SUP No Ret. DM Plan small	SUP No Ret. DM Plan small	SUP No Ret. DM Plan small	SUP No Ret. DM Plan small
+Option	1503	Sup Mail ID nt herk. DM Plan	Sup Mail ID nt herk. DM Plan	Sup Mail ID nt herk. DM Plan	Sup Mail ID nt herk. DM Plan
+Option	1504	Sup Hercond. DM Plan Small	Sup Hercond. DM Plan Small	Sup Hercond. DM Plan Small	Sup Hercond. DM Plan Small
+Option	1505	CO2 Comp. DM Plan Large	CO2 Comp. DM Plan Large	CO2 Comp. DM Plan Large	CO2 Comp. DM Plan Large
+Option	1506	SUP Overflow DM Plan Large	SUP Overflow DM Plan Large	SUP Overflow DM Plan Large	SUP Overflow DM Plan Large
+Option	1507	Sup Hercond. DM Plan Large	Sup Hercond. DM Plan Large	Sup Hercond. DM Plan Large	Sup Hercond. DM Plan Large
+Option	1508	SUP No Ret. DM Plan Large	SUP No Ret. DM Plan Large	SUP No Ret. DM Plan Large	SUP No Ret. DM Plan Large
+Option	1510	Kost voor niet aanbieden (3%)	Frais de non présentation (3%)	No show fee (3%)	Nicht-Präsentationskosten (3%)
+Option	1511	Annulatie kost (3%)	Frais d'annulation (3%)	Cancellation fee (3%)	Annullierungskosten (3%)
+Option	1520	Distri pick-up conv 270-500kg	Distri pick-up conv 270-500kg	Distri pick-up conv 270-500kg	Distri pick-up conv 270-500kg
+Option	1521	Distri pick-up pref 270-500kg	Distri pick-up pref 270-500kg	Distri pick-up pref 270-500kg	Distri pick-up pref 270-500kg
+Option	1530	Sup Rrecondit DM Easy SF Conv 	Sup Rrecondit DM Easy SF Conv 	Sup Rrecondit DM Easy SF Conv 	Sup Rrecondit DM Easy SF Conv 
+Option	1531	Sup Recondit DM Easy LF Conv	Sup Recondit DM Easy LF Conv	Sup Recondit DM Easy LF Conv	Sup Recondit DM Easy LF Conv
+Option	1532	Sup Recondit DM Easy SP Conv	Sup Recondit DM Easy SP Conv	Sup Recondit DM Easy SP Conv	Sup Recondit DM Easy SP Conv
+Option	1550	Sup onregelm. bijvoegsel abon.	Sup. insert irrégulier abon.	Sup. non regular subscript.	Sup. non regular subscript
+Option	1551	Sup onregelm. bijvoegsel kranten	Sup. insert irrégulier journ.	Sup. non regular newspapers	Sup. non regular newspapers
+Option	1552	Sup onregelmatig bijvoeg	Sup. insert irrégulier	Sup non regular	Sup non regular
+Option	1560	Sup onregelematig bijv. speciaal	Sup. insert irrégulier spécial	Sup non regular special	Sup non regular special
+Option	1570	CO2 DM Connect Large+	CO2 DM Connect Large+	CO2 DM Connect Large+	CO2 DM Connect Large+
+Option	1571	CO2 DM Easy Large+	CO2 DM Easy Large+	CO2 DM Easy Large+	CO2 DM Easy Large+
+Option	1572	CO2 Brieven Large+	CO2 Brieven Large+	CO2 Brieven Large+	CO2 Brieven Large+
+Option	1573	CO2 Clean Mail Large+	CO2 Clean Mail Large+	CO2 Clean Mail Large+	CO2 Clean Mail Large+
+Option	1574	CO2 DM Easy Pref Large+	CO2 DM Easy Pref Large+	CO2 DM Easy Pref Large+	CO2 DM Easy Pref Large+
+Option	1580	Sup Overflow DM Easy L+ UVRD	Sup Overflow DM Easy L+ UVRD	Sup Overflow DM Easy L+ UVRD	Sup Overflow DM Easy L+ UVRD
+Option	1590	Sup Overflow DM Connect Large+	Sup Overflow DM Connect Large+	Sup Overflow DM Connect Large+	Sup Overflow DM Connect Large+
+Option	1601	Sup Overfl DM Connect L+ R&S	Sup Overfl DM Connect L+ R&S	Sup Overfl DM Connect L+ R&S	Sup Overfl DM Connect L+ R&S
+Option	1602	Sup Overflow DM Easy Large+	Sup Overflow DM Easy Large+	Sup Overflow DM Easy Large+	Sup Overflow DM Easy Large+
+Option	1603	Sup Overflow Large+ Pref	Sup Overflow Large+ Pref	Sup Overflow Large+ Pref	Sup Overflow Large+ Pref
+Option	1604	Sup Overfl DM Easy L+ Pref	Sup Overfl DM Easy L+ Pref	Sup Overfl DM Easy L+ Pref	Sup Overfl DM Easy L+ Pref
+Option	1605	Sup Overflow Letters Large+	Sup Overflow Letters Large+	Sup Overflow Letters Large+	Sup Overflow Letters Large+
+Option	1610	Sup MID nt herk Connect Large+	Sup MID nt herk Connect Large+	Sup MID nt herk Connect Large+	Sup MID nt herk Connect Large+
+Option	1612	Sup MID nt herk. Letters L+	Sup MID nt herk. Letters L+	Sup MID nt herk. Letters L+	Sup MID nt herk. Letters L+
+Option	1621	Sup No Retour Clean Mail L+	Sup No Retour Clean Mail L+	Sup No Retour Clean Mail L+	Sup No Retour Clean Mail L+
+Option	1630	Sup No Retour Letters Large+	Sup No Retour Letters Large+	Sup No Retour Letters Large+	Sup No Retour Letters Large+
+Option	1631	Sup No Retour DM Connect L+	Sup No Retour DM Connect L+	Sup No Retour DM Connect L+	Sup No Retour DM Connect L+
+Option	1634	Sup No Ret Easy pref UVRD L+	Sup No Ret Easy pref UVRD L+	Sup No Ret Easy pref UVRD L+	Sup No Ret Easy pref UVRD L+
+Option	1635	Sup No Retour DM Easy Large+	Sup No Retour DM Easy Large+	Sup No Retour DM Easy Large+	Sup No Retour DM Easy Large+
+Option	1636	sup No Retour DM Easy Pref  L+	sup No Retour DM Easy Pref  L+	sup No Retour DM Easy Pref  L+	sup No Retour DM Easy Pref  L+
+Option	1640	Sup Recondit DM Easy Large+	Sup Recondit DM Easy Large+	Sup Recondit DM Easy Large+	Sup Recondit DM Easy Large+
+Option	1641	Sup Recondit Letters Large+	Sup Recondit Letters Large+	Sup Recondit Letters Large+	Sup Recondit Letters Large+
+Option	1642	Sup Recondit DM Connect Large+	Sup Recondit DM Connect Large+	Sup Recondit DM Connect Large+	Sup Recondit DM Connect Large+
+Option	1650	Uitreiking Ma & Di /Woe & Don	Distribution lun&mard/merc&jeudi	Distribution Mon&Tues & Wednes&Thursd	Distribution Mon&Tues & Wednes&Thursd
+Option	1660	CO2 Compensation - DM Boost Large	CO2 Compensation - DM Boost Large	CO2 Compensation - DM Boost Large	CO2 Compensation - DM Boost Large
+Option	1661	CO2 Compensation - DM Boost Large+	CO2 Compensation - DM Boost Large+	CO2 Compensation - DM Boost Large+	CO2 Compensation - DM Boost Large+
+Option	1662	CO2 Compensation - DM Boost Small	CO2 Compensation - DM Boost Small	CO2 Compensation - DM Boost Small	CO2 Compensation - DM Boost Small
+Option	1663	CO2 Compensation - DM Easy Large	CO2 Compensation - DM Easy Large	CO2 Compensation - DM Easy Large	CO2 Compensation - DM Easy Large
+Option	1664	CO2 Compensation - DM Easy Large+	CO2 Compensation - DM Easy Large+	CO2 Compensation - DM Easy Large+	CO2 Compensation - DM Easy Large+
+Option	1665	CO2 Compensation - DM Easy Large Pref	CO2 Compensation - DM Easy Large Pref	CO2 Compensation - DM Easy Large Pref	CO2 Compensation - DM Easy Large Pref
+Option	1666	CO2 Compensation - DM Easy Large+ Pref	CO2 Compensation - DM Easy Large+ Pref	CO2 Compensation - DM Easy Large+ Pref	CO2 Compensation - DM Easy Large+ Pref
+Option	1667	CO2 Compensation - DM Easy Small	CO2 Compensation - DM Easy Small	CO2 Compensation - DM Easy Small	CO2 Compensation - DM Easy Small
+Option	1668	CO2 Compensation - DM Easy Small Pref	CO2 Compensation - DM Easy Small Pref	CO2 Compensation - DM Easy Small Pref	CO2 Compensation - DM Easy Small Pref
+Option	1669	CO2 Compensation - DM Intense Large	CO2 Compensation - DM Intense Large	CO2 Compensation - DM Intense Large	CO2 Compensation - DM Intense Large
+Option	1670	CO2 Compensation - DM Intense Small	CO2 Compensation - DM Intense Small	CO2 Compensation - DM Intense Small	CO2 Compensation - DM Intense Small
+Option	1671	Supplement overflow - DM Boost Large	Supplément overflow - DM Boost Large	Extra charge overflow - DM Boost Large	Extra charge overflow - DM Boost Large
+Option	1672	Supplement overflow - DM Boost Large+	Supplément overflow - DM Boost Large+	Extra charge overflow - DM Boost Large+	Extra charge overflow - DM Boost Large+
+Option	1674	Supplement Geen retouradres - DM Boost Large	Supplément Adresse retour - DM Boost Large	Extra charge for return address - DM Boost Large	Extra charge for return address - DM Boost Large
+Option	1675	Supplement Geen retouradres - DM Boost Large+	Supplément Adresse retour - DM Boost Large+	Extra charge for return address - DM Boost Large+	Extra charge for return address - DM Boost Large+
+Option	1676	Supplement herconditionering - DM Boost Large	Supplément reconditionnement - DM Boost Large	Extra charge reconditioning - DM Boost Large	Extra charge reconditioning - DM Boost Large
+Option	1677	Supplement herconditionering - DM Boost Large+	Supplément reconditionnement - DM Boost Large+	Extra charge reconditioning - DM Boost Large+	Extra charge reconditioning - DM Boost Large+
+Option	1678	Optie Extra Large - DM Boost Large+	Option Extra Large - DM Boost Large+	Option Extra Large - DM Boost Large+	Option Extra Large - DM Boost Large+
+Option	1681	Supplement Mail ID niet herken. - DM Boost Large	Supplément Mail ID non reconnu - DM Boost Large	Extra charge Mail ID not reco. - DM Boost Large	Extra charge Mail ID not reco. - DM Boost Large
+Option	1682	Supplement overflow - DM Boost Small	Supplément overflow - DM Boost Small	Extra charge overflow - DM Boost Small	Extra charge overflow - DM Boost Small
+Option	1683	Supplement Geen retouradres - DM Boost Small	Supplément Adresse retour - DM Boost Small	Extra charge for return address - DM Boost Small	Extra charge for return address - DM Boost Small
+Option	1684	Supplement Mail ID niet herken. - DM Boost Small	Supplément Mail ID non reconnu - DM Boost Small	Extra charge Mail ID not reco. - DM Boost Small	Extra charge Mail ID not reco. - DM Boost Small
+Option	1685	Supplement herconditionering - DM Boost Small	Supplément reconditionnement - DM Boost Small	Extra charge reconditioning - DM Boost Small	Extra charge reconditioning - DM Boost Small
+Option	1686	Supplement Geen retouradres - DM Easy Large	Supplément Adresse retour - DM Easy Large	Extra charge for return address - DM Easy Large	Extra charge for return address - DM Easy Large
+Option	1687	Optie Extra Large - DM Easy Large+	Option Extra Large - DM Easy Large+	Option Extra Large - DM Easy Large+	Option Extra Large - DM Easy Large+
+Option	1688	Supplement overflow - DM Easy Large	Supplément overflow - DM Easy Large	Extra charge overflow - DM Easy Large	Extra charge overflow - DM Easy Large
+Option	1689	Supplement herconditionering - DM Easy Large	Supplément reconditionnement - DM Easy Large	Extra charge reconditioning - DM Easy Large	Extra charge reconditioning - DM Easy Large
+Option	1690	Supplement overflow - DM Easy Large voork.	Supplément overflow - DM Easy Large Pref	Extra charge overflow - DM Easy Large Pref	Extra charge overflow - DM Easy Large Pref
+Option	1692	Supplement Geen retouradres - DM Easy Large Voork	Supplément Adresse retour - DM Easy Large Pref	Extra charge for return address - DM Easy L. Pref	Extra charge for return address - DM Easy L. Pref
+Option	1693	Optie Extra Large - DM Easy Large+ Voork.	Option Extra Large - DM Easy Large+ Pref	Option Extra Large - DM Easy Large+ Pref	Option Extra Large - DM Easy Large+ Pref
+Option	1694	Supplement overflow - DM Easy Small	Supplément overflow - DM Easy Small	Extra charge overflow - DM Easy Small	Extra charge overflow - DM Easy Small
+Option	1695	Supplement Geen retouradres - DM Easy Small	Supplément Adresse retour - DM Easy Small	Extra charge for return address - DM Easy Small	Extra charge for return address - DM Easy Small
+Option	1696	Supplement herconditionering - DM Easy Small	Supplément reconditionnement - DM Easy Small	Extra charge reconditioning - DM Easy Small	Extra charge reconditioning - DM Easy Small
+Option	1697	Supplement Geen retouradres - DM Easy Small Voork	Supplément Adresse retour - DM Easy Small Pref	Extra charge for return address - DM Easy S. Pref	Extra charge for return address - DM Easy S. Pref
+Option	1698	Supplement overflow - DM Intense Large	Supplément overflow - DM Intense Large	Extra charge overflow - DM Intense Large	Extra charge overflow - DM Intense Large
+Option	1699	Supplement Geen retouradres - DM Intense Large	Supplément Adresse retour - DM Intense Large	Extra charge for return address - DM Intense L.	Extra charge for return address - DM Intense L.
+Option	1700	Supplement herconditionering - DM Intense Large	Supplément reconditionnement - DM Intense Large	Extra charge reconditioning - DM Intense Large	Extra charge reconditioning - DM Intense Large
+Option	1702	Supplement Mail ID niet herken. - DM Intense Large	Supplément Mail ID non reconnu - DM Intense Large	Extra charge Mail ID not reco. - DM Intense Large	Extra charge Mail ID not reco. - DM Intense Large
+Option	1710	Supplement overflow - DM Intense Small	Supplément overflow - DM Intense Small	Extra charge overflow - DM Intense Small	Extra charge overflow - DM Intense Small
+Option	1711	Supplement Geen retouradres - DM Intense Small	Supplément Adresse retour - DM Intense Small	Extra charge for return address - DM Intense S.	Extra charge for return address - DM Intense S.
+Option	1720	Supplement Mail ID niet herken. - DM Intense Small	Supplément Mail ID non reconnu - DM Intense Small	Extra charge Mail ID not reco. - DM Intense Small	Extra charge Mail ID not reco. - DM Intense Small
+Option	1721	Supplement herconditionering - DM Intense Small	Supplément reconditionnement - DM Intense Small	Extra charge reconditioning - DM Intense Small	Extra charge reconditioning - DM Intense Small
+Option	1730	CO2 Compensation - Small format D+1	CO2 Compensation - Small format D+1	CO2 Compensation - Small format D+1	CO2 Compensation - Small format D+1
+Option	1732	Supplement geen retouradres - Large format D+1	Supplément pas d'adresse retour - Large format J+1	Supplement No return address - Large format D+1	Supplement No return address - Large format D+1
+Option	1733	Supp. Mail ID niet herkenbaar - Small format D+1	Supplément Mail ID non reconnu - Small format J+1	Supplement Mail ID not recognized Small format D+1	Supplement Mail ID not recognized Small format D+1
+Option	1734	Supplement overflow - Small format D+1	Supplément overflow - Small format J+1	Supplement overflow - Small format D+1	Supplement overflow - Small format D+1
+Option	1735	Supplement herconditionering - Small format D+1	Supplément reconditionnement - Small format J+1	Supplement reconditioning - Small format D+1	Supplement reconditioning - Small format D+1
+Option	1736	CO2 Compensation - Small format D+3	CO2 Compensation - Small format J+3	CO2 Compensation - Small format D+3	CO2 Compensation - Small format D+3
+Option	1737	CO2 Compensation - Small format D+4	CO2 Compensation - Small format J+4	CO2 Compensation - Small format D+4	CO2 Compensation - Small format D+4
+Option	1738	CO2 Compensation - Large format D+1	CO2 Compensation - Large format J+1	CO2 Compensation - Large format D+1	CO2 Compensation - Large format D+1
+Option	1739	CO2 Compensation - Large format D+3	CO2 Compensation - Large format J+3	CO2 Compensation - Large format D+3	CO2 Compensation - Large format D+3
+Option	1740	CO2 Compensation - Large format D+4	CO2 Compensation - Large format J+4	CO2 Compensation - Large format D+4	CO2 Compensation - Large format D+4
+Option	1741	CO2 Compensation - Large format+ D+4	CO2 Compensation - Large format+ J+4	CO2 Compensation - Large format+ D+4	CO2 Compensation - Large format+ D+4
+Option	1742	CO2 Compensation - Large format+ D+3	CO2 Compensation - Large format+ J+3	CO2 Compensation - Large format+ D+3	CO2 Compensation - Large format+ D+3
+Option	1743	CO2 Compensation - Large format+ D+1	CO2 Compensation - Large format+ J+1	CO2 Compensation - Large format+ D+1	CO2 Compensation - Large format+ D+1
+Option	1750	Supplement geen retouradres - Small format D+3	Supplément pas d'adresse retour - Small format J+3	Supplement No return address - Small format D+3	Supplement No return address - Small format D+3
+Option	1751	Supp. Mail ID niet herkenbaar - Small format D+3	Supplément Mail ID non reconnu - Small format J+3	Supplement Mail ID not recognized Small format D+3	Supplement Mail ID not recognized Small format D+3
+Option	1752	Supplement overflow - Small format D+3	Supplément overflow - Small format J+3	Supplement overflow - Small format D+3	Supplement overflow - Small format D+3
+Option	1760	Supplement herconditionering - Small format D+3	Supplément reconditionnement - Small format J+3	Supplement reconditioning - Small format D+3	Supplement reconditioning - Small format D+3
+Option	1761	Supplement geen retouradres - Small format D+4	Supplément pas d'adresse retour - Small format J+4	Supplement No return address - Small format D+4	Supplement No return address - Small format D+4
+Option	1762	Supp. Mail ID niet herkenbaar - Small format D+4	Supplément Mail ID non reconnu - Small format J+4	Supplement Mail ID not recognized Small format D+4	Supplement Mail ID not recognized Small format D+4
+Option	1763	Supplement overflow - Small format D+4	Supplément overflow - Small format J+4	Supplement overflow - Small format D+4	Supplement overflow - Small format D+4
+Option	1764	Supplement herconditionering - Small format D+4	Supplément reconditionnement - Small format J+4	Supplement reconditioning - Small format D+4	Supplement reconditioning - Small format D+4
+Option	1765	Supplement geen retouradres - Large format D+1	Supplément pas d'adresse retour - Large format J+1	Supplement No return address - Large format D+1	Supplement No return address - Large format D+1
+Option	1766	Supp. Mail ID niet herkenbaar - Large format D+1	Supplément Mail ID non reconnu - Large format J+1	Supplement Mail ID not recognized Large format D+1	Supplement Mail ID not recognized Large format D+1
+Option	1767	Supplement overflow - Large format D+1	Supplément overflow - Large format J+1	Supplement overflow - Large format D+1	Supplement overflow - Large format D+1
+Option	1768	Supplement herconditionering - Large format D+1	Supplément reconditionnement - Large format J+1	Supplement reconditioning - Large format D+1	Supplement reconditioning - Large format D+1
+Option	1769	Optie Extra Large - Large+ format D+1	Option Extra Large - Large+ format J+1	Option Extra Large - Large+ format D+1	Option Extra Large - Large+ format D+1
+Option	1770	Optie Extra Large - Large+ format D+3	Option Extra Large - Large+ format J+3	Option Extra Large - Large+ format D+3	Option Extra Large - Large+ format D+3
+Option	1771	Supplement geen retouradres - Large format D+3	Supplément pas d'adresse retour - Large format J+3	Supplement No return address - Large format D+3	Supplement No return address - Large format D+3
+Option	1772	Supp. Mail ID niet herkenbaar - Large format D+3	Supplément Mail ID non reconnu - Large format J+3	Supplement Mail ID not recognized Large format D+3	Supplement Mail ID not recognized Large format D+3
+Option	1773	Supplement overflow - Large format D+3	Supplément overflow - Large format J+3	Supplement overflow - Large format D+3	Supplement overflow - Large format D+3
+Option	1774	Optie Extra Large - Large+ format D+4	Option Extra Large - Large+ format J+4	Option Extra Large - Large+ format D+4	Option Extra Large - Large+ format D+4
+Option	1775	Supplement geen retouradres - Large format D+4	Supplément pas d'adresse retour - Large format J+4	Supplement No return address - Large format D+4	Supplement No return address - Large format D+4
+Option	1776	Supp. Mail ID niet herkenbaar - Large format D+4	Supplément Mail ID non reconnu - Large format J+4	Supplement Mail ID not recognized Large format D+4	Supplement Mail ID not recognized Large format D+4
+Option	1777	Supplement overflow - Large format D+4	Supplément overflow - Large format J+4	Supplement overflow - Large format D+4	Supplement overflow - Large format D+4
+Option	1778	Supplement herconditionering - Large format D+3	Supplément reconditionnement - Large format J+3	Supplement reconditioning - Large format D+3	Supplement reconditioning - Large format D+3
+Option	1779	Supplement herconditionering - Large format D+4	Supplément reconditionnement - Large format J+4	Supplement reconditioning - Large format D+4	Supplement reconditioning - Large format D+4
+Option	1780	CO2 Clean Mail Prior Small	CO2 Clean Mail Prior Small	CO2 Clean Mail Prior Small	CO2 Clean Mail Prior Small
+Option	1783	Supp. geen retouradres - Clean Mail Small Prior	Supp. pas d'adresse retour Clean Mail Small Prior	Supp. No return address Clean Mail Small Prior	Supp. No return address Clean Mail Small Prior
+Option	1784	CO2 Clean Mail Non Prior Small	CO2 Clean Mail Non Prior Small	CO2 Clean Mail Non Prior Small	CO2 Clean Mail Non Prior Small
+Option	1785	CO2 Clean Mail Prior Large	CO2 Clean Mail Prior Large	CO2 Clean Mail Prior Large	CO2 Clean Mail Prior Large
+Option	1786	CO2 Clean Mail Non Prior Large	CO2 Clean Mail Non Prior Large	CO2 Clean Mail Non Prior Large	CO2 Clean Mail Non Prior Large
+Option	1787	Supp. geen retouradres - Clean Mail Small Non Prior	Supp. pas d'adresse retour Clean Mail Small Non Prior	Supp. No return address Clean Mail Small Non Prior	Supp. No return address Clean Mail Small Non Prior
+Option	1789	Optie Extra Large - Clean Mail Large+ Prior	Option Extra Large - Clean Mail Large+ Prior	Option Extra Large - Clean Mail Large+ Prior	Option Extra Large - Clean Mail Large+ Prior
+Option	1791	Supp. geen retouradres - Clean Mail Large Prior	Supp. pas d'adresse retour Clean Mail Large Prior	Supp. No return address Clean Mail Large Prior	Supp. No return address Clean Mail Large Prior
+Option	1793	Optie Extra Large Clean Mail Large+ Non Prior	Option Extra Large Clean Mail Large+ Non Prior	Option Extra Large Clean Mail Large+ Non Prior	Option Extra Large Clean Mail Large+ Non Prior
+Option	1794	Supp. geen retouradres - Clean Mail Large Non Prior	Supp. pas d'adresse retour Clean Mail Large Non Prior	Supp. No return address Clean Mail Large Non Prior	Supp. No return address Clean Mail Large Non Prior
+Option	1800	Uitreiking maandag/dinsdag	distribution lundi/mardi	distribution Monday/Tuesday	distribution Monday/Tuesday
+Option	1801	Uitreiking woensdag/donderdag	distribution mercredi/jeudi	distribution Wednesday/Thursday	distribution Wednesday/Thursday
+Option	1802	Supplement geen retouradres - ST	Supplément adresse retour - ST	Supplement return address - ST	Supplement return address - ST
+Option	1803	Supplement herconditionering - ST	Supplément reconditionnement - ST	Supplement reconditioning - ST	Supplement reconditioning - ST
+Option	1804	Supplement geen retouradres - PRO	Supplément adresse retour – PRO	Supplement return address – PRO	Supplement return address – PRO
+Option	1805	Supplement herconditionering - PRO	Supplément reconditionnement – PRO	Supplement reconditioning – PRO	Supplement reconditioning – PRO
+Option	1806	Supplement MID - PRO	Supplément MID – PRO	Supplement MID – PRO	Supplement MID – PRO
+Option	1807	Supplement overflow RSV3 - PRO	Supplément overflow RSV3 – PRO	Supplement overflow RSV3 – PRO	Supplement overflow RSV3 – PRO
+Option	1808	Supplement overflow SPV2 - PRO	Supplément overflow SPV2 – PRO	Supplement overflow SPV2 – PRO	Supplement overflow SPV2 – PRO
+Option	1809	Supplement geen retouradres - PLUS	Supplément adresse retour – PLUS	Supplement return address – PLUS	Supplement return address – PLUS
+Option	1812	Behandelkost afgifte<50	côut de traitement dépôt <50	Handling supplement deposit <50	Handling supplement deposit <50
+Option	1822	Uitreiking begin van de week	Distribution début de semaine	Distribution begin of week	
+Option	1823	Uitreiking einde van de week	Distribution fin de semaine	Distribution end of week	
+Option	635	Administratieve kosten frankeermachine	Frais administratifs machine à affranchir	Administrative fee franking machine	Administrative fee franking machine
+Option	636	Voorbereiding ZZA's	2:Prép des ENA	2:Voorb ZZA's /Prép des ENA	2.Vorbereitung ENA
+Option	637	Antwoordkaart	3:Carte-réponse	3:Antwoordkaart/carte-réponse	3.Antwortkarte
+Option	638	Bericht van ontvangst	4:Accusé de réception	4:Bericht ontv/Accusé de récep	4.Empfangsbestätigung
+Option	639	Aangegeven waarde	5:Valeur déclarée	5:Aangeg waarde/val. déclarée	5.Angegebener Wert
+Option	640	Administratieve kost frankering Post	Coût administratif affranchissement Poste	6:Adm. Frank 1/3 / Affr1/3	6.Adm. Frankierung 1/3
+Option	641	Frankering Post genormaliseerd	Affranchissement Poste normalisé	7:Frank1/3-g.FM/Affr1/3-n.MAF	7:Frank. 1/3-n. FM
+Option	642	Frankering Post  niet genormaliseerd	Affranchissement Poste non normalisé	8:Frank1/3n.g.FM/Aff1/3n.n.MAF	8:Frank.1/3n.N FM
+Option	643	Frank1/3Vignet	9:Aff1/3-vignet	9:Frank1/3Vignet/Aff1/3-vignet	9:Frank1/3Vignet/Aff1/3-vignet
+Option	644	Selectie Selectapost	10:Sélection Selectapost	10:Select/SélectionSelectapost	10:Select/SélectionSelectapost
+Option	645	Sorteerkost 	11:Coût de tri	11:Sorteerkost / Coût de tri	11:Sorteerkost / Coût de tri
+Option	646	Frank1/3g.vign	12:Aff1/3n.vign	12:Frank1/3g.vign/Aff1/3n.vign	12:Frank.1/3n.Vign.
+Option	647	Frankering Post vignet	Affranchissement Poste vignet	13:Frank1/3ngvign/Aff1/3nnvign	13:Frank.1/3n.N. Vign.
+Option	648	Public bijv/Encartes public	Encarts publicitaires	Public bijv/Encartes public	Encarts publicitaires
+Option	649	test no show	test no show	test no show	test no show
+Option	650	COD BO/CP gestruct/struct	COD BO/CP gestruct/struct	COD BO/CP gestruct/struct	COD BO/OP Struktur 
+Option	651	COD BO optisch	COD CP optique	COD BO/CP optisch/optique	COD BO/CP optisch
+Option	652	Nt geadres publ bijv/n adr enc	Non adressé encart publicitaire	nt geadres publ bijv/n adr enc	nicht adressierte Sendungen einkodiert
+Option	653	Publ bijvoegsel geadresseerd	Encartes publ adress	publ bijv geadres	adressierte Sendungen einkodiert
+Option	659	Kost onvoldoende aantal	Coût quantité insuffisante	coût quantité insuffisante	Kosten unvollständige Menge
+Option	660	Mail ID optie	Mail ID option	Mail ID option	Mail ID option
+Option	661	Mail ID optie	Mail ID option	MAIL ID OPTION	MAIL ID OPTION
+Option	662	Loose load BE	Loose load BE	LOOSE LOAD BE	LOOSE LOAD BE
+Option	663	Speciaal formaat niet gesorteerd	Format spécial non trié	Special format unsorted	Spezialformat nicht sortiert
+Option	664	Speciaal formaat sortering sector	Format spécial trié secteur	Special format sorted sector	Spezialformat sortiert nach Sektor
+Option	665	Speciaal formaat uitreikingskantoor	Format spécial trié bureau distributeur	Special format sorted distribution office	Spezialformat sortiert nach Zustellamt
+Option	666	Discount MAIL ID	Discount MAIL ID	Discount MAIL ID	Discount MAIL ID
+Option	667	Discount MAIL ID	Discount MAIL ID	Discount MAIL ID	Discount MAIL ID
+Option	668	SUP LOW READ LET BO SMALL	SUP LOW READ LET BO SMALL	SUP LOW READ LET BO SMALL	SUP LOW READ LET BO SMALL
+Option	669	SUP LOW READ LET BO SMALL SORT	SUP LOW READ LET BO SMALL SORT	SUP LOW READ LET BO SMALL SORT	SUP LOW READ LET BO SMALL SORT
+Option	670	SUP LOW READ LET BO SMALL SSUK	SUP LOW READ LET BO SMALL SSUK	SUP LOW READ LET BO SMALL SSUK	SUP LOW READ LET BO SMALL SSUK
+Option	671	SUP LOW READ LET BO LARGE	SUP LOW READ LET BO LARGE	SUP LOW READ LET BO LARGE	SUP LOW READ LET BO LARGE
+Option	672	SUP LOW READ LET BO LARGE SORT	SUP LOW READ LET BO LARGE SORT	SUP LOW READ LET BO LARGE SORT	SUP LOW READ LET BO LARGE SORT
+Option	673	SUP LOW READ LET BO LARGE SSUK	SUP LOW READ LET BO LARGE SSUK	SUP LOW READ LET BO LARGE SSUK	SUP LOW READ LET BO LARGE SSUK
+Option	674	SUP LOW READ IMP BO SMALL	SUP LOW READ IMP BO SMALL	SUP LOW READ IMP BO SMALL	SUP LOW READ IMP BO SMALL
+Option	675	SUP LOW READ IMP BO SMALL SORT	SUP LOW READ IMP BO SMALL SORT	SUP LOW READ IMP BO SMALL SORT	SUP LOW READ IMP BO SMALL SORT
+Option	676	SUP LOW READ LET BO SMALL SS	SUP LOW READ LET BO SMALL SS	SUP LOW READ LET BO SMALL SS	SUP LOW READ LET BO SMALL SS
+Option	677	SUP LOW READ IMP BO SMALL SS	SUP LOW READ IMP BO SMALL SS	SUP LOW READ IMP BO SMALL SS	SUP LOW READ IMP BO SMALL SS
+Option	678	SUP LOW READ IMP BO SMALL SSUK	SUP LOW READ IMP BO SMALL SSUK	SUP LOW READ IMP BO SMALL SSUK	SUP LOW READ IMP BO SMALL SSUK
+Option	679	SUP LOW READ IMP BO  LARGE 	SUP LOW READ IMP BO  LARGE 	SUP LOW READ IMP BO  LARGE 	SUP LOW READ IMP BO  LARGE 
+Option	680	SUP LOW READ IMP BO LARGE SS	SUP LOW READ IMP BO LARGE SS	SUP LOW READ IMP BO LARGE SS	SUP LOW READ IMP BO LARGE SS
+Option	681	SUP LOW READ IMP BO LARGE SSUK	SUP LOW READ IMP BO LARGE SSUK	SUP LOW READ IMP BO LARGE SSUK	SUP LOW READ IMP BO LARGE SSUK
+Option	682	SUP OLW READ IMP VKT SMALL	SUP OLW READ IMP VKT SMALL	SUP OLW READ IMP VKT SMALL	SUP OLW READ IMP VKT SMALL
+Option	683	SUP LOW READ IMP VKT LARGE 	SUP LOW READ IMP VKT LARGE 	SUP LOW READ IMP VKT LARGE 	SUP LOW READ IMP VKT LARGE 
+Option	684	SUP LOW READ IMP VKT LARGE SS	SUP LOW READ IMP VKT LARGE SS	SUP LOW READ IMP VKT LARGE SS	SUP LOW READ IMP VKT LARGE SS
+Option	686	SUP LOW READ IMP VKT LARG SSUK	SUP LOW READ IMP VKT LARG SSUK	SUP LOW READ IMP VKT LARG SSUK	SUP LOW READ IMP VKT LARG SSUK
+Option	687	SUP MIX WEIGHT IMP BO SMALL	SUP MIX WEIGHT IMP BO SMALL	SUP MIX WEIGHT IMP BO SMALL	SUP MIX WEIGHT IMP BO SMALL
+Option	688	SUP MIX WEIGHT IMP BO LARGE	SUP MIX WEIGHT IMP BO LARGE	SUP MIX WEIGHT IMP BO LARGE	SUP MIX WEIGHT IMP BO LARGE
+Option	689	SUP SPEC RECT LET BO LARGE	SUP SPEC RECT LET BO LARGE	SUP SPEC RECT LET BO LARGE	SUP SPEC RECT LET BO LARGE
+Option	690	SUP SPEC RECT LET BO LARGE SS	SUP SPEC RECT LET BO LARGE SS	SUP SPEC RECT LET BO LARGE SS	SUP SPEC RECT LET BO LARGE SS
+Option	691	SUP SPEC RECT IMP BO LARGE	SUP SPEC RECT IMP BO LARGE	SUP SPEC RECT IMP BO LARGE	SUP SPEC RECT IMP BO LARGE
+Option	692	SUP SPEC RECT IMP BO LARGE SS	SUP SPEC RECT IMP BO LARGE SS	SUP SPEC RECT IMP BO LARGE SS	SUP SPEC RECT IMP BO LARGE SS
+Option	693	SUP SPEC RECT IMP VKT LARGE 	SUP SPEC RECT IMP VKT LARGE 	SUP SPEC RECT IMP VKT LARGE 	SUP SPEC RECT IMP VKT LARGE 
+Option	694	SUP SPEC RECT IMP VKT LARGE SS	SUP SPEC RECT IMP VKT LARGE SS	SUP SPEC RECT IMP VKT LARGE SS	SUP SPEC RECT IMP VKT LARGE SS
+Option	697	SUP SPE REC IMP VKT LARGE SSUK	SUP SPE REC IMP VKT LARGE SSUK	SUP SPE REC IMP VKT LARGE SSUK	SUP SPE REC IMP VKT LARGE SSUK
+Option	699	SUP SPEC RECT IMP BO LAR SSUK	SUP SPEC RECT IMP BO LAR SSUK	SUP SPEC RECT IMP BO LAR SSUK	SUP SPEC RECT IMP BO LAR SSUK
+Option	700	Mix Intake PUDO COD meerkost	Mix Intake PUDO COD frais supplémentaires	Mix Intake PUDO COD extra charge	Mix Intake PUDO COD frais supplémentaires
+Option	701	Mix Intake PUDO korting	Mix Intake PUDO réduction	Mix Intake PUDO discount	Mix Intake PUDO réduction
+Option	704	Overflow Let BO small 78 dir	Overflow Let BO small 78 dir	Overflow Let BO small 78 dir	Overflow Let BO small 78 dir
+Option	708	Overflow Let BO small sort DO	Overflow Let BO small sort DO	Overflow Let BO small sort DO	Overflow Let BO small sort DO
+Option	710	Overflow Let BO small sector	Overflow Let BO small sector	Overflow Let BO small sector	Overflow Let BO small sector
+Option	711	Overflow Let BO Large sort DO	Overflow Let BO Large sort DO	Overflow Let BO Large sort DO	Overflow Let BO Large sort DO
+Option	712	Overflow Let BO large sector	Overflow Let BO large sector	Overflow Let BO large sector	Overflow Let BO large sector
+Option	714	Overflow Let BO spec sort DO	Overflow Let BO spec sort DO	Overflow Let BO spec sort DO	Overflow Let BO spec sort DO
+Option	715	Overflow Let BO spec sector	Overflow Let BO spec sector	Overflow Let BO spec sector	Overflow Let BO spec sector
+Option	716	Overflow Imp BO small 78 dir	Overflow Imp BO small 78 dir	Overflow Imp BO small 78 dir	Overflow Imp BO small 78 dir
+Option	717	Overflow Imp BO small sort DO	Overflow Imp BO small sort DO	Overflow Imp BO small sort DO	Overflow Imp BO small sort DO
+Option	718	Overflow Imp BO small sector	Overflow Imp BO small sector	Overflow Imp BO small sector	Overflow Imp BO small sector
+Option	719	Overflow Imp BO large sort DO	Overflow Imp BO large sort DO	Overflow Imp BO large sort DO	Overflow Imp BO large sort DO
+Option	720	Overflow Imp BO large sector	Overflow Imp BO large sector	Overflow Imp BO large sector	Overflow Imp BO large sector
+Option	721	Overflow Imp BO spec sort DO	Overflow Imp BO spec sort DO	Overflow Imp BO spec sort DO	Overflow Imp BO spec sort DO
+Option	722	Overflow Imp BO spec sector	Overflow Imp BO spec sector	Overflow Imp BO spec sector	Overflow Imp BO spec sector
+Option	725	SUP LOW R BO SMALL ADMINFLEX	SUP LOW R BO SMALL ADMINFLEX	SUP LOW R BO SMALL ADMINFLEX	SUP LOW R BO SMALL ADMINFLEX
+Option	731	SUP LOW R IMP LARGE BO  PACK	SUP LOW R IMP LARGE BO  PACK	SUP LOW R IMP LARGE BO  PACK	SUP LOW R IMP LARGE BO  PACK
+Option	734	SUP SPEC RECT IMP VK LAR  PACK	SUP SPEC RECT IMP VK LAR  PACK	SUP SPEC RECT IMP VK LAR  PACK	SUP SPEC RECT IMP VK LAR  PACK
+Option	735	zomer korting actie ABC			
+Option	736	Antwoordkaart	option coupon réponse	option answer coupon	option Antwortkarte
+Option	737	Socio Demo Filter	option socio-demo	option  socio-demo	option socio-demo
+Option	738	vaste dag optie	option jour spécifique	option day certain	option day certain
+Option	739	vaste dag optie	option jour spécifique	Distri pref d/j spécifique	Distri pref d/j spécifique
+Option	740	Antwoordkaart	option coupon réponse	Distri pref antw/c réponse	Distri pref antw/c réponse
+Option	741	distripost  niet standaard	Distripost  non standard	Distri sup non stand	Distri sup non stand
+Option	742	niet standaard	Distri pref sup non stand	Distri pref sup non stand	Distri pref sup non stand
+Option	743	Socio Demo Filter	Distri pref socio-demo	Distri pref socio-demo	Distri pref socio-demo
+Option	744	distripost  extended	Distripost extended	extended	extended
+Option	745	Zomerpromotie Special Format NR	Promotion Eté Special Format NR	Summer promotion Special Format NR	Sommer Promotion Special Format NR
+Option	746	Admin kost gn retouradres	Coût administratif absence d'adresse retour	Admin kost no sender	Coût administratif absence d'adresse retour
+Option	747	Admin kost tijdschriften	Coût admin périodiques	Admin cost periodicals	Admin cost periodicals
+Option	749	OVERFLOW IMP BO LARGE TRI AM	OVERFLOW IMP BO LARGE TRI AM	OVERFLOW IMP BO LARGE TRI AM	OVERFLOW IMP BO LARGE TRI AM
+Option	750	OVERFLOW IMP BO SPEC TRI AM	OVERFLOW IMP BO SPEC TRI AM	OVERFLOW IMP BO SPEC TRI AM	OVERFLOW IMP BO SPEC TRI AM
+Option	752	OVERFL IMP BO LARGE SS/TRI AM	OVERFL IMP BO LARGE SS/TRI AM	OVERFL IMP BO LARGE SS/TRI AM	OVERFL IMP BO LARGE SS/TRI AM
+Option	753	OVERFL IMP BO SPEC SS/TRI AM	OVERFL IMP BO SPEC SS/TRI AM	OVERFL IMP BO SPEC SS/TRI AM	OVERFL IMP BO SPEC SS/TRI AM
+Option	754	OVERFLOW LET BO LARGE TRI AM	OVERFLOW LET BO LARGE TRI AM	OVERFLOW LET BO LARGE TRI AM	OVERFLOW LET BO LARGE TRI AM
+Option	755	OVERFL LET BO LARGE SS/TRI AM	OVERFL LET BO LARGE SS/TRI AM	OVERFL LET BO LARGE SS/TRI AM	OVERFL LET BO LARGE SS/TRI AM
+Option	756	OVERFLOW LET BO SPEC TRI AM	OVERFLOW LET BO SPEC TRI AM	OVERFLOW LET BO SPEC TRI AM	OVERFLOW LET BO SPEC TRI AM
+Option	757	OVERFL LET BO SPEC SS/TRI AM	OVERFL LET BO SPEC SS/TRI AM	OVERFL LET BO SPEC SS/TRI AM	OVERFL LET BO SPEC SS/TRI AM
+Option	758	OVERFLOW IMP BO LARGE SORT IB	OVERFLOW IMP BO LARGE SORT IB	OVERFLOW IMP BO LARGE SORT IB	OVERFLOW IMP BO LARGE SORT IB
+Option	759	OVERFLOW IMP BO SPEC SORT IB	OVERFLOW IMP BO SPEC SORT IB	OVERFLOW IMP BO SPEC SORT IB	OVERFLOW IMP BO SPEC SORT IB
+Option	760	RECOMMANDE NORM	RECOMMANDE NORM	RECOMMANDE NORM	RECOMMANDE NORM
+Option	761	RECOMANDE NON NORM	RECOMANDE NON NORM	RECOMANDE NON NORM	RECOMANDE NON NORM
+Option	762	Plooisupplement tijdschriften	Droit de pliage périodique	Fold supplement periodicals	Droit de pliage périodique
+Option	765	Plooisupplement	Droit de pliage	fold supplement	Droit de pliage
+Option	766	Frank vr Derden genorm Vignet	Affranch. Poste norm vignet	Affranch. Poste norm vignet	Affranch. Poste norm vignet
+Option	767	Plooisupplement	Droit de pliage	fold supplement	fold supplement
+Option	768	Publ bijvoegsel sumo	Encartes publ sumo	Publ bijvoegsel sumo	Publ bijvoegsel sumo
+Option	769	Kost onvoldoende aantal international	Coût nombre insuffisant international	Coût nombre insuffisant international	Coût nombre insuffisant international
+Option	770	OVERFLOW IMP VKT LARGE	OVERFLOW IMP VKT LARGE	OVERFLOW IMP VKT LARGE	OVERFLOW IMP VKT LARGE
+Option	780	Mail ID niet herkenbaar	Mail ID non reconnu	Mail Id not recognized	Mail Id nicht erkennbar
+Option	790	Behandelkost afgifte<500	côut de traitement dépôt <500	Handling supplement deposit <500	Handling supplement deposit <500
+Option	801	SUP Overflow inspire special	SUP Overflow inspire special	SUP Overflow inspire special	SUP Overflow inspire special
+Option	802	SUP Overflow pulse small	SUP Overflow pulse small	SUP Overflow pulse small	SUP Overflow pulse small
+Option	803	SUP Overflow pulse large	SUP Overflow pulse large	SUP Overflow pulse large	SUP Overflow pulse large
+Option	804	SUP Overflow pulse special	SUP Overflow pulse special	SUP Overflow pulse special	SUP Overflow pulse special
+Option	805	SUP Overflow touch small	SUP Overflow touch small	SUP Overflow touch small	SUP Overflow touch small
+Option	810	SUP Overflow touch large	SUP Overflow touch large	SUP Overflow touch large	SUP Overflow touch large
+Option	811	SUP Overflow touch large R&S	SUP Overflow touch large R&S	SUP Overflow touch large R&S	SUP Overflow touch large R&S
+Option	812	SUP Overflow touch large pref	SUP Overflow touch large pref	SUP Overflow touch large pref	SUP Overflow touch large pref
+Option	814	SUP Overfl touch spec pref	SUP Overfl touch spec pref	SUP Overfl touch spec pref	SUP Overfl touch spec pref
+Option	815	SUP Overflow briven small	SUP Overflow briven small	SUP Overflow briven small	SUP Overflow briven small
+Option	816	SUP Overflow brieven large	SUP Overflow brieven large	SUP Overflow brieven large	SUP Overflow brieven large
+Option	817	SUP Overflow brieven special	SUP Overflow brieven special	SUP Overflow brieven special	SUP Overflow brieven special
+Option	818	SUP no retour inspire large	SUP no retour inspire large	SUP no retour inspire large	SUP no retour inspire large
+Option	819	SUP no retour inspire special	SUP no retour inspire special	SUP no retour inspire special	SUP no retour inspire special
+Option	820	SUP no retour pulse small	SUP no retour pulse small	SUP no retour pulse small	SUP no retour pulse small
+Option	821	SUP no retour pulse large	SUP no retour pulse large	SUP no retour pulse large	SUP no retour pulse large
+Option	822	SUP no retour pulse special	SUP no retour pulse special	SUP no retour pulse special	SUP no retour pulse special
+Option	823	SUP no retour touch small	SUP no retour touch small	SUP no retour touch small	SUP no retour touch small
+Option	830	SUP no retour touch large	SUP no retour touch large	SUP no retour touch large	SUP no retour touch large
+Option	831	SUP no retour touch special	SUP no retour touch special	SUP no retour touch special	SUP no retour touch special
+Option	832	SUP no retour touch small pref	SUP no retour touch small pref	SUP no retour touch small pref	SUP no retour touch small pref
+Option	833	SUP no retour touch large pref	SUP no retour touch large pref	SUP no retour touch large pref	SUP no retour touch large pref
+Option	834	SUP no retour touch spec pref	SUP no retour touch spec pref	SUP no retour touch spec pref	SUP no retour touch spec pref
+Option	835	SUP no retour brief small	SUP no retour brief small	SUP no retour brief small	SUP no retour brief small
+Option	836	SUP no retour brief large	SUP no retour brief large	SUP no retour brief large	SUP no retour brief large
+Option	837	SUP no retour brief spec	SUP no retour brief spec	SUP no retour brief spec	SUP no retour brief spec
+Option	838	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	839	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	840	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	841	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	842	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	843	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	844	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	845	Supplement Mixed Weight	Supplément Mixed Weight	Supplement Mixed Weight	Zusatz Mixed Weight
+Option	846	Supplement herconditionering	Supplément reconditionnement	Supplement re-conditioning	Zusatz neu Konditionieren
+Option	847	Supplement herconditionering	Supplément reconditionnement	Supplement re-conditioning	Zusatz neu Konditionieren
+Option	848	Supplement herconditionering	Supplément reconditionnement	Supplement re-conditioning	Zusatz neu Konditionieren
+Option	849	Supplement herconditionering	Supplément reconditionnement	Supplement re-conditioning	Zusatz neu Konditionieren
+Option	850	SUP recondit pulse pec	SUP recondit pulse pec	SUP recondit pulse pec	SUP recondit pulse pec
+Option	852	SUP mail ID nt herk pulse sm	SUP mail ID nt herk pulse sm	SUP mail ID nt herk pulse sm	SUP mail ID nt herk pulse sm
+Option	853	SUP mail ID nt herk touch sm	SUP mail ID nt herk touch sm	SUP mail ID nt herk touch sm	SUP mail ID nt herk touch sm
+Option	854	SUP mail ID nt herk brief sm	SUP mail ID nt herk brief sm	SUP mail ID nt herk brief sm	SUP mail ID nt herk brief sm
+Option	860	sup overflow touch special	sup overflow touch special	sup overflow touch special	sup overflow touch special
+Option	862	SUP overfl touch spec R &S	SUP overfl touch spec R &S	SUP overfl touch spec R &S	SUP overfl touch spec R &S
+Option	880	CO2 comp DM Inspire large	CO2 comp DM Inspire large	CO2 comp DM Inspire large	CO2 comp DM Inspire large
+Option	890	CO2 comp Dm Inspire spec	CO2 comp Dm Inspire spec	CO2 comp Dm Inspire spec	CO2 comp Dm Inspire spec
+Option	900	CO2 DM Inspire spec	CO2 DM Inspire spec	CO2 DM Inspire spec	CO2 DM Inspire spec
+Option	910	CO2 DM Inspire large	CO2 DM Inspire large	CO2 DM Inspire large	CO2 DM Inspire large
+Option	920	CO2 DM Pulse small	CO2 DM Pulse small	CO2 DM Pulse small	CO2 DM Pulse small
+Option	930	CO2 DM Pulse large	CO2 DM Pulse large	CO2 DM Pulse large	CO2 DM Pulse large
+Option	931	CO2 DM Pulse spec	CO2 DM Pulse spec	CO2 DM Pulse spec	CO2 DM Pulse spec
+Option	940	CO2 DM Touch small	CO2 DM Touch small	CO2 DM Touch small	CO2 DM Touch small
+Option	950	CO2 DM Touch large	CO2 DM Touch large	CO2 DM Touch large	CO2 DM Touch large
+Option	960	Co2 DM Touch spec	Co2 DM Touch spec	Co2 DM Touch spec	Co2 DM Touch spec
+Option	970	CO2 Brieven small	CO2 Lettres small	CO2 Briefe small	CO2 Lettrers small
+Option	971	CO2 Brieven large	CO2 Lettres large	CO2 Briefe large	CO2 Letters large
+Option	972	CO2 Brieven spec	CO2 Lettres spec	CO2 Briefe spec	CO2 Letters spec
+Option	980	SUP overflow Inspire large	SUP overflow Inspire large	SUP overflow Inspire large	SUP overflow Inspire large
+Option	990	Kost laattijd. Wijzig. tijdstip verdeling: 30% vol*voork. tarief 0-25g	Frais modification tardive période distrib.: 30% vol*tarif préf. 0-25g	Cost late modification of distrib. period: 30%vol*pref. tariff 0-25g	Frais modification tardive période distrib.: 30% vol*tarif préf. 0-25g
+Package	1	Drukwerk <=100g Economy	Imprimé <=100g Economy	Printed <=100g Economy	Printed <=100g Economy
+Package	10	Brief >100g  Economy	Lettre >100g  Economy	Letter >100g  Economy	Letter >100g  Economy
+Package	11	Brief >100g  Customized1	Lettre >100g  Customized1	Letter >100g  Customized1	Letter >100g  Customized1
+Package	12	Brief >100g  Customized2	Lettre >100g  Customized2	Letter >100g  Customized2	Letter >100g  Customized2
+Package	13	Brief >100g  Customized3	Lettre >100g  Customized3	Letter >100g  Customized3	Letter >100g  Customized3
+Package	14	Drukwerk <=100g  Flexisort	Imprimé <=100g  Flexisort	Printed <=100g  Flexisort	Printed <=100g  Flexisort
+Package	15	Drukwerk <=100g  Flexitime	Imprimé <=100g  Flexitime	Printed <=100g  Flexitime	Printed <=100g  Flexitime
+Package	16	Drukwerk <=100g  Customized1	Imprimé <=100g  Customized1	Printed <=100g  Customized1	Printed <=100g  Customized1
+Package	17	Drukwerk <=100g  Customized2	Imprimé <=100g  Customized2	Printed <=100g  Customized2	Printed <=100g  Customized2
+Package	18	Drukwerk <=100g  Customized3	Imprimé <=100g  Customized3	Printed <=100g  Customized3	Printed <=100g  Customized3
+Package	19	Drukwerk >100g  Flexisort	Imprimé >100g  Flexisort	Printed >100g  Flexisort	Printed >100g  Flexisort
+Package	2	Brief <=100g  Flexisort	Lettre <=100g  Flexisort	Letter <=100g  Flexisort	Letter <=100g  Flexisort
+Package	20	Drukwerk >100g  Flexitime	Imprimé >100g  Flexitime	Printed >100g  Flexitime	Printed >100g  Flexitime
+Package	21	Drukwerk >100g  Customized3	Imprimé >100g  Customized3	Printed >100g  Customized3	Printed >100g  Customized3
+Package	22	Drukwerk >100g  Customized1	Imprimé >100g  Customized1	Printed >100g  Customized1	Printed >100g  Customized1
+Package	23	Drukwerk >100g  Customized2	Imprimé >100g  Customized2	Printed >100g  Customized2	Printed >100g  Customized2
+Package	24	Drukwerk >100g Economy	Imprimé >100g Economy	Printed >100g Economy	Printed >100g Economy
+Package	25	Drukwerk <=50g Economy	Imprimé <=50g Economy	Printed <=50g Economy	Printed <=50g Economy
+Package	26	Drukwerk >50g Economy	Imprimé >50g Economy	Printed >50g Economy	Printed >50g Economy
+Package	27	Drukwerk <=50g Flexisort	Imprimé <=50g Flexisort	Printed <=50g Flexisort	Printed <=50g Flexisort
+Package	28	Drukwerk >50g Flexisort	Imprimé >50g Flexisort	Printed >50g Flexisort	Printed >50g Flexisort
+Package	29	Brief >50 gr Flexitime	Lettre >50 gr Flexitime	Letter >50 gr Flexitime	Letter >50 gr Flexitime
+Package	3	Brief <=100g  Flexitime	Lettre <=100g  Flexitime	Letter <=100g  Flexitime	Letter <=100g  Flexitime
+Package	30	Brief <=50 gr Flexitime	Lettre <=50 gr Flexitime	Letter <=50 gr Flexitime	Letter <=50 gr Flexitime
+Package	31	Brief >50 gr Flexisort	Lettre >50 gr Flexisort	Letter >50 gr Flexisort	Letter >50 gr Flexisort
+Package	32	Brief=<50 gr Flexisort	Lettre =<50 gr Flexisort	Letter =<50 gr Flexisort	Letter =<50 gr Flexisort
+Package	33	Brief >50 Economy	lettre >50 Economy	letter >50 Economy	letter >50 Economy
+Package	34	Brief  =<50 gr Economy	Lettre =<50 gr Economy	Letter =<50 gr Economy	Letter =<50 gr Economy
+Package	35	Drukwerk <50 gr Flexitime	Imprimé <50 gr Flexitime	Printed <50 gr Flexitime	Printed <50 gr Flexitime
+Package	36	Drukwerk <=50 gr Flexitime	Imprimé <=50 gr Flexitime	Printed <=50 gr Flexitime	Printed <=50 gr Flexitime
+Package	37	Brief>50 gr Customized1	Lettre >50 gr Customized1	Letter >50 gr Customized1	Letter >50 gr Customized1
+Package	38	Brief <=50 gr Customized1	Lettre <= 50 gr Customized1	Letter <=50 gr Customized1	Letter <=50 gr Customized1
+Package	39	Brief >50 gr Customized2	Lettre >50 gr Customized2	Letter >50 gr Customized2	Letter >50 gr Customized2
+Package	4	Brief <=100g  Economy	Lettre <=100g  Economy	Letter <=100g  Economy	Letter <=100g  Economy
+Package	40	Brief <=50 gr Customized2	Lettre <=50 gr Customized2	Letter <=50 gr Customized2	Letter <=50 gr Customized2
+Package	41	Brief >50 gr Customized3	Lettre >50 gr Customized3	Letter >50 gr Customized3	Letter >50 gr Customized3
+Package	42	Brief <=50 gr Customized3	Lettre <=50 gr Customized3	Letter <=50 gr Customized3	Letter <=50 gr Customized3
+Package	43	Lettre <= 50gram Customized 4	Lettre <= 50gram Customized 4	Lettre <= 50gram Customized 4	Lettre <= 50gram Customized 4
+Package	44	Lettre> 50 gram Cutomized 4	Lettre> 50 gram Cutomized 4	Lettre> 50 gram Cutomized 4	Lettre> 50 gram Cutomized 4
+Package	5	Brief <=100g  Customized1	Lettre <=100g  Customized1	Letter <=100g  Customized1	Letter <=100g  Customized1
+Package	6	Brief <=100g  Customized2	Lettre <=100g  Customized2	Letter <=100g  Customized2	Letter <=100g  Customized2
+Package	7	Brief <=100g  Customized3	Lettre <=100g  Customized3	Letter <=100g  Customized3	Letter <=100g  Customized3
+Package	8	Brief >100g  Flexisort	Lettre >100g  Flexisort	Letter >100g  Flexisort	Letter >100g  Flexisort
+Package	9	Brief >100g  Flexitime	Lettre >100g  Flexitime	Letter >100g  Flexitime	Letter >100g  Flexitime
+Periodicity	1	Dagelijks (5d/7)	Quotidien (5j/7)	Daily (5d/7)	Quotidien (5j/7)
+Periodicity	2	Dagelijks (6d/7)	Quotidien (6j/7)	Daily (6d/7)	Quotidien (6j/7)
+Periodicity	3	Wekelijks	Hebdomadaire	Weekly	Hebdomadaire
+Periodicity	4	Tweewekelijks	Bimensuel	Semi-monthly	Bimensuel
+Periodicity	5	Maandelijks	Mensuel	Monthly	Mensuel
+Periodicity	6	Tweemaandelijks	Bimestriel	Two-monthly 	Bimestriel
+Periodicity	7	Trimestrieel	Trimestriel	Quarterly	Trimestriel
+Periodicity	8	Buiten periodiciteit	Hors périodicité	Apart from the periodicity 	Hors périodicité
+Periodicity	9	test	test	test	test
+Product	0	MIXED	MIXED	MIXED	MIXED
+Product	1	Brief	Lettre	Letter	Letter
+Product	10	Maxipost	Maxipost	Maxipost	Maxipost
+Product	100	Distripost BO gestandardiseerd	Distripost CP standardisé	Distripost SC standardized	standardisierte Distripost  SC
+Product	101	Distripost BO niet gestandardiseerd	Distripost CP non standardisé	Distripost SC not standardized	nicht-standardisierte Distripost SC
+Product	102	Distripost gestandardiseerd voorkeurtarief	Distripost standardisé tarif préférentiel	Distripost standardized preferential tariff	standardisierte Distripost Vorzugstarif
+Product	103	Distripost conv	Distripost conv	Distripost conv	   distripost conv
+Product	104	PP1 Prior norm	PP1 Prior norm	PP1 Prior norm	PP1 Prior norm
+Product	105	PP1 Prior non norm	PP1 Prior non norm	PP1 Prior non norm	PP1 Prior non norm
+Product	106	PP1 Non Prior norm	PP1 Non Prior norm	PP1 Non Prior norm	PP1 Non Prior norm
+Product	107	PP1 Non Prior non norm	PP1 Non Prior non norm	PP1 Non Prior non norm	PP1 Non Prior non norm
+Product	108	Distripost conv	distripost conv	PP1 Aanget/Recom norm	PP1 Aanget/Recom norm
+Product	109	Distripost pref	distripost pref	PP1 Aanget/Recom non norm	PP1 Aanget/Recom non norm
+Product	11	Pakket	Paquet	Pack	Pack
+Product	110	PP1 RP norm	PP1 RP norm	PP1 RP norm	PP1 RP norm
+Product	111	PP1 RP norm	PP1 RP norm	PP1 RP norm	PP1 RP norm
+Product	112	PP1 Briefkaart prior norm	PP1 Carte Post prior norm	PP1 Briefkaart/Carte Post prior norm	PP1 Briefkaart/Carte Post prior norm
+Product	113	PP1 Briefkaart Post prior non norm	PP1 Carte Post prior non norm	PP1 Briefkaart/Carte Post prior non norm	PP1 Briefkaart/Carte Post prior non norm
+Product	114	distripost  pref.	distripost  pref.	PP1 Briefkaart/Carte Post Non Prior norm	PP1 Briefkaart/Carte Post Non Prior norm
+Product	115	PP1 Briefkaart Post Non Prior non norm	PP1 Carte Post Non Prior non norm	PP1 Briefkaart/Carte Post Non Prior non norm	PP1 Briefkaart/Carte Post Non Prior non norm
+Product	116	PP2 Prior norm	PP2 Prior norm	PP2 Prior norm	PP2 Prior norm
+Product	117	PP2 Prior non norm	PP2 Prior non norm	PP2 Prior non norm	PP2 Prior non norm
+Product	118	PP2 Non Prior norm	PP2 Non Prior norm	PP2 Non Prior norm	PP2 Non Prior norm
+Product	119	PP2 Non Prior non norm	PP2 Non Prior non norm	PP2 Non Prior non norm	PP2 Non Prior non norm
+Product	12	Distripost	Distripost	Distripost	Distripost
+Product	120	PP2 Aangetekend norm	PP2 Recom norm	PP2 Aanget/Recom norm	VPP2 Aanget/Recom norm
+Product	121	PP2 Aangetekend norm	PP2 Recom norm	PP2 Aanget/Recom normPP2 Aanget/Recom norm	PP2 Aanget/Recom norm
+Product	122	PP2 RP norm	PP2 RP norm	PP2 RP norm	PP2 RP norm
+Product	123	PP2 RP not norm	PP2 RP not norm	PP2 RP not norm	PP2 RP not norm
+Product	124	PP2 Briefkaart Post Prior norm	PP2 Carte Post Prior norm	PP2 Briefkaart/Carte Post Prior norm	PP2 Briefkaart/Carte Post Prior norm
+Product	125	PP2 Briefkaart Post Prior non norm	PP2 Carte Post Prior non norm	PP2 Briefkaart/Carte Post Prior non norm	PP2 Briefkaart/Carte Post Prior non norm
+Product	126	PP2 Briefkaart Post non prior norm	PP2 Carte Post non prior norm	PP2 Briefkaart/Carte Post non prior norm	PP2 Briefkaart/Carte Post non prior norm
+Product	127	PP2 Briefkaart Post non prior non norm	PP2 Carte Post non prior non norm	PP2 Briefkaart/Carte Post non prior non norm	PP2 Briefkaart/Carte Post non prior non norm
+Product	128	UV Aangetekend Norm	RD Recommandé Norm	RD Recommandé Norm	AV Einschreiben Norm
+Product	129	UV Aangetekend Nt Norm	RD Recommandé Non  Norm	RD Recommandé Non  Norm	AV Einschreiben  Nicht Norm
+Product	13	Prior zending	Envoi prior	Prior sending	Prior sending
+Product	130	UV RP Nt Norm	RD RP Non Norm	RD RP Non Norm	AV RP Nicht Norm
+Product	131	UV RP Norm	RD RP Norm	RD RP Norm	AV RP Norm
+Product	132	UV Brieven	RD Lettres Norm	RD Lettres Norm	AV Briefe Norm
+Product	133	UV Brieven niet genorm	RD Lettres non normalisé	RD Lettres non normalisé	AV Briefe Nicht Norm
+Product	134	UV Drukwerk Norm	RD Imprimé Norm	RD Imprimé Norm	AV Drucksachen Norm
+Product	135	UV Drukwerk Nt Norm	RD Imprimé Non  Norm	RD Imprimé Non  Norm	AV Drucksachen Nicht Norm
+Product	136	 UVRD Taxipost 24h	 UVRD Taxipost 24h	 UVRD Taxipost 24h	 UVRD Taxipost 24h
+Product	137	UV Prior Norm	RD Prior Norm	RD Prior Norm	AV Prior Norm
+Product	138	UV Kilopost Voorkeur	RD Kilopost Préférentiel	RD Kilopost Préférentiel	AV Kilopost Vorzugstarif
+Product	139	UV Non Prior Norm	RD Non Prior Norm	RD Non Prior Norm	AV Non Prior Norm
+Product	14	Non-Prior zending	Envoi non-prior	Non prior sending	Non prior sending
+Product	140	UV Prior Nt Norm	RD Prior Non Norm	RD Prior Non Norm	AV Prior Non Norm
+Product	141	UV Non Prior Nt Norm	RD Non Prior Non Norm	RD Non Prior Non Norm	AV Non Prior Non Norm
+Product	142	UV Tijdschriften geadr.	RD Périodiques addr.	RD Périodiques addr.	AV adr. periodische Veröffentlichungen
+Product	143	Technisch Product	Produit Technique	Produit Technique	technisches Produkt
+Product	144	Loose load NL	Loose load NL	Loose load NL	Loose load NL
+Product	145	Brief genorm H en T BO	Lettre norm A et R CP	Letter norm S and R C	normalisierter Brief H und T BO
+Product	146	Publi Pack BO	Publi Pack CP	Publi Pack BO	Publi Pack CP
+Product	147	Publi Pack voorkeurtarief	Publi Pack tarif préférentiel	Publi Pack voorkeurtarief	Publi Pack tarif préférentiel
+Product	149	Brieven Small Format (conventie)	Lettre Small Format (sous convention)	Letter Small Format under convention	Lettre Small Format (sous convention)
+Product	15	Pakket RMB	CR Paquet	COD Packs	COD Packs
+Product	150	Brieven Large Format (conventie)	Lettre Large Format (sous convention)	Letter Large format under convention	Lettre Large Format (sous convention)
+Product	151	Brieven Special Format (conventie)	Lettre Special Format (sous convention)	Letter Special Format under convention	Lettre Special Format (sous convention)
+Product	152	Drukwerken Small Format (conventie)	Imprimé sous convention -  Small Format	Prints Small format under convention	Imprimé sous convention -  Small Format
+Product	153	Drukwerken Large Format (conventie)	Imprimé sous convention -  Large Format	Prints Large format under convention	Imprimé sous convention -  Large Format
+Product	154	Drukwerken Special Format (conventie)	Imprimé sous convention -  Special Format	Prints Special format under convention	Imprimé sous convention -  Special Format
+Product	155	Drukwerken Small Format - Voorkeurtarief	Imprimé Small Format à tarif préférentiel	Prints small format - preferential tariff	Imprimé Small Format à tarif préférentiel
+Product	156	Drukwerken Large Format - Voorkeurtarief	Imprimé Large Format à tarif préférentiel	Prints large format - preferential tariff	Imprimé Large Format à tarif préférentiel
+Product	157	Drukwerken Special Format - Voorkeurtarief	Imprimé Special Format à tarif préférentiel	Prints Special format - preferential tariff	Imprimé Special Format à tarif préférentiel
+Product	158	UVRD DRUKWERK LARGE FORMAT VKT	UVRD IMPRIME LARGE FORMAT VKT	UVRD DRUKWERK LARGE FORMAT VKT	UVRD DRUKWERK LARGE FORMAT VKT
+Product	159	UVRD DRUKWERK SMALL FORMAT VKT	UVRD IMPRIME SMALL FORMAT VKT	UVRD DRUKWERK SMALL FORMAT VKT	UVRD DRUKWERK SMALL FORMAT VKT
+Product	16	Genormaliseerde zending	Envoi normalisé	Normalized sending	Normalized sending
+Product	160	UVRD DRUKWERK SPECIAL FORMAT VKT	UVRD IMPRIME SPECIAL FORMAT VKT	UVRD DRUKWERK SPECIAL FORMAT VKT	UVRD DRUKWERK SPECIAL FORMAT VKT
+Product	161	BRIEF BO SMALL C5	LETTRE BO SMALL C5	LETTER SMALL C5	LETTER SMALL C5
+Product	162	DRUKWERK BO SMALL C5	IMP BO SMALL C5	IMP BO SMALL C5	IMP BO SMALL C5
+Product	163	IMP SMALL C5 PREF	IMP SMALL C5 PREF	IMP SMALL C5 PREF	IMP SMALL C5 PREF
+Product	164	Taxipost 24h conventioneel	Taxipost 24h conventioneel	Taxipost 24h conventioneel	Taxipost 24h conventioneel
+Product	165	Parcels Item-based 	Parcels Item-based 	Parcels Item-based	Parcels Item-based (GER)
+Product	166	Distripost Boost (conv)	Distripost Boost (conv)	Distripost Boost (conv)	Distripost Boost (conv)
+Product	167	Distripost PREF	Distripost PREF	Distripost PREF	Distripost PREF
+Product	168	International Parcels Express	International Parcels Express	International Parcels Express	International Parcels Express (GER)
+Product	169	BPI Pers EUR  genormaliseerd	BPI Presse EUR normalisé	BPI Press EUR normalized	BPI Press EUR normalized
+Product	17	Andere zending	Autre envoi	Other sending	Other sending
+Product	170	BPI Pers ROW genormaliseerd	BPI Presse ROW normalisé	BPI Press ROW normalized	BPI Press ROW normalized
+Product	171	BPI Pers EUR niet genormaliseerd	BPI Presse EUR non-normalisé	BPI Press EUR non-normalised	Press EUR non-normalised
+Product	172	BPI Pers ROW niet genormaliseerd	BPI Presse ROW non-normalisé	BPI Press ROW non-normalised	BPI Press ROW non-normalised
+Product	173	DMI Zone 1 Non Prior	DMI Zone 1 Non Prior	DMI Zone 1 Non Prior	DMI Zone 1 Non Prior
+Product	174	DMI Zone 1 Prior	DMI Zone 1 Prior	DMI Zone 1 Prior	DMI Zone 1 Prior
+Product	175	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior
+Product	176	DMI Zone 2 Prior	DMI Zone 2 Prior	DMI Zone 2 Prior	DMI Zone 2 Prior
+Product	177	DMI Zone 3 Non Prior	DMI Zone 3 Non Prior	DMI Zone 3 Non Prior	DMI Zone 3 Non Prior
+Product	178	DMI Zone 3 Prior	DMI Zone 3 Prior	DMI Zone 3 Prior	DMI Zone 3 Prior
+Product	179	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior	DMI Zone 2 Non Prior
+Product	18	Tijdschrift +1	Périodique +1	Periodical +1	Periodical +1
+Product	180	Sumo product	Sumo product	Sumo product	Sumo product
+Product	181	Drukwerk Small Format BO 09	Imprimé Petit Format BO 09	Printed Small Format BO 09	Drukwerk Small Format BO 09
+Product	182	Drukwerk Large Format BO 09	Imprimé Format Large BO 09	Printed Large Format BO 09	Drukwerk Large Format BO 09
+Product	183	Drukwerk Special Format BO 09	Imprimé Format Special BO 09	Printed Special Format BO 09	Drukwerk Special Format BO 09
+Product	184	Brief Small Format BO 09	Lettre Petit Format BO 09	Letter Small Format BO 09	Brief Small Format BO 09
+Product	185	Brief Large Format BO 09	Lettre Format Large BO 09	Letter Large Format BO 09	Brief Large Format BO 09
+Product	186	Brief Special Format BO 09	Lettre Format Special BO 09	Letter Special Format BO 09	Brief Special Format BO 09
+Product	187	BRIEF BO SMALL C5 09	LETTRE BO SMALL C5 09	LETTER BO SMALL C5 09	LETTER BO SMALL C5 09
+Product	188	DRUKWERK BO SMALL C5 09	DRUKWERK BO SMALL C5 09	DRUKWERK BO SMALL C5 09	DRUKWERK BO SMALL C5 09
+Product	189	Distripost overlijdensbericht	Distripost faire part de décès	Announcement of death non addressed	Distripost overlijdensbericht/faire part de décès
+Product	19	Selectapost	Selectapost	Selectapost	Selectapost
+Product	190	Distripost verkiezingen	Distripost envois électotaux	Distripost envois électotaux	Distripost envois électotaux
+Product	191	verkiezingsdrukwerk genormaliseerd	imprimés électoraux normalisé	imprimés électoraux normalisé	imprimés électoraux normalisé
+Product	192	verkiezingsdr nt genorm	impr electoraux non norm	impr electoraux non norm	impr electoraux non norm
+Product	193	verkiezingsdr nt genorm	impr electoraux non norm 	impr electoraux non norm 	impr electoraux non norm 
+Product	194	verkiezingsdrukw genorm	imprimés électoraux nor	imprimés électoraux nor	imprimés électoraux nor
+Product	195	Geadresseerde kranten	Journeaux adressés		
+Product	196	Clean Mail Small format	Clean Mail Small format	Clean Mail Small format	Clean Mail Small format
+Product	197	Clean Mail Large format	Clean Mail Large format	Clean Mail Large format	Clean Mail Large format
+Product	198	UV/RD DRUKWERK SMALL FORMAT e-VKT	UV/RD IMPRIME SMALL FORMAT e-VKT	UV/RD PRINT SMALL FORMAT e-VKT	UV/RD PRINT SMALL FORMAT e-VKT
+Product	199	UV/RD DRUKWERK LARGE FORMAT e-VKT	UV/RD IMPRIME LARGE FORMAT e-VKT	UV/RD PRINT LARGE FORMAT e-VKT	UV/RD PRINT LARGE FORMAT e-VKT
+Product	2	Genormaliseerde brief	Lettre normalisée	Normalized letter	Normalized letter
+Product	20	Aangetekend	Recommandé	Registered	Registered
+Product	200	UV/RD DRUKWERK SPECIAL FORMAT e-VKT	UV/RD IMPRIME SPECIAL FORMAT e-VKT	UV/RD PRINT SPECIAL FORMAT e-VKT	UV/RD PRINT SPECIAL FORMAT e-VKT
+Product	201	BPI Registered Items and M-Bags (DUT)	BPI Registered Items and M-Bags (FRE)	BPI Registered Items and M-Bags	BPI Registered Items and M-Bags (GER)
+Product	202	BPI Volumail M Bag (DUT)	BPI Volumail M Bag (FRE)	BPI Volumail M Bag	BPI Volumail M Bag (GER)
+Product	203	BPI Volumail Unsorted (DUT)	BPI Volumail Unsorted (FRE)	BPI Volumail Unsorted	BPI Volumail Unsorted (GER)
+Product	204	BPI Volumail Sorted	BPI Volumail Sorted	BPI Volumail Sorted	BPI Volumail Sorted
+Product	205	BPI Practimail	BPI Practimail	BPI Practimail	BPI Practimai
+Product	206	BPI Direct Mail	BPI Direct Mail	BPI Direct Mail	BPI Direct Mail
+Product	207	BPI Registered Items List	BPI Registered Items List	BPI Registered Items List	BPI Registered Items List
+Product	208	DM Inspire Large Format	DM Inspire Large Format	DM Inspire Large Format	DM Inspire Large Format
+Product	209	DM Inspire Special Format	DM Inspire Special Format	DM Inspire Special Format	DM Inspire Special Format
+Product	21	Genormaliseerd aangetekend	Recommandé normalisé	Normalized registered	Normalized registered
+Product	210	DM Pulse Large Format	DM Pulse Large Format	DM Pulse Large Format	DM Pulse Large Format
+Product	211	DM Pulse Small Format	DM Pulse Small Format	DM Pulse Small Format	DM Pulse Small Format
+Product	212	DM Pulse Special Format	DM Pulse Special Format	DM Pulse Special Format	DM Pulse Special Format
+Product	213	DM Touch large format (conventie)	DM Touch large format (conventie)	DM Touch large format (conventie)	DM Touch large format (conventie)
+Product	214	DM Touch special format (conventie)	DM Touch special format (conventie)	DM Touch special format (conventie)	vDM Touch special format (conventie)
+Product	215	DM Touch small format (pref)	DM Touch small format (pref)	DM Touch small format (pref)	DM Touch small format (pref)
+Product	216	Brieven small format (conventie)	Brieven small format (conventie)	Brieven small format (conventie)	Brieven small format (conventie)
+Product	217	Brieven large format (conventie)	Brieven large format (conventie)	Brieven large format (conventie)	Brieven large format (conventie)
+Product	218	Dm Touch large format (pref)	Dm Touch large format (pref)	Dm Touch large format (pref)	Dm Touch large format (pref)
+Product	219	Brieven special format (conventie)	Brieven special format (conventie)	Brieven special format (conventie)	Brieven special format (conventie)
+Product	22	Kilopost	Kilopost	Kilopost	Kilopost
+Product	220	DM Touch special format (pref)	DM Touch special format (pref)	DM Touch special format (pref)	DM Touch special format (pref)
+Product	221	DM Touch small format (conventie	DM Touch small format (conventie	DM Touch small format (conventie	DM Touch small format (conventie
+Product	222	Prior norm FTP	Prior norm FTP	Prior norm FTP	Prior norm FTP
+Product	223	Prior non norm FTP	Prior non norm FTPPrior non norm FTPPrior non norm FTPPrior non norm FTP	Prior non norm FTP	Prior non norm FTP
+Product	224	Non prior norm FTP	Non prior norm FTP	Non prior norm FTP	Non prior norm FTP
+Product	225	DM Touch small C5	DM Touch small C5	DM Touch small C5	DM Touch small C5
+Product	226	DM Touch small C5 pref	DM Touch small C5 pref	DM Touch small C5 pref	DM Touch small C5 pref
+Product	227	invalid product			
+Product	228	invalid product			
+Product	229	invalid product			
+Product	23	Prior genormaliseerd	Normalisé prior	Prior normalized	Prior normalized
+Product	230	invalid product			
+Product	231	Non prior - non normal FTP	Non prior - non normal FTP	Non prior - non normal FTP	Non prior - non normal FTP
+Product	232	Non prior - normal FTP	Non prior - normal FTP	Non prior - normal FTP	Non prior - normal FTP
+Product	233	Prior  - normal FTP	Prior  - normal FTP	Prior  - normal FTP	Prior  - normal FTP
+Product	234	Prior - non normal FTP	Prior - non normal FTP	Prior - non normal FTP	Prior - non normal FTP
+Product	235	distripost overlijdensbrief/faire part de décès	distripost overlijdensbrief/faire part de décès	distripost overlijdensbrief/faire part de décès	distripost overlijdensbrief/faire part de décès
+Product	236	DM Easy Small Format - Pref	 DM Easy Small Format - Pref	DM Easy Small Format - Pref	 DM Easy Small Format - Pref
+Product	237	 DM Easy Large Format - Pref	 DM Easy Large Format - Pref	DM Easy Large Format - Pref	DM Easy Large Format - Pref
+Product	238	DM Easy Special Format - Pref	 DM Easy Special Format - Pref	DM Easy Special Format - Pref	DM Easy Special Format - Pref
+Product	239	DM Easy Small Format - Contract	DM Easy Small Format - Contract	DM Easy Small Format - Contract	DM Easy Small Format - Contract
+Product	24	Non-prior genormaliseerd	Normalisé non prior	Non prior normalized	Non prior normalized
+Product	240	DM Easy Large Format - Contract	DM Easy Large Format - Contract	 DM Easy Large Format - Contract	DM Easy Large Format - Contract
+Product	241	DM Easy Special Format - Contract	DM Easy Special Format - Contract	DM Easy Special Format - Contract	DM Easy Special Format - Contract
+Product	242	DM Connect Small Format - Contract	DM Connect Small Format - Contract	DM Connect Small Format - Contract	DM Connect Small Format - Contract
+Product	243	DM Connect Large Format - Contract	DM Connect Large Format - Contract	DM Connect Large Format - Contract	DM Connect Large Format 
+Product	244	DM Connect Large Format	DM Connect Large Format	DM Connect Large Format	DM Connect Large Format
+Product	245	DM Easy Small UV/RD (Pref)	DM Easy Small UV/RD (Pref)	DM Easy Small UV/RD (Pref)	DM Easy Small UV/RD (Pref)
+Product	246	DM Easy Large UV/RD (Pref)	DM Easy Large UV/RD (Pref)	DM Easy Large UV/RD (Pref)	Easy Large UV/RD (Pref)
+Product	247	DM Easy Special UV/RD (Pref)	DM Easy Special UV/RD (Pref)	DM Easy Special UV/RD (Pref)	DM Easy Special UV/RD (Pref)
+Product	248	DM Easy Small format UV/RD (Pref)	DM Easy Small format UV/RD (Pref)	DM Easy Small format UV/RD (Pref)	DM Easy Small format UV/RD (Pref)
+Product	249	DM Easy Large Format UV/RD (Pref)	DM Easy Large Format UV/RD (Pref)	DM Easy Large Format UV/RD (Pref)	DM Easy Large Format UV/RD (Pref)
+Product	25	IDM P (Klein)	IDM P (Petit)	IDM P (Small)	IDM P (Small)
+Product	250	DM Easy Special Format UV/RD (Pref)	DM Easy Special Format UV/RD (Pref)	DM Easy Special Format UV/RD (Pref)	DM Easy Special Format UV/RD (Pref)
+Product	251	Brieven smal format C5 conventie	Brieven smal format C5 conventie	Brieven smal format C5 conventie	Brieven smal format C5 conventie
+Product	252	DM Connect C5	DM Connect C5	DM Connect C5	DM Connect C5
+Product	253	DM Easy C5 convention	DM Easy C5 convention	DM Easy C5 convention	DM Easy C5 convention
+Product	254	DM Easy C5 Pref	DM Easy C5 Pref	DM Easy C5 Pref	DM Easy C5 Pref
+Product	255	DM Connect Large Format Promo	DM Connect Large Format Promo	DM Connect Large Format Promo	DM Connect Large Format Promo
+Product	256	DP Public (Pref)	DP Public (Pref)	DP Public (Pref)	DP Public (Pref)
+Product	257	DP Boost (Pref)	DP Boost (Pref)	DP Boost (Pref)	DP Boost (Pref)
+Product	258	DP Easy	DP Easy	DP Easy	DP Easy
+Product	259	DP Standard	DP Standard	DP Standard	DP Standard
+Product	26	IDM G (Groot)	IDM G (Grand)	IDM G (Big)	IDM G (Big)
+Product	260	DP overlijdensberichten	DP faire part de décès	DP Obituaries	DP Obituaries
+Product	261	DP Pulse	DP Pulse	DP Pulse	DP Pulse
+Product	262	DP Press	DP Press	DP Press	DP Press
+Product	263	DP Public (Conv)	DP Public (Conv)	DP Public (Conv)	DP Public (Conv)
+Product	265	DM Plan Small Format	DM Plan Small Format	DM Plan Small Format	DM Plan Small Format
+Product	266	DM Plan Large Format	DM Plan Large Format	DM Plan Large Format	DM Plan Large Format
+Product	267	Distripost Multi Plus	Distripost Multi Plus	Distripost Multi Plus	Distripost Multi Plus
+Product	268	BPI Mini Pack Sorted	BPI Mini Pack Sorted	BPI Mini Pack Sorted	BPI Mini Pack Sorted
+Product	269	BPI Mini Pack Sorted - Track & Trace receptacle	BPI Mini Pack Sorted - Track & Trace receptacle	BPI Mini Pack Sorted - Track & Trace receptacle	BPI Mini Pack Sorted - Track & Trace receptacle
+Product	27	IDM E (Omvangr.)	IDM E (Encombr.)	IDM E (Encumber.)	IDM E (Encumber.)
+Product	270	BPI Mini Pack Unsorted	BPI Mini Pack Unsorted	BPI Mini Pack Unsorted	BPI Mini Pack Unsorted
+Product	274	DM Connect Small Format Promo	DM Connect Small Format Promo	DM Connect Small Format Promo	DM Connect Small Format Promo
+Product	275	DP Starter	DP Starter	DP Starter	DP Starter
+Product	276	Brieven   Large+ format (conventie)	Lettres  Large+ format (convention)	Letters  Large+ (convention)	Letters  Large+ (convention)
+Product	277	Brieven Large+ format (conventie)	Lettre Large+ format (conventie)	Letters Large+ format (conventie)	Letters Large+ format (conventie)
+Product	278	Clean Mail Large+ format	Clean Mail Large+ format	Clean Mail Large+ format	Clean Mail Large+ format
+Product	279	DM Connect Large+ Format	DM Connect Large+ Format	DM Connect Large+ Format	DM Connect Large+ Format
+Product	28	INM P (Klein)	INM P (Petit)	INM P (Small)	INM P (Small)
+Product	280	DM Easy Large+ Format - Contract	DM Easy Large+ Format - Contract	DM Easy Large+ Format - Contract	DM Easy Large+ Format - Contract
+Product	281	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref
+Product	282	DM Easy Large+ Format UV/RD (Pref)	DM Easy Large+ Format UV/RD (Pref)	DM Easy Large+ Format UV/RD (Pref)	DM Easy Large+ Format UV/RD (Pref)
+Product	283	Brief  verkiezingswetgeving Norm	Lettre Loi électorale Norm	Letter Elections Norm	Letter Elections Norm
+Product	284	Brief  verkiezingswetgeving Nt Norm	Lettre Loi électorale Nt Norm	Letter Elections Not Norm	Letter Elections Not Norm
+Product	285	Elections Aangetek. Niet Norm	Elections Recomm. Non Norm	Elections Registred Not Norm	Elections Registred Not Norm
+Product	286	Elections Aangetekend Norm	Elections Recommandé Norm	Elections registred Norm	Elections registred Norm
+Product	287	DM Connect Large+ Format Promo	DM Connect Large+ Format Promo	DM Connect Large+ Format Promo	DM Connect Large+ Format Promo
+Product	288	DM Easy Starter small format	DM Easy Starter small format	DM Easy Starter small format	DM Easy Starter small format
+Product	289	DM Boost Small Format	DM Boost Small Format	DM Boost Small Format	DM Boost Small Format
+Product	29	INM G (Groot)	INM G (Grand)	INM G (Big)	INM G (Big)
+Product	290	DM Boost Large Format	DM Boost Large Format	DM Boost Large Format	DM Boost Large Format
+Product	291	Brieven Small format D+3	Letter Small format D+3	Letter Small format D+3	Letter Small format D+3
+Product	292	Brieven Small format D+1	Lettre Small format J+1	Lettre Small format J+1	Lettre Small format J+1
+Product	293	Brieven Small format D+1	Lettre Small format J+1	Lettre Small format J+1	Lettre Small format J+1
+Product	294	Brieven Small format D+3	Letter Small format D+3	Letter Small format D+3	Letter Small format D+3
+Product	295	Brieven Small format D+4	Lettre Small format J+4	Letter Small format D+4	Letter Small format D+4
+Product	296	Brieven Large Format D+1	Lettre Large format J+1	Letter Large format D+1	Letter Large format D+1
+Product	297	Brieven Large+ format D+1	Lettre Large+ format J+1	Letter Large+ format D+1	Letter Large+ format D+1
+Product	298	Brieven Large format D+3	Lettre Large format J+3	Letter Large format D+3	Letter Large format D+3
+Product	299	Brieven Large+ format D+3	Lettre Large+ format J+3	Letter Large+ format D+3	Letter Large+ format D+3
+Product	30	INM E (Omvangr.)	INM E (Encombr.)	INM E (Encumber.)	INM E (Encumber.)
+Product	300	Brieven Large format D+4	Lettre Large format J+4	Letter Large format D+4	Letter Large format D+4
+Product	301	Brieven Large+ format D+4	Lettre Large+ format J+4	Letter Large+ format D+4	Letter Large+ format D+4
+Product	302	Clean Mail Small format Prior	Clean Mail Small format Prior	Clean Mail Small format Prior	Clean Mail Small format Prior
+Product	303	Clean Mail Large format Prior	Clean Mail Large format Prior	Clean Mail Large format Prior	Clean Mail Large format Prior
+Product	304	Clean Mail Large+ format Prior	Clean Mail Large+ format Prior	Clean Mail Large+ format Prior	Clean Mail Large+ format Prior
+Product	305	Clean Mail Small format Non Prior	Clean Mail Small format Non Prior	Clean Mail Small format Non Prior	Clean Mail Small format Non Prior
+Product	306	Clean Mail Large format Non Prior	Clean Mail Large format Non Prior	Clean Mail Large format Non Prior	Clean Mail Large format Non Prior
+Product	307	Clean Mail Large+ format Non Prior	Clean Mail Large+ format Non Prior	Clean Mail Large+ format Non Prior	Clean Mail Large+ format Non Prior
+Product	308	DM Boost Large Format	DM Boost Large Format	DM Boost Large Format	DM Boost Large Format
+Product	309	DM Boost Large+ Format	DM Boost Large+ Format	DM Boost Large+ Format	DM Boost Large+ Format
+Product	31	Genormaliseerde brief	Lettre normalisée	Normalized letter	Normalized letter
+Product	310	DM Boost Large Format Promo	DM Boost Large Format Promo	DM Boost Large Format Promo	DM Boost Large Format Promo
+Product	311	DM Boost Small Format	DM Boost Small Format	DM Boost Small Format	DM Boost Small Format
+Product	312	DM Easy Large Format	DM Easy Large Format	DM Easy Large Format	DM Easy Large Format
+Product	313	DM Easy Large+ Format	DM Easy Large+ Format	DM Easy Large+ Format	DM Easy Large+ Format
+Product	314	DM Easy Large Format Pref	DM Easy Large Format Pref	DM Easy Large Format Pref	DM Easy Large Format Pref
+Product	315	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref	DM Easy Large+ Format Pref
+Product	316	DM Easy Large Format Pref - UV	DM Easy Large Format Pref - UV	DM Easy Large Format Pref - UV	DM Easy Large Format Pref - UV
+Product	317	DM Easy Large+ Format Pref - UV	DM Easy Large+ Format Pref - UV	DM Easy Large+ Format Pref - UV	DM Easy Large+ Format Pref - UV
+Product	318	DM Easy Small Format Pref	DM Easy Small Format Pref	DM Easy Small Format Pref	DM Easy Small Format Pref
+Product	319	DM Easy Small Format Pref -UV	DM Easy Small Format Pref -UV	DM Easy Small Format Pref -UV	DM Easy Small Format Pref -UV
+Product	32	Genormaliseerde brief voorkeurtarief	Lettre normalisée tarif préférentiel	Letter normalized preferential tariff	normalisierter Brief Vorzugstarif
+Product	320	DM Easy Small Format	DM Easy Small Format	DM Easy Small Format	DM Easy Small Format
+Product	321	DM Intense Large Format 	DM Intense Large Format 	DM Intense Large Format 	DM Intense Large Format 
+Product	322	DM Intense Small Format 	DM Intense Small Format 	DM Intense Small Format 	DM Intense Small Format 
+Product	323	DM Boost Small Format C5	DM Boost Small Format C5	DM Boost Small Format C5	DM Boost Small Format C5
+Product	324	DM Easy Small Format C5	DM Easy Small Format C5	DM Easy Small Format C5	DM Easy Small Format C5
+Product	325	DM Easy Small Format C5 Pref	DM Easy Small Format C5 Pref	DM Easy Small Format C5 Pref	DM Easy Small Format C5 Pref
+Product	326	DM Easy Large Format Pref - UVRD	DM Easy Large Format Pref - UVRD	DM Easy Large Format Pref - UVRD	DM Easy Large Format Pref - UVRD
+Product	327	DM Easy Small Format Pref -UVRD	DM Easy Small Format Pref -UVRD	DM Easy Small Format Pref -UVRD	DM Easy Small Format Pref -UVRD
+Product	328	DM Easy Large+ Format Pref - UVRD	DM Easy Large+ Format Pref - UVRD	DM Easy Large+ Format Pref - UVRD	DM Easy Large+ Format Pref - UVRD
+Product	329	DM Boost small Promo	DM Boost small Promo	DM Boost small Promo	DM Boost small Promo
+Product	33	Genormaliseerde brief onder conventie	Lettre normalisée sous convention	Letter normalized conventional	normalisierter Brief unter Vereinbarung
+Product	330	DM Boost Large+ Promo	DM Boost Large+ Promo	DM Boost Large+ Promo	DM Boost Large+ Promo
+Product	331	DM Easy Starter 2020 small format	DM Easy Starter 2020 small format	DM Easy Starter 2020 small format	DM Easy Starter 2020 small format
+Product	333	Tijdschrift Standaard	Périodique Standard	Periodical Standard	Zeitschrift Standard
+Product	334	Tijdschrift Pro	Périodique Pro	Periodical Pro	Zeitschrift Pro
+Product	335	Tijdschrift Plus	Périodique Plus	Periodical Plus	Zeitschrift Plus
+Product	336	Tijdschrift Plus Large volume	Périodique Plus Large volume	Periodical Plus Large volume	Zeitschrift Plus Large volume
+Product	34	Niet genormaliseerde brief	Lettre non normalisée	Not normalized letter	Not normalized letter
+Product	35	Niet genormaliseerde brief voorkeurtarief	Lettre non normalisée tarif préférentiel	Letter not-normalized preferential tariff	nicht normalisierter Brief Vorzugstarif
+Product	36	Niet genormaliseerde brief onder conventie	Lettre non normalisée sous convention	Letter not-normalized conventional	vereinbarter nicht normalisierter Brief
+Product	37	Genormaliseerd drukwerk	Imprimé normalisé	Printed normalized	Printed normalized
+Product	38	Genormaliseerd drukwerk voorkeurtarief	Imprimé normalisé tarif préférentiel	Printed normalized preferential tariff	normalisierte Drucksache Vorzugstarif
+Product	39	Genormaliseerd drukwerk onder conventie	Imprimé normalisé sous convention	Printed normalized conventional	vereinbarte normalisierte Drucksache
+Product	4	Drukwerk	Imprimé	Printed	Printed
+Product	40	Niet genormaliseerd drukwerk	Imprimé non normalisé	Printed not normalized	Printed not normalized
+Product	41	Niet genormaliseerd drukwerk voorkeurtarief	Imprimé non normalisé tarif préférentiel	Printed not-normalized preferential tariff	Printed not-normalized preferential tariff
+Product	42	Niet genormaliseerd drukwerk onder conventie	Imprimé non normalisé sous convention	Printed not-normalized conventional	vereinbarte nicht normal. Drucksache
+Product	43	Aangetekend genormaliseerde brief	Lettre normalisée recommandé	Letter normalized registered	Letter normalized registered
+Product	44	Aangetekend genormaliseerd drukwerk	Imprimé normalisé recommandé	Printed normalized registered	Printed normalized registered
+Product	45	Aangetekend genormaliseerde RP-brief	Lettre normalisée recommandé- RP	Letter normalized registered-RP	Letter normalized registered-RP
+Product	46	Aangetekend niet genormaliseerde brief	Lettre non normalisée recommandé	Letter not normalized registered	Letter not normalized registered
+Product	47	Aangetekend niet genormaliseerd drukwerk	Imprimé non normalisé recommandé	Printed not normalized registered	Printed not normalized registered
+Product	48	Aangetekend niet genormaliseerde RP-Brief	Lettre non normalisée Recommandé-RP	Letter not normalized registered-RP	Letter not normalized registered-RP
+Product	49	Aangetekend tijdschrift	Périodique recommandé	Registered periodical	eingeschriebene period. Veröffentlichung
+Product	5	Genormaliseerd drukwerk	Imprimé normalisé	Normalized printed	normalisierte Drucksache
+Product	50	Geadresseerd tijdschrift	Périodique adressé	Periodical with address	adressierte periodische Veröffentlichung
+Product	51	Geadresseerd tijdschift onder conventie	Périodique adressé sous convention	Periodical with address conventional	period. Veröffentl.mit vereinbarter Adresse
+Product	52	Gerechtelijk schrijven	Pli judiciaire	Legal fold	Legal fold
+Product	53	Verkiezingsdrukwerk	Imprimé électoral	Voter printed document	Voter printed document
+Product	54	Gewone Maxipost	Maxipost ordinaire	Maxipost Normal	Maxipost Normal
+Product	55	Maxipost voorkeurtarief	Maxipost tarif préférentiel	Maxipost preferential tariff	Maxipost preferential tariff
+Product	56	Maxipost onder conventie	Maxipost sous convention	Maxipost conventional	vereinbarte Maxipost
+Product	57	Niet dringende commerciële zending	Envoi commercial non urgent	Commercial mail non prior	Commercial mail non prior
+Product	58	Selectapost	Selectapost	Selectapost	Selectapost
+Product	59	Distripost  voorkeurtarief	Distripost pref.	Distripost pref	gedruckte Distripost
+Product	6	NA Drukwerk	NA Imprimé	NA Printed	NA Printed
+Product	60	Distripost tijdschrift	Distripost périodique	Distripost periodical	Distripost periodical
+Product	61	Distripost onder conventie	Distripost sous convention	Distripost conventional	vereinbarte Distripost
+Product	62	Distripost lokaal onder conventie	Distripost local sous convention	Distripost local conventional	Distripost local conventional
+Product	63	Metering machine (interface ERP)	Metering machine (interface ERP)	Metering machine (interface ERP)	Metering machine ( interface ERP )
+Product	64	Roll stamps (interface ERP)	Roll stamps (interface ERP)	Roll stamps (interface ERP)	Rollstempel ( interface ERP )
+Product	65	Aangetekend genormaliseerd RP-drukwerk	Imprimé normalisé recommandé RP	Printed normalized registered-RP	Printed normalized registered-RP
+Product	66	Aangetekend niet genormaliseerd RP-drukwerk	Imprimé non normalisé recommandé RP	Printed not normalized registered-RP	Printed not normalized registered-RP
+Product	67	Distripost drukwerk voorkeurtarief	Distripost imprimé tarif préférentiel	Distripost printed preferential tariff	gedruckte Distripost  Vorzugstarif
+Product	68	Distripost tijdschrift voorkeurtarief	Distripost périodique tarif préférentiel	Distripost periodical preferential tariff	Distripost per. Veröff. Vorzugstarif
+Product	69	Publicitaire bijvoegsel	Encart publicitaire	Advertising insert	Advertising insert
+Product	7	Tijdschrift +4	Périodique +4	Periodical +4	Periodical +4
+Product	70	UV - Paketten	RD - Paquets	DP - Packs	DP - Packs
+Product	71	Prior genormaliseerd standaard tarief	Prior normalisé tarif plein	Prior normalized standard tariff	Prior normalized standard tariff
+Product	72	Non Prior genormaliseerd standaard tarief	Non Prior normalisé tarif plein	Non-Prior normalized standard tariff	normalisierte Non-Prior Standardtarif
+Product	73	Prior niet genormaliseerd standaard tarief	Prior non normalisé tarif plein	Prior not-normalized standard tariff	Prior nicht normalisiert Standardtarif
+Product	74	Non Prior niet genormaliseerd standaard tarief	Non prior non normalisé tarif plein	Non-Prior not-normalized standard tariff	Non-Prior nicht normalisert Standardtarif
+Product	75	Genormaliseerde brief voorkeurtarief	Lettre normalisée tarif préférentiel	Letter normalized preferential tariff	normalisierter Brief Vorzugstarif
+Product	76	Niet genormaliseerde brief voorkeurtarief	Lettre non normalisée tarif préférentiel	Letter not-normalized preferential tariff	icht normalisierter Brief Vorzugstarif
+Product	77	Genormaliseerde brief onder conventie	Lettre normalisée sous convention	Letter normalized conventional	vereinbarter normalisierter Brief
+Product	78	Niet genormaliseerde brief onder conventie	Lettre non normalisée sous convention	Letter not-normalized conventional	vereinbarter nicht normalisierter Brief
+Product	79	Genormaliseerd drukwerk voorkeurtarief	Imprimé normalisé tarif préférentiel	Printed normalized preferential tariff	normalisierte Drucksache Vorzugstarif
+Product	8	NA weekblad	NA hebdos	NA w	NA weekly
+Product	80	Niet genormaliseerd drukwerk voorkeurtarief	Imprimé non normalisé tarif préférentiel	Printed not-normalized preferential tariff	nicht normal. Drucksache Vorzugstarif
+Product	81	Genormaliseerd drukwerk onder conventie	Imprimé normalisé sous convention	Printed normalized conventional	vereinbarte normalisierte Drucksache
+Product	82	Niet genormaliseerd drukwerk onder conventie	Imprimé non normalisé sous convention	Printed not-normalized conventional	vereinbarte nicht normal.  Drucksache
+Product	83	Aangetekend Prior genormaliseerd	Recommandé Prior normalisé	Prior registered normalized	normalisiertes Prior-Einschreiben
+Product	84	Aangetekend Prior niet genormaliseerd	Recommandé Prior non normalisé	Prior registered not-normalized	nicht normalisiertes Prior-Einschreiben
+Product	85	Niet dringende commerciële zending genormaliseerd	Envoi commercial non urgent normalisé	Commercial mail Non Prior normalized	Commercial mail Non Prior normalized
+Product	86	Niet dringende commerciële zending niet genormaliseerd	Envoi commercial non urgent non normalisé	Commercial mail Non Prior not-normalized	Commercial mail Non Prior not-normalized
+Product	87	Promo drukw genorm voorkeur/imp norm pref	Promo drukw genorm voorkeur/imp norm pref	Promo drukw genorm voorkeur/imp norm pref	norm. Werbedrucksachen vorfrankiert
+Product	88	Promo drukw nt genorm voorkeur/imp non nnorm pref	Promo drukw nt genorm voorkeur/imp non nnorm pref	Promo drukw nt genorm voorkeur/imp non nnorm pref	nicht norm. Werbedrucks. Vorfrankiert
+Product	89	Taxipost 24 h 	Taxipost 24 h 	Taxipost 24 h 	Taxipost 24 h 
+Product	9	Kranten	Journaux	Newspapers	Newspapers
+Product	90	Kilopost voorkeurtarief	Kilopost tarif pref	Kilopost voorkeurtarief/tarif pref	Kilopost Vorzugstarif
+Product	91	Kilopost BO/CP Bus	Kilopost BO/CP Bus	Kilopost BO/CP Bus	Kilopost BO/CP Bus
+Product	92	Kilopost BO/CP Bel	Kilopost BO/CP Bel	Kilopost BO/CP Bel	Kilopost BO/CP Bel
+Product	93	Kilopost BO/CP Bus & Bel	Kilopost BO/CP Bus & Bel	Kilopost BO/CP Bus & Bel	Kilopost BO/CP Bus & Bel
+Product	94	Prior nt genorm/Prior non Norm INTERNATIONAL	Prior nt genorm/Prior non Norm INTERNATIONAL	Prior nt genorm/Prior non Norm INTERNATIONAL	Prior nt genorm/Prior non Norm INTERNATIONAL
+Product	95	Non prior nt genorm/non priornon normINTERNATIONAL	Non prior nt genorm/non priornon normINTERNATIONAL	Non prior nt genorm/non priornon normINTERNATIONAL	Non prior nt genorm/non priornon normINTERNATIONAL
+Product	96	Non Prior tegen verlaagd tarief/tarif reduit INT.	Non Prior tegen verlaagd tarief/tarif reduit INT.	Non Prior tegen verlaagd tarief/tarif reduit INT.	Non Prior tegen verlaagd tarief/tarif reduit INT.
+Product	97	Beveiligde zending	Envoi sécurisé	Secured mail	Secured mail
+Product	98	Niet genormaliseerde beveiligde zending	Envoi sécurisé non normalisé	Not normalized secured mail	nicht normalisierte Secured mail
+Product	99	Daily mail international prior S	Daily mail international prior S	Daily mail international prior S	Daily Mail international prior S
+ProductGroups	1	Brief (Admin. Mail)	Lettre (Admin. Mail)	Letter (Admin. Mail)	Brief (Admin. Mail)
+ProductGroups	10	Aangetekend prior	Recommandé prior	Registered prior	Prior-Einschreiben
+ProductGroups	11	not web available	not web available	not web available	not web available
+ProductGroups	12	 Tijdschrift	 Périodique	Periodical	periodische Veröffentlichung
+ProductGroups	13	Kilopost 	Kilopost	Kilopost	Kilopost
+ProductGroups	14	BPI Product	BPI Product	BPI Product	BPI Produkt
+ProductGroups	15	UV/RD	UV/RD	UV/RD	AV/RD
+ProductGroups	16	Kilopost overeenkomst	kKlopost conventionel	Kilopost conventionel	Kilopost conventionel
+ProductGroups	2	Distripost onder conventie	Distripost sous convention	Distripost conventional	Distripost unter Vereinbarung
+ProductGroups	20	Kilopost conventioneel	Kilopost conventionel	Kilopost conventionel	vereinbarte Kilopost
+ProductGroups	21	Distripost Manueel	Distripost Manuel	Distripost manueel	DAILY MAIL PP1
+ProductGroups	22	DAILY MAIL PP2	DAILY MAIL PP2	DAILY MAIL PP2	DAILY MAIL PP2
+ProductGroups	23	Technisch product	Produit technique	Produit technique	technisches Produkt
+ProductGroups	24	verkiezingsdrukwerken	imprimés élections	imprimés élections	imprimés élections
+ProductGroups	25	bPack	bPack	bPack	bPack
+ProductGroups	26	Daily Mail International	Daily Mail International	Daily Mail International	Daily Mail International
+ProductGroups	27	Pers International verlaagd tarief	Presse Inter.  Taxes Reduite	International Reduced 	International Reduced 
+ProductGroups	28	bPack International	bPack International	bPack International	bPack International
+ProductGroups	29	Distripost 2008	Distripost 2008	Distripost 2008	Distripost 2008
+ProductGroups	3	Prior/non prior FTP	Prior/non prior FTP	Prior/non prior FTP	Prior/non prior FTP
+ProductGroups	30	Sumo product	Sumo product	Sumo product	Sumo product
+ProductGroups	31	Clean Mail	Clean Mail	Clean Mail	Clean Mail
+ProductGroups	32	UV/RD voorkeur	UV/RD pref	UV/RD pref	UV/RD pref
+ProductGroups	35	Prior/non prior FTP	Prior/non prior FTP	Prior/non prior FTP	Prior/non prior FTP
+ProductGroups	36	Envois Loi électorale/Zendingen Verkiezingswetgeving	Envois Loi électorale/Zendingen Verkiezingswetgeving	Envois Loi électorale/Zendingen Verkiezingswetgeving	Envois Loi électorale/Zendingen Verkiezingswetgeving
+ProductGroups	4	Distripost manueel old	Distripost manuel old	Distripost printed old	Distripost Drucksache
+ProductGroups	5	Distripost overlijdensberichten	Distripost faire part de décès	Distripost faire part de décès	faire part de décès
+ProductGroups	6	verkiezingszendingen	Envois électoraux	Envois électoraux	Envois électoraux
+ProductGroups	7	Direct Mail	Direct Mail	Direct Mail	Direct Mail
+ProductGroups	8	Prior (Daily Mail +1)	Prior (Daily Mail +1)	Prior (Daily Mail +1)	Prior (Daily Mail +1)
+ProductGroups	9	Non prior (Daily Mail +3)	Non prior (Daily Mail +3)	Non prior (Daily Mail +3)	Non prior (Daily Mail +3
+SortingType	1	Niet gesorteerd	Non trié	Unsorted	Nicht sortiert
+SortingType	10	Sector	Secteur	Sector	Sektor
+SortingType	11	Uitreikingskantoor	Bureau distributeur	Distributor Office	Verteilerbüro
+SortingType	12	Uitreikingskantoor (SS & UK)	Bureau distributeur(ST &BD)	Distribution Office (SS&	Verteilerbüro(SS &VB)
+SortingType	13	Land	Pays	Country	Country
+SortingType	14	Sorteercentrum	Centre de tri	Sorting center	Sortierzentrum
+SortingType	15	Per zone	Par zone	Per zone	per Zone
+SortingType	16	Buurlanden en andere	Pays limitrophes et autres	Bordering countries and others	Bordering countries and others
+SortingType	17	Per pak van 50 of 100 Regionaal	Par paquets de 50 ou 100 Régional	Per packs of 50 or 100 Regional	In Paketen von 50 oder 100 Regional
+SortingType	18	Per pak van 50 of 100 Lokaal	Par paquets de 50 ou 100 Local	Per packs of 50 or 100 Local	Per packs of 50 or 100 Local
+SortingType	19	Per pak van 50 of 100 Nationaal	Par paquets de 50 ou 100 National	Per packs of 50 or 100 National	In Paketen von 50 oder 100 National
+SortingType	2	Sector	Secteur	Sector	Sektor
+SortingType	20	Regionaal niet gesorteerd	Regional non trié	Regionaal niet gesorteerd/non trié	Regionaal niet gesorteerd/non trié
+SortingType	23	Sorteerplan	Plan de tri	Sorting plan	Sortierplan
+SortingType	24	Nt gesorteerd - Adminflex	Non trié - Adminflex	Unsorted - Adminflex	Nicht sortiert - Adminflex
+SortingType	25	Niet gesorteerd - met Mail ID	Non trié - avec Mail ID	Unsorted - with Mail ID	Nicht sortiert - mit Mail ID
+SortingType	26	Postcode 	Code Postal 	Postal Code	postleitzahl 
+SortingType	27	Sector	Secteur	Sector	Sektor
+SortingType	28	Ronde & seq uniek	Tournée & séq unique	Round & seq unique 	Runde & seq unique 
+SortingType	29	parcel: 1 direction (BULK)	parcel: 1 direction (BULK)	parcel: 1 direction (BULK)	parcel: 1 direction (BULK)
+SortingType	3	Uitreikingskantoor	Bureau distributeur	Distribution office	Verteilerbüro
+SortingType	30	parcel: 18 (19) directions	parcel: 18 (19) directions	parcel: 18 (19) directions	parcel: 18 (19) directions
+SortingType	31	parcel:5 directions	parcel:5 directions	parcel:5 directions	parcel:5 directions
+SortingType	32	parcel: 2 directions	parcel: 2 directions	parcel: 2 directions	parcel: 2 directions
+SortingType	33	Roularta sorted intelligent bundling	Roularta sorted intelligent bundling	Roularta sorted intelligent bundling	Roularta sorted intelligent bundling
+SortingType	34	Sector - Mail ID	Secteur - Mail ID	Sektor - Mail ID	Sector - Mail ID
+SortingType	35	Uitreikingskantoor - Mail ID	Bureau Distributeur - Mail ID	Distribution office - Mail ID	Verteilerbüro - Mail ID
+SortingType	36	Ronde & Seq Multi V2	Tournée & Séq Multi V2	Round & Seq Multi V2	Runde & seq  Multi V2
+SortingType	37	Ronde & seq uniek V1	Tournée & séq unique V1	Round & seq unique V1	Runde & seq unique V1
+SortingType	38	Ronde & seq multi V1	Tournée & séq multi V1	Round & seq multi V1	Runde & seq multi V1
+SortingType	39	Ronde & seq multi V2	Tournée & séq multi V2	Round & seq multi V2	Round & seq multi V2
+SortingType	4	Sorteersector en uitreikingskantoor	Secteur de tri et bureau distributeur	Sorting sector and distributor office	Sorting sector and distributor office
+SortingType	40	Ronde en sequentie uniekV2	Tournée & séquence unique V2	Round & sequence uniqueV2	Round & sequence unique  V2
+SortingType	41	Sorteercentrum MID	Centre de tri MID	Sorting center MID	Sortierzentrum MID
+SortingType	42	Ronde en sequentie V3	Tournée & séquence V3	Round & sequence V3	Round & sequence V3
+SortingType	43	Sortingplan V2	Plan de tri V2	Sortingplan V2	Sortierplan V2
+SortingType	44	Ronde en sequentie V3	Tournée & séquence V3	Round & sequence V3	Round & sequence V3
+SortingType	45	Sorteren A/B MID	Sorteren A/B MID	Sorteren A/B MID	Sorteren A/B MID
+SortingType	5	Land	Pays	Country	Country
+SortingType	6	Sorteercentrum	Centre de tri	Sorting center	Sortierzentrum
+SortingType	7	Per zone	Par zone	Per zone	per Zone
+SortingType	8	Buurlanden en andere	Pays limitrophes et autres	Bordering countries and others	Bordering countries and others
+SortingType	9	Niet gesorteerd	Non trié	Unsorted	Nicht sortiert
