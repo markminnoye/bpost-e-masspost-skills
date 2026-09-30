@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - **Skill `bpost-address-proofing`:** Mailops Address Formatting & Validation REST/SOAP (CEN/UPU S42). Privacy rule: never send person names or other PII of natural persons; company name allowed. AddressBlockLines forbidden.
 - **Protocol routing:** `reference/address-validation-products.md` plus Comp ↔ S42 table and Belgian label rules in `addressing-rules.md`. OptiAddress flows unchanged (different product).
 - **Field findings** (`docs/reference/field-findings.md`): live Contrapunt observations (2026-09) — FTP for automation vs interactive HTTP/SSO, OptiAddress corrections as `7001`/`compCorrection`, protocol `0200`, mode limits vs 500-address commercial minimum, recommended Check→Create flow.
+- **Reference materials:** vendor Address Formatting & Validation API Manual v1.7 (`reference/bpost_Address_Formatting_and_Validation_API_Manual_v1.7/`) and e-MassPost portal code-list snapshot (`reference/portal-code-lists/`, 2026-09-28).
 
 ### Changed
 - **Build**: `build-skills.yml` builds the skill ZIP from `docs/` (`docs/README.md` becomes `index.md`) plus `skills/e-masspost-protocol/SKILL.md`. Protocol content moved from `skills/e-masspost-protocol/` to `docs/`.

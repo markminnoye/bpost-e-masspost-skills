@@ -1,0 +1,659 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:msg="http://schema.bpost.be/services/common/address/ExternalMailingAddressProofingCSMessages/v001"
+targetNamespace="http://schema.bpost.be/services/common/address/ExternalMailingAddressProofingCSMessages/v001" elementFormDefault="qualified">
+	<xsd:complexType name="FormatAddressesRequestType">
+		<xsd:sequence>
+			<xsd:element name="AddressToFormatList">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="AddressToFormat" type="msg:AddressToFormatType" maxOccurs="100"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element ref="msg:CallerIdentification" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="FormatAddressesRequest" type="msg:FormatAddressesRequestType"/>
+	<xsd:complexType name="FormatAddressesResponseType">
+		<xsd:sequence>
+			<xsd:element name="FormattedAddressResultList">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="FormattedAddressResult" type="msg:FormattedAddressResultType" maxOccurs="100"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="GeneralError" type="msg:GeneralErrorType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="FormatAddressesResponse" type="msg:FormatAddressesResponseType"/>
+	<xsd:complexType name="ValidateAddressesRequestType">
+		<xsd:sequence>
+			<xsd:element name="AddressToValidateList">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="AddressToValidate" type="msg:AddressToValidateType" maxOccurs="100"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="ValidateAddressOptions" type="msg:ValidateAddressOptionsType" minOccurs="0"/>
+			<xsd:element ref="msg:CallerIdentification" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="ValidateAddressesRequest" type="msg:ValidateAddressesRequestType"/>
+	<xsd:complexType name="ValidateAddressesResponseType">
+		<xsd:sequence>
+			<xsd:element name="ValidatedAddressResultList">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="ValidatedAddressResult" type="msg:ValidatedAddressResultType" maxOccurs="100"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="GeneralError" type="msg:GeneralErrorType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="ValidateAddressesResponse" type="msg:ValidateAddressesResponseType"/>
+	<xsd:complexType name="ProvideFeedbackRequestType">
+		<xsd:sequence>
+			<xsd:element ref="msg:TransactionID" />
+			<xsd:element name="FeedbackDescription" type="xsd:string"/>
+			<xsd:element ref="msg:CallerIdentification" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="ProvideFeedbackRequest" type="msg:ProvideFeedbackRequestType"/>
+	<xsd:complexType name="ProvideFeedbackResponseType">
+		<xsd:sequence>
+			<xsd:element ref="msg:Result"/>
+			<xsd:element name="GeneralError" type="msg:GeneralErrorType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="ProvideFeedbackResponse" type="msg:ProvideFeedbackResponseType"/>
+	<xsd:complexType name="AddressToValidateType">
+		<xsd:sequence>
+			<xsd:choice>
+				<xsd:element name="AddressBlockLines" type="msg:AddressBlockLinesType" minOccurs="0"/>
+				<xsd:sequence>
+					<xsd:element name="MaileeAndAddressee" type="msg:MaileeAndAddresseeType" minOccurs="0"/>
+					<xsd:element name="PostalAddress" type="msg:PostalAddressType"/>
+				</xsd:sequence>
+			</xsd:choice>
+			<xsd:element ref="msg:DispatchingCountryISOCode" minOccurs="0"/>
+			<xsd:element ref="msg:DeliveringCountryISOCode" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="ValidatedAddressResultType">
+		<xsd:sequence>
+			<xsd:element name="MaileeAndAddressee" type="msg:MaileeAndAddresseeType" minOccurs="0"/>
+			<xsd:element name="ValidatedAddressList">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="ValidatedAddress" type="msg:ValidatedAddressType" minOccurs="0" maxOccurs="unbounded"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Error" type="msg:ErrorType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="msg:DetectedInputAddressLanguage" minOccurs="0"/>
+			<xsd:element name="FormattedSubmittedAddress" type="msg:LabelType" minOccurs="0" />
+			<xsd:element ref="msg:TransactionID" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="AddressToFormatType">
+		<xsd:sequence>
+			<xsd:choice>
+				<xsd:element name="AddressBlockLines" type="msg:AddressBlockLinesType" minOccurs="0"/>
+				<xsd:sequence>
+					<xsd:element name="MaileeAndAddressee" type="msg:StructuredMaileeAndAddresseeType" minOccurs="0"/>
+					<xsd:element name="PostalAddress" type="msg:StructuredPostalAddressType"/>
+				</xsd:sequence>
+			</xsd:choice>
+			<xsd:element ref="msg:AddressLanguage" minOccurs="0"/>
+			<xsd:element ref="msg:DispatchingCountryISOCode" minOccurs="0"/>
+			<xsd:element ref="msg:DeliveringCountryISOCode" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="FormattedAddressResultType">
+		<xsd:sequence>
+			<xsd:element ref="msg:Label"/>
+			<xsd:element name="Error" type="msg:GeneralErrorType" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="MaileeAndAddresseeType">
+		<xsd:all>
+			<xsd:element name="AddresseeIndividualIdentification" minOccurs="0" type="msg:AddresseeIndividualIdentificationComplexType">
+				<xsd:annotation>
+					<xsd:documentation>Mandatory if addressed mail</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="MaileeIndividualIdentification" minOccurs="0" type="msg:MaileeIndividualIdentificationComplexType">
+			</xsd:element>
+			<xsd:element name="MaileeOrganizationIdentification" minOccurs="0" type="msg:MaileeOrganizationIdentificationComplexType">
+			</xsd:element>
+			<xsd:element name="MailRecipientDispatchingInformation" minOccurs="0" type="msg:MailRecipientDispatchingInformationComplexType">
+				<xsd:annotation>
+					<xsd:documentation>Optional, but preferable for Registered mail and Parcels</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="StructuredMaileeAndAddresseeType">
+		<xsd:all>
+			<xsd:element ref="msg:StructuredAddresseeIndividualIdentification" minOccurs="0"/>
+			<xsd:element ref="msg:StructuredMaileeIndividualIdentification" minOccurs="0"/>
+			<xsd:element ref="msg:StructuredMaileeOrganizationIdentification" minOccurs="0"/>
+			<xsd:element ref="msg:StructuredMailRecipientDispatchingInformation" minOccurs="0"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="PostalAddressType">
+		<xsd:all>
+			<xsd:element name="OtherDeliveryInformation" minOccurs="0" type="msg:OtherDeliveryInformationComplexType">
+				<xsd:annotation>
+					<xsd:documentation>PO Box Number or bpack 24/7 name</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DeliveryPointLocation" minOccurs="0" type="msg:DeliveryPointLocationComplexType">
+			</xsd:element>
+			<xsd:element name="PostalCodeMunicipality" minOccurs="0" type="msg:PostalCodeMunicipalityComplexType">
+			</xsd:element>
+			<xsd:element ref="msg:CountryName" minOccurs="0"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="StructuredPostalAddressType">
+		<xsd:all>
+			<xsd:element ref="msg:StructuredOtherDeliveryInformation" minOccurs="0"/>
+			<xsd:element ref="msg:StructuredDeliveryPointLocation" minOccurs="0"/>
+			<xsd:element ref="msg:StructuredPostalCodeMunicipality" minOccurs="0"/>
+			<xsd:element ref="msg:CountryName" minOccurs="0"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="ValidatedAddressType">
+		<xsd:sequence>
+			<xsd:element name="PostalAddress" type="msg:StructuredPostalAddressType" minOccurs="0"/>
+			<xsd:element ref="msg:AddressLanguage" minOccurs="0"/>
+			<xsd:element name="score" type="xsd:string" minOccurs="0"/>
+			<xsd:element ref="msg:Label" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="StructuredAddresseeIndividualIdentification" type="msg:StructuredAddresseeIndividualIdentificationComplexType">
+	</xsd:element>
+	<xsd:element name="StructuredMaileeIndividualIdentification" type="msg:StructuredMaileeIndividualIdentificationComplexType">
+	</xsd:element>
+	<xsd:element name="StructuredMaileeOrganizationIdentification" type="msg:StructuredMaileeOrganizationIdentificationComplexType">
+	</xsd:element>
+	<xsd:element name="StructuredMailRecipientDispatchingInformation" type="msg:StructuredMailRecipientDispatchingInformationType"/>
+	<xsd:element name="StructuredOtherDeliveryInformation" type="msg:StructuredOtherDeliveryInformationComplexType">
+	</xsd:element>
+	<xsd:element name="StructuredDeliveryPointLocation" type="msg:StructuredDeliveryPointLocationComplexType">
+	</xsd:element>
+	<xsd:element name="StructuredPostalCodeMunicipality" type="msg:StructuredPostalCodeMunicipalityComplexType">
+	</xsd:element>
+	<xsd:element name="Label" type="msg:LabelType">
+		<xsd:annotation>
+			<xsd:documentation>The label contains the formatted address structured in line elements.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	
+	<xsd:complexType name="LabelType">
+		<xsd:annotation>
+			<xsd:documentation>The label contains the formatted address structured in line elements.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="Line" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="ErrorType">
+		<xsd:sequence>
+			<xsd:element name="ComponentRef" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="ErrorCode" type="xsd:string"/>
+			<xsd:element name="ErrorSeverity" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="GeneralErrorType">
+		<xsd:sequence>
+			<xsd:element name="ErrorCode" type="xsd:string"/>
+			<xsd:element name="ErrorSeverity" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="DetectedInputAddressLanguage" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>Address language that is detected by the system based on the given address as input. Possible values: ‘de’, ‘en’, ‘fr’, ‘nl’.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AddressLanguage" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>S42 name: Address Parameter Language, code: 50.51.0.0.0. Possible values: ‘de’, ‘en’, ‘fr’, ‘nl’.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DispatchingCountryISOCode" type="msg:CountryISO2CodeType">
+		<xsd:annotation>
+			<xsd:documentation>S42 name: Dispatching Country ISO Code, code: 50.53.0.0.0</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DeliveringCountryISOCode" type="msg:CountryISO2CodeType">
+		<xsd:annotation>
+			<xsd:documentation>S42 name: Delivering Country ISO Code, code: 50.54.0.0.0. This field determines which S42 template will be chosen.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="ValidateAddressOptionsType">
+		<xsd:sequence>
+			<xsd:element ref="msg:IncludeFormatting" minOccurs="0"/>
+			<xsd:element ref="msg:IncludeSuggestions" minOccurs="0"/>
+			<xsd:element ref="msg:IncludeSubmittedAddress" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="ValidateAddressOptions" type="msg:ValidateAddressOptionsType"/>
+	<xsd:element name="IncludeFormatting" type="xsd:boolean" default="true">
+		<xsd:annotation>
+			<xsd:documentation>This option returns the formatted label for each validated address (or address alternative or address suggestion). Default = true.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IncludeSuggestions" type="xsd:boolean" default="true">
+		<xsd:annotation>
+			<xsd:documentation>This option returns suggestions (if there are any) for a validation request. Default = true.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IncludeSubmittedAddress" type="xsd:boolean" default="true">
+		<xsd:annotation>
+			<xsd:documentation>This option returns the submitted address in a formatted way. Default = false.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountryName">
+		<xsd:annotation>
+			<xsd:documentation>S42 name: Country, code: 40.14.0.0.0 - Only for cross-border mail</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:simpleType name="LanguageType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="de"/>
+			<xsd:enumeration value="en"/>
+			<xsd:enumeration value="fr"/>
+			<xsd:enumeration value="nl"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="PrimaryAddressLanguage" type="msg:LanguageType">
+		<xsd:annotation>
+			<xsd:documentation>S42 name: Address Parameter Language, code: 50.51.0.0.0 - Possible values: 'de', 'en', 'fr' or 'nl', Language code element representing the primary language used to formulate an address. Address elements that are in another language are considered alternative or secondary languages.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:simpleType name="CountryISO2CodeType">
+		<xsd:annotation>
+			<xsd:documentation>ISO 3166-1 alpha-2 country code</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string"/>
+	</xsd:simpleType>
+	<xsd:complexType name="StructuredMailRecipientDispatchingInformationType">
+		<xsd:annotation>
+			<xsd:documentation>Type representing physical address details of a building.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:all>
+			<xsd:element name="Wing" type="msg:WingType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Element identifying the building, unit or construction section in which it is housed and/or the main entry door through which it is accessed.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Stairwell" type="msg:StairwellType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Element indicating access to floor or door within a building, unit or construction. E.g. escalier 1, staircase west.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Floor" type="msg:FloorType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Element indicating the floor or level on which a delivery point is located in a multi-story construction.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Door" type="msg:DoorType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Address Element indicating the apartment, room or office in, at or adjacent to which a delivery point which is situated within a building is located.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="BuildingConstruction" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Building/Construction Level 1, code: 30.26.1.0.0, Element identifying the "number" or "name and type" of the building, unit or construction in or adjacent to which a delivery point is located. E.g. Batiment A, Block 7, Houseboat, London Tower, ...</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="WingType">
+		<xsd:annotation>
+			<xsd:documentation>Element identifying the building, unit or construction section in which it is housed and/or the main entry door through which it is accessed.(UPU)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:all>
+			<xsd:element name="WingType" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Wing Type, code: 30.29.0.0.1</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="WingIndicator" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Wing Indicator, code: 30.29.0.0.2</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="StairwellType">
+		<xsd:annotation>
+			<xsd:documentation>Element indicating access to floor or door within a building, unit or construction. E.g. escalier 1, staircase west.(UPU)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:all>
+			<xsd:element name="StairwellType" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Stairwell Type, code: 30.30.0.0.1</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="StairwellIndicator" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Stairwell Indicator, code: 30.30.0.0.2</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="FloorType">
+		<xsd:annotation>
+			<xsd:documentation>Element indicating the floor or level on which a delivery point is located in a multi-story construction.(UPU)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:all>
+			<xsd:element name="FloorType" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Floor Type, code: 30.31.0.0.1</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FloorIndicator" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Floor Indicator, code: 30.31.0.0.2</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="DoorType">
+		<xsd:annotation>
+			<xsd:documentation>Address Element indicating the apartment, room or office in, at or adjacent to which a delivery point which is situated within a building is located.(UPU)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:all>
+			<xsd:element name="DoorType" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Door Type, code: 30.32.0.0.1</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DoorIndicator" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>S42 name: Door Indicator, code: 30.32.0.0.2</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredMaileeOrganizationIdentificationComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="MaileeOrganizationFunction"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0"
+	            name="MaileeOrganizationOrganizationalUnit"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0"
+	            name="MaileeOrganizationOrganizationalName"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0"
+	            name="MaileeOrganizationLegalStatus" type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredMaileeIndividualIdentificationComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="MaileeRole"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="MaileeFormOfAddress"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="MaileeGivenName"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="MaileeSurname"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredAddresseeIndividualIdentificationComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="AddresseeFormOfAddress"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="AddresseeGivenName"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="AddresseeSurname"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0"
+	            name="AddresseeSupplementaryDispatchInfo"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredOtherDeliveryInformationComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="DeliveryServiceType"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="DeliveryServiceIndicator"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredDeliveryPointLocationComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="StreetName"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="StreetNumber"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="BoxNumber"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="StructuredPostalCodeMunicipalityComplexType">
+	    <xsd:all>
+	        <xsd:element minOccurs="0" name="PostalCode"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="MunicipalityName"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	        <xsd:element minOccurs="0" name="DeliveryServiceQualifier"
+	            type="xsd:string">
+	            <xsd:annotation></xsd:annotation>
+	        </xsd:element>
+	    </xsd:all>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="AddresseeIndividualIdentificationComplexType">
+	    <xsd:choice>
+	        <xsd:element
+	            ref="msg:StructuredAddresseeIndividualIdentification">
+	        </xsd:element>
+	        <xsd:element
+	            name="UnstructuredAddresseeIndividualIdentification"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="MaileeIndividualIdentificationComplexType">
+	    <xsd:choice>
+	        <xsd:element
+	            ref="msg:StructuredMaileeIndividualIdentification">
+	        </xsd:element>
+	        <xsd:element
+	            name="UnstructuredMaileeIndividualIdentification"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="MaileeOrganizationIdentificationComplexType">
+	    <xsd:choice>
+	        <xsd:element
+	            ref="msg:StructuredMaileeOrganizationIdentification">
+	        </xsd:element>
+	        <xsd:element
+	            name="UnstructuredMaileeOrganizationIdentification"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType
+	    name="MailRecipientDispatchingInformationComplexType">
+	    <xsd:choice>
+	        <xsd:element
+	            ref="msg:StructuredMailRecipientDispatchingInformation">
+	        </xsd:element>
+	        <xsd:element
+	            name="UnstructuredMailRecipientDispatchingInformation"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="OtherDeliveryInformationComplexType">
+	    <xsd:choice>
+	        <xsd:element ref="msg:StructuredOtherDeliveryInformation"></xsd:element>
+	        <xsd:element name="UnstructuredOtherDeliveryInformation"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="DeliveryPointLocationComplexType">
+	    <xsd:choice>
+	        <xsd:element ref="msg:StructuredDeliveryPointLocation"></xsd:element>
+	        <xsd:element name="UnstructuredDeliveryPointLocation"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="PostalCodeMunicipalityComplexType">
+	    <xsd:choice>
+	        <xsd:element ref="msg:StructuredPostalCodeMunicipality"></xsd:element>
+	        <xsd:element name="UnstructuredPostalCodeMunicipality"
+	            type="xsd:string">
+	        </xsd:element>
+	    </xsd:choice>
+	</xsd:complexType>
+	
+	<xsd:element name="TransactionID" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>ID which identifies the address validation. Together with the ValidationRequestID, this id defines an address validation uniquely. Used for feedback and acces logging purposes.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ValidationRequestID" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>ID which identifies the address validation request uniquely. Used for feedback and acces logging purposes.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	
+	<xsd:complexType name="AddressBlockLinesType">
+		<xsd:sequence>
+			<xsd:element ref="msg:UnstructuredAddressLine" minOccurs="0" maxOccurs="7"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="UnstructuredAddressLine" type="msg:LocalizedStringType"/>
+	
+	<xsd:complexType name="LocalizedStringType">
+		<xsd:annotation>
+			<xsd:documentation>Type representing a textual, language-dependent LocalizedString of an element or an entity. The content of this type is typically retrieved from a Master Data Management system that supports multilanguage entities. It is not intended for free-text input purposes.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="locale" type="msg:LanguageCodeType" use="optional" default="en"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="LanguageCodeType">
+		<xsd:annotation>
+			<xsd:documentation>Restricted list of language types, supported by bpost</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:language">
+			<xsd:enumeration value="nl"/>
+			<xsd:enumeration value="fr"/>
+			<xsd:enumeration value="en"/>
+			<xsd:enumeration value="de"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:element name="CallerIdentification" type="msg:CallerIdentificationType">
+		<xsd:annotation>
+			<xsd:documentation>Information about the caller of the service, in case no authentication mechanism exists. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="CallerIdentificationType">
+		<xsd:annotation>
+			<xsd:documentation>The caller can be identified with a caller name (in case the service is called by a person).</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="CallerName" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="Result" type="msg:ResultType"/>
+	<xsd:simpleType name="ResultType">
+		<xsd:annotation>
+			<xsd:documentation>Type used to standardize the terminology used to indicate whether an operation completed successfully. In case an operation fails, it should throw a fault. Can be potentially be extended with a WARNING.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="REGISTERED">
+				<xsd:annotation>
+					<xsd:documentation>The action was registered successfully, typically used to indicate that the request was received correctly, but that the execution is deferred (and therefore, the execution can still fail).</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SUCCESS">
+				<xsd:annotation>
+					<xsd:documentation>The action was executed successfully.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="FAILURE">
+				<xsd:annotation>
+					<xsd:documentation>The action was not or only partially executed. Typically used when it is part of a series of actions that don't need to be executed in one atomic unit of work. If it was part of an atomic unit of work, an error should be thrown instead.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NOT_APPLICABLE">
+				<xsd:annotation>
+					<xsd:documentation>The action did not have a result on this specific part, and therefore the result is not applicable.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	
+</xsd:schema>

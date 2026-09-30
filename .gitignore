@@ -5,3 +5,6 @@ dist/e-masspost-mistral-vTEST-LOCAL.md
 
 # Browser HAR captures may contain tokens/credentials — never commit
 har/
+
+# macOS Finder metadata
+.DS_Store

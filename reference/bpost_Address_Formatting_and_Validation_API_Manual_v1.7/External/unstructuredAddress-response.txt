@@ -1,0 +1,161 @@
+{
+    "ValidateAddressesResponse": {
+        "ValidatedAddressResultList": {
+            "ValidatedAddressResult": [
+                {
+                    "@id": "1",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Jack L'éventreur"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "La boucherie 100O"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "RUE DU PROGRÈS",
+                                        "StreetNumber": "29",
+                                        "BoxNumber": "10"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1210",
+                                        "MunicipalityName": "SAINT-JOSSE-TEN-NOODE"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "ServicePointDetail": {
+                                    "GeographicalLocationInfo": {
+                                        "GeographicalLocation": {
+                                            "Latitude": {
+                                                "Value": "50.857545",
+                                                "CoordinateType": "DEGDEC"
+                                            },
+                                            "Longitude": {
+                                                "Value": "4.359244",
+                                                "CoordinateType": "DEGDEC"
+                                            }
+                                        }
+                                    }
+                                },
+                                "Label": {
+                                    "Line": [
+                                        "Jack L'éventreur",
+                                        "La boucherie 100O",
+                                        "RUE DU PROGRÈS 29 bte 10",
+                                        "1210 SAINT-JOSSE-TEN-NOODE"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "UnstructuredDeliveryPointLocation",
+                            "ErrorCode": "anomaly_in_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "UnstructuredPostalCodeMunicipality",
+                            "ErrorCode": "anomaly_in_field",
+                            "ErrorSeverity": "warning"
+                        }
+                    ],
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "Jack L'éventreur",
+                            "La boucherie 100O",
+                            "rue du progress 29 10",
+                            "1210 saint joose ten noode"
+                        ]
+                    },
+                    "TransactionID": "9af65a5b-aa6f-401d-95dd-94a30881d27d"
+                },
+                {
+                    "@id": "2",
+                    "MaileeAndAddressee": {
+                        "AddresseeIndividualIdentification": {
+                            "UnstructuredAddresseeIndividualIdentification": "Kevin"
+                        },
+                        "MaileeOrganizationIdentification": {
+                            "UnstructuredMaileeOrganizationIdentification": "Bpost"
+                        }
+                    },
+                    "ValidatedAddressList": {
+                        "ValidatedAddress": [
+                            {
+                                "PostalAddress": {
+                                    "StructuredDeliveryPointLocation": {
+                                        "StreetName": "ALLÉE DE LA RECHERCHE",
+                                        "StreetNumber": "65"
+                                    },
+                                    "StructuredPostalCodeMunicipality": {
+                                        "PostalCode": "1070",
+                                        "MunicipalityName": "ANDERLECHT"
+                                    },
+                                    "CountryName": "BELGIQUE"
+                                },
+                                "AddressLanguage": "fr",
+                                "ServicePointDetail": {
+                                    "GeographicalLocationInfo": {
+                                        "GeographicalLocation": {
+                                            "Latitude": {
+                                                "Value": "50.816583",
+                                                "CoordinateType": "DEGDEC"
+                                            },
+                                            "Longitude": {
+                                                "Value": "4.274032",
+                                                "CoordinateType": "DEGDEC"
+                                            }
+                                        }
+                                    }
+                                },
+                                "Label": {
+                                    "Line": [
+                                        "Kevin",
+                                        "Bpost",
+                                        "ALLÉE DE LA RECHERCHE 65",
+                                        "1070 ANDERLECHT"
+                                    ]
+                                },
+                                "NumberOfBoxes": "3",
+                                "ServicePointBoxList": {
+                                    "ServicePointBoxResult": [
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Error": [
+                        {
+                            "ComponentRef": "UnstructuredDeliveryPointLocation",
+                            "ErrorCode": "anomaly_in_field",
+                            "ErrorSeverity": "warning"
+                        },
+                        {
+                            "ComponentRef": "BoxNumber",
+                            "ErrorCode": "missing_field",
+                            "ErrorSeverity": "warning"
+                        }
+                    ],
+                    "FormattedSubmittedAddress": {
+                        "Line": [
+                            "Kevin",
+                            "Bpost",
+                            "ALLÉE DE LA RECHERCHE 65",
+                            "1070 ANDERLECHT"
+                        ]
+                    },
+                    "TransactionID": "b86e4401-6264-4ef1-baeb-9f4052b12df9"
+                }
+            ]
+        }
+    }
+}
