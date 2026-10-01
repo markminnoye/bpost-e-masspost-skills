@@ -33,9 +33,12 @@ Observed (2026-09-28):
 | HTTP / portal | Human uploads AFT or XML after SSO login | No |
 | FTP / FTPS | System upload to `\requests` with `.TMP` rename | Yes (after Connection & Security Test) |
 
-FTP reached `filetransfer.bpost.be` from our network (no immediate IP block), but TLS failed with *unable to verify the first certificate* until bpost’s **Connection and Security Test (FTP Only)** is completed — see [onboarding.md](onboarding.md).
+FTP reached `filetransfer.bpost.be` from our network (no immediate IP block). Live debug 01/10/2026 (`npm run test:transport -- --ftp-only --debug`):
 
-Related: [http-protocol.md](../transport/http-protocol.md), [ftp-protocol.md](../transport/ftp-protocol.md).
+1. **TLS:** server answers `AUTH TLS` with **leaf only** (`CN=*.bpost.be`, issuer HARICA/GEANT TLS RSA 1) → OpenSSL verify **21** / Node `UNABLE_TO_VERIFY_LEAF_SIGNATURE`. Intermediate is not in the handshake (AIA points at `crt.harica.gr`).
+2. **Login (only after client-supplied HARICA chain):** `USER`/`PASS` → **`530 Login incorrect`**. Portal credentials are therefore not sufficient proof that FTPS is ready — need Connection & Security Test + confirmed FTP login + IP whitelist (`94.224.113.179` observed).
+
+Related: [http-protocol.md](../transport/http-protocol.md), [ftp-protocol.md](../transport/ftp-protocol.md). Debug report template: `docs/samples/contrapunt/generated/ftp-debug-*.md`.
 
 ## Protocol version and filenames
 
