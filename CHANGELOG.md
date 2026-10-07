@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed
+- **AFT vs OptiAddress:** removed the incorrect claim that the portal Address File Tool returns address corrections or suggestion columns. AFT is template/export/import + mailing-create response (MID / sorting / `FEEDBACK` status codes only). Address corrections and proposals are **OptiAddress** (`MailingCheck`, e.g. `7001` / `compCorrection`) or Address Proofing. Clarified in `address-file-tool.md`, `optiaddress-flows.md`, `field-findings.md`, and `address-validation-products.md`.
+
 ### Added
 - **GitBook**: `docs/` is now the single source for the protocol documentation, published via GitBook Git Sync (`gitbook-docs.yaml`, `docs/SUMMARY.md`).
 - **Skill `bpost-address-proofing`:** Mailops Address Formatting & Validation REST/SOAP (CEN/UPU S42). Privacy rule: never send person names or other PII of natural persons; company name allowed. AddressBlockLines forbidden.
