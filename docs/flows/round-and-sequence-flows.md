@@ -35,8 +35,8 @@ The data exchange options are the **same as Mail ID** -- see [mail-id-flows.md](
 Key differences from Mail ID:
 
 - Barcodes are needed for each address
-- The `FileInfo` tag of the Mailing Request file must specify `"RS1"` (for Round & Sequence deposit), not `"MID2"` (which is for Mail ID deposit)
-- An extra attribute is available at the Format tag: `sortingMode`, with two possible values:
+- The `FileInfo` tag of the Mailing Request file must specify `"RS3"` (for Round & Sequence deposit), not `"MID2"` (which is for Mail ID deposit). The guide also allows `"MID2,RS3"` for combined treatment.
+- An extra attribute is available at the Format tag: `responseSortingMode`, with two possible values:
   - **"PO"** (Print Order): Mail pieces in the Response file are ordered following the print order requested for the presetting
   - **"CU"** (Customer way): Mail pieces are ordered following the same order as in the Request file
 
@@ -55,7 +55,7 @@ Each mail piece record in the XML Response file includes:
 
 | Field           | Description                                     | Print on envelope? |
 | --------------- | ----------------------------------------------- | ------------------ |
-| `prtOrder`      | The order for presetting (based on sortingMode) | No                 |
+| `prtOrder`      | The order for presetting (based on `responseSortingMode`) | No                 |
 | `seq`           | The mail piece order in the Request file        | No                 |
 | `fieldToPrint1` | Pre-sorting info field 1 (8 digits)             | Yes                |
 | `fieldToPrint2` | Pre-sorting info field 2 (12 digits)            | Yes                |
