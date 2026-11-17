@@ -8,6 +8,10 @@ AFT supports two product types:
 - **Mail ID** -- each mail piece gets a unique barcode (small format)
 - **Round & Sequence** (Ronde en Sequentie) -- bpost returns sorting information so the customer can pre-sort envelopes (large format)
 
+{% hint style="warning" %}
+**AFT is not OptiAddress.** AFT is a template → upload → response flow for creating a mailing list (barcodes / sorting). The response enriches columns such as `MIDNUMBER`, `PRESORTING_CODE`, route fields, and `FEEDBACK` (**status / error codes** only, e.g. `MID-4030` / `MID-4010`). AFT does **not** return corrected address lines, alternative suggestions, or `compCorrection`-style proposals. For address corrections and suggestions use **OptiAddress** (`MailingCheck`) — see [optiaddress-flows.md](../flows/optiaddress-flows.md) and [address-validation-products.md](../reference/address-validation-products.md).
+{% endhint %}
+
 For the full XML/TXT mailing file syntax, see [mailing-request.md](mailing-request.md).
 
 ---
@@ -215,6 +219,8 @@ After uploading, check status on the **Mailing file overview** (Overzicht mailin
 ## Response File
 
 After bpost processes your address file, you can download the **response file** (antwoordbestand) from the Mailing file overview tab. The response file is identical to your original file, with additional columns filled in by bpost.
+
+**What AFT does *not* fill in:** the address input columns (name, street, postcode, …) are **not** rewritten with official or suggested values. `FEEDBACK` is a code column, not a free-text correction. If you need proposed corrections, use OptiAddress (`MailingCheck`), not AFT.
 
 ### How to Download
 

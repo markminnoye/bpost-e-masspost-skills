@@ -80,13 +80,18 @@ Live Check (`0200`, Status **100**, 10 unstructured addresses):
 Live Opti responses used code **`7001`**, not `MID-7001`. The error table lists `MID-7001`; parsers should accept both until bpost clarifies.
 {% endhint %}
 
-Important differences vs the guide / portal UX:
+Important differences vs earlier assumptions (and vs AFT):
 
-| Expectation | Live XML (FTP / structured file) | Portal AFT upload |
+| Capability | OptiAddress (`MailingCheck` XML) | Address File Tool (AFT portal upload) |
 |---|---|---|
-| Correction carrier | Message **`7001`** + `compCorrection` | Immediate corrected columns in the tool UI |
-| `<Suggestions>` / `<Alternatives>` blocks | **Not seen** on Contrapunt Opti 2RS samples | N/A (UI) |
-| Same as Create | No — Check is for validation; Create is for MID assignment | — |
+| Address **corrections** / proposed values | Yes — live: message **`7001`** + `compCorrection` | **No** — AFT does not return corrected address text |
+| `<Suggestions>` / `<Alternatives>` blocks | Allowed in XSD; **not seen** on Contrapunt Opti 2RS samples | **No** |
+| What the response *does* carry | Compliance (`MID-4040`), errors/warnings, optional corrections | MID / sorting columns + `FEEDBACK` status codes (e.g. `MID-4030` recognised, `MID-4010` unrecognised) |
+| Same as Create | No — Check validates; Create assigns MID | AFT upload is a Create-style mailing list path, not OptiAddress |
+
+{% hint style="warning" %}
+Earlier field notes claimed the portal AFT UI showed “immediate corrected columns.” That was a **misattribution**: corrected values and suggestions are an **OptiAddress** (`MailingCheck`) feature. Official AFT response columns are documented in [address-file-tool.md](../schemas/address-file-tool.md) (MID, sorting, `FEEDBACK` codes only).
+{% endhint %}
 
 Example (abbreviated from a live 2RS):
 

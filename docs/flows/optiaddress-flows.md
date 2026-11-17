@@ -12,7 +12,9 @@ OptiAddress provides:
 - Correction values for erroneous addresses (when possible)
 
 {% hint style="info" %}
-**Live Contrapunt Opti 2RS (2026-09):** corrections arrived as message code **`7001`** with `compCode` + `compCorrection` — not as a top-level `<Suggestions>` block. Portal AFT shows corrections in the UI; structured XML does not mirror that UX. Details: [field findings](../reference/field-findings.md).
+**Live Contrapunt Opti 2RS (2026-09):** corrections arrived as message code **`7001`** with `compCode` + `compCorrection` — not as a top-level `<Suggestions>` block. The XSD also allows `<Suggestions>` / `<Alternatives>`; those may be absent. Details: [field findings](../reference/field-findings.md).
+
+**Do not confuse with AFT.** The Address File Tool is a portal Excel/CSV upload path for Mail ID / Round & Sequence. Its response fills MID / sorting columns and a `FEEDBACK` status code (e.g. `MID-4030`, `MID-4010`) — **not** corrected street lines or suggestion lists. Address corrections and proposals come from **OptiAddress** (`MailingCheck`) or from Address Proofing (Mailops REST), not from AFT. See [address-file-tool.md](../schemas/address-file-tool.md) and [address-validation-products.md](../reference/address-validation-products.md).
 {% endhint %}
 
 > **Note:** "Interpreted" means the given address can be matched to an existing postal address. This does not necessarily mean the link between the addressee and the address is correct.
