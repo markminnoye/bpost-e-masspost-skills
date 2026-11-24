@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - **Build**: `build-skills.yml` builds the skill ZIP from `docs/` (`docs/README.md` becomes `index.md`) plus `skills/e-masspost-protocol/SKILL.md`. Protocol content moved from `skills/e-masspost-protocol/` to `docs/`.
 - Removed the empty GitBook export scaffolding (`untitled/`, root `SUMMARY.md`).
 - **HTTP / FTP / Opti / MailingResponse / MID codes**: cross-links and warnings aligned with field findings (HTTP not a machine API; live `7001` without `MID-` prefix; `<Suggestions>` optional).
+- **FTP protocol** (`docs/transport/ftp-protocol.md`, `docs/reference/field-findings.md`): live test 2026-11-24 (Contrapunt FTP account). The "fixed IP required" rule from the guide is kept but marked as not enforced in practice (no IP whitelist, changing IP works). Added: FTPS server sends no intermediate (client must add GEANT TLS RSA 1), responses only come back on the request channel (FTP request → FTP `\responses`, not the website), and observed timing (`_2RS` generated 16–81 s after upload, visible on FTP after ~3–4.5 min; a 10-min connection with `LIST` every 30 s stays open).
 
 ## [v1.1.0] - 2026-03-29
 
