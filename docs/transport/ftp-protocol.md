@@ -31,12 +31,20 @@ This is the correct channel for **system-to-system** MailingRequest / DepositReq
 | Mode | **Passive mode** |
 | Data format (type) | **Binary** |
 | Transmission mode | **Stream** |
-| IP address | **Fixed IP required** -- unknown IPs are blocked |
+| IP address | Guide: **fixed IP required** -- unknown IPs are blocked. In practice: see note below. |
 
 ## Host Details
 
 - Use the **DNS host name** (`filetransfer.bpost.be`) rather than an IP address, as the IP may change over time.
-- Customers must provide a fixed IP address (or IP range) for connecting FTP clients. This prevents unknown IPs from gaining access.
+- The Technical Guide states that customers must provide a fixed IP address (or IP range) for connecting FTP clients, to prevent unknown IPs from gaining access.
+
+{% hint style="info" %}
+**In practice (Contrapunt account, live test 2026-11-24):** no IP whitelist was in place. Connecting, logging in and uploading worked from an ordinary connection with a changing public IP. This is an observation for one account, not an official bpost rule: bpost may still enforce a whitelist for other accounts or later. See [field findings](../reference/field-findings.md).
+{% endhint %}
+
+## TLS Certificate Chain (FTPS)
+
+The FTPS server (`AUTH TLS`) sends **only its leaf certificate** (`CN=*.bpost.be`), not the intermediate **GEANT TLS RSA 1** (HARICA). Clients that verify the chain fail (OpenSSL verify error 21, Node `UNABLE_TO_VERIFY_LEAF_SIGNATURE`). Add the GEANT TLS RSA 1 intermediate to the client's trusted CA set yourself; do not disable certificate verification.
 
 ## Rate Limiting
 
@@ -58,6 +66,20 @@ The FTP account has two directories:
 | `\responses` | bpost places acknowledgement and response files here |
 
 - The customer is responsible for ensuring sufficient free space on the `\responses` directory.
+
+### Responses follow the request channel
+
+Responses come back **only on the channel the request came in on**. A request uploaded via FTP gets its `_1AK` and `_2RS` only in FTP `\responses`; they do not appear on the e-MassPost website. A request made on the website gets its responses there, not in FTP `\responses`. Confirmed live 2026-11-24 (Contrapunt account).
+
+### Response timing (observed)
+
+Observed live on 2026-11-24 (Contrapunt account, not a bpost commitment):
+
+- bpost generates the `_2RS` **16 to 81 seconds** after the upload (timestamp in the response filename).
+- `_1AK` and `_2RS` only become visible in FTP `\responses` after **about 3 to 4.5 minutes**.
+- A single connection kept open for 10 minutes with a `LIST` every 30 seconds stayed up without problems.
+
+Plan polling with this delay in mind: an empty `\responses` in the first minutes after upload is normal.
 
 ## Upload Procedure (.TMP Extension)
 

@@ -38,6 +38,13 @@ FTP reached `filetransfer.bpost.be` from our network (no immediate IP block). Li
 1. **TLS:** server answers `AUTH TLS` with **leaf only** (`CN=*.bpost.be`, issuer HARICA/GEANT TLS RSA 1) → OpenSSL verify **21** / Node `UNABLE_TO_VERIFY_LEAF_SIGNATURE`. Intermediate is not in the handshake (AIA points at `crt.harica.gr`).
 2. **Login (only after client-supplied HARICA chain):** `USER`/`PASS` → **`530 Login incorrect`**. Portal credentials are therefore not sufficient proof that FTPS is ready — need Connection & Security Test + confirmed FTP login + IP whitelist (`94.224.113.179` observed).
 
+Live test 2026-11-24 with the dedicated Contrapunt FTP account (from an ordinary PC):
+
+- **FTPS works** once the client adds the GEANT TLS RSA 1 intermediate itself.
+- **No IP whitelist**: connecting from an ordinary, changing IP worked. The Technical Guide still asks for a fixed IP; treat that as possible for other accounts.
+- **Responses follow the request channel:** an FTP request gets its `_1AK` / `_2RS` only in FTP `\responses`, not on the e-MassPost website (and vice versa).
+- **Timing:** `_2RS` is generated 16–81 s after upload (filename timestamp), but `_1AK` and `_2RS` only appear in `\responses` after about 3–4.5 min. A 10-minute connection with a `LIST` every 30 s stayed open without problems.
+
 Related: [http-protocol.md](../transport/http-protocol.md), [ftp-protocol.md](../transport/ftp-protocol.md). Debug report template: `docs/samples/contrapunt/generated/ftp-debug-*.md`.
 
 ## Protocol version and filenames
@@ -127,7 +134,7 @@ Structured street/house splits are supported by the schema but are not the Contr
 
 ## Open items
 
-- Complete FTP **Connection and Security Test** with Contrapunt / bpost (TLS chain + confirm fixed IP whitelist).
+- ~~Complete FTP **Connection and Security Test**~~ — FTPS login and upload work (2026-11-24); no IP whitelist observed.
 - Confirm whether Frank can open a **deposit** in e-MassPost against our `mailingRef` without us sending `DepositRequest`.
 - Parser coverage for Opti-2RS (`7001`) and Create-2RS (MID per `SEQ`).
 - Optional: side-by-side AFT vs XML measurement on the same 200 addresses (does not change the chosen path).
